@@ -1,13 +1,13 @@
 import * as anchor from "@coral-xyz/anchor";
 import { Program, web3 } from "@coral-xyz/anchor";
-import { expect } from "chai";
-import { Presale } from "../target/types/presale";
+import { createMint, getAssociatedTokenAddress, createAssociatedTokenAccount, TOKEN_PROGRAM_ID } from "@solana/spl-token";
+import assert from "assert";
 
 describe("presale", () => {
   // --- Konfiguracja klienta ---
   const provider = anchor.AnchorProvider.env();
   anchor.setProvider(provider);
-  const program = anchor.workspace.Presale as Program<Presale>;
+  const program = anchor.workspace.Presale as Program;
 
   // --- Klucze i konta testowe ---
   const authority = provider.wallet as anchor.Wallet;
@@ -27,6 +27,9 @@ describe("presale", () => {
     [Buffer.from("purchase"), purchaser.publicKey.toBuffer()],
     program.programId
   );
+
+  let tokenMint: web3.PublicKey;
+  let purchaserTokenAccount: web3.PublicKey;
     
   // --- Parametry przedsprzedaży ---
   const priceSol = 0.5;
@@ -48,6 +51,24 @@ describe("presale", () => {
     // Zasilenie portfeli testowych w SOL
     await airdrop(purchaser.publicKey, 2);
     await airdrop(treasury.publicKey, 1);
+
+    tokenMint = await createMint(
+      provider.connection,
+      authority.payer,
+      salePda,
+      null,
+      0,
+      undefined,
+      {},
+      TOKEN_PROGRAM_ID
+    );
+
+    purchaserTokenAccount = await createAssociatedTokenAccount(
+      provider.connection,
+      purchaser,
+      tokenMint,
+      purchaser.publicKey
+    );
   });
 
   it("Is initialized!", async () => {
@@ -61,24 +82,26 @@ describe("presale", () => {
         softCapSol,
         hardCapSol,
         startTime,
-        endTime
+        endTime,
+        tokenMint
       )
       .accounts({
         sale: salePda,
         vault: vaultPda,
+        tokenMint: tokenMint,
         authority: authority.publicKey,
         treasury: treasury.publicKey,
         systemProgram: web3.SystemProgram.programId,
       })
       .rpc();
 
-    const saleAccount = await program.account.sale.fetch(salePda);
-    expect(saleAccount.authority.toString()).to.equal(authority.publicKey.toString());
-    expect(saleAccount.treasury.toString()).to.equal(treasury.publicKey.toString());
-    expect(saleAccount.vault.toString()).to.equal(vaultPda.toString());
-    expect(saleAccount.priceLamports.toNumber()).to.equal(priceSol * oneSol);
-    expect(saleAccount.hardCapLamports.toNumber()).to.equal(hardCapSol * oneSol);
-    expect(saleAccount.isActive).to.be.true;
+    const saleAccount: any = await program.account.sale.fetch(salePda);
+    assert.strictEqual(saleAccount.authority.toString(), authority.publicKey.toString());
+    assert.strictEqual(saleAccount.treasury.toString(), treasury.publicKey.toString());
+    assert.strictEqual(saleAccount.vault.toString(), vaultPda.toString());
+    assert.strictEqual(saleAccount.priceLamports.toNumber(), priceSol * oneSol);
+    assert.strictEqual(saleAccount.hardCapLamports.toNumber(), hardCapSol * oneSol);
+    assert.strictEqual(saleAccount.isActive, true);
   });
   
   it("Allows a user to purchase tokens", async () => {
@@ -99,16 +122,16 @@ describe("presale", () => {
       .rpc();
 
     const vaultBalanceAfter = await provider.connection.getBalance(vaultPda);
-    const saleAccount = await program.account.sale.fetch(salePda);
-    const purchaseRecordAccount = await program.account.purchaseRecord.fetch(purchaseRecordPda);
+    const saleAccount: any = await program.account.sale.fetch(salePda);
+    const purchaseRecordAccount: any = await program.account.purchaseRecord.fetch(purchaseRecordPda);
 
     // Sprawdź, czy środki trafiły do sejfu
-    expect(vaultBalanceAfter).to.equal(vaultBalanceBefore + (purchaseAmountSol * oneSol));
+    assert.strictEqual(vaultBalanceAfter, vaultBalanceBefore + (purchaseAmountSol * oneSol));
     // Sprawdź, czy stan kontraktu został zaktualizowany
-    expect(saleAccount.totalRaised.toNumber()).to.equal(purchaseAmountSol * oneSol);
+    assert.strictEqual(saleAccount.totalRaised.toNumber(), purchaseAmountSol * oneSol);
     // Sprawdź, czy rekord zakupu został poprawnie utworzony
-    expect(purchaseRecordAccount.purchaser.toString()).to.equal(purchaser.publicKey.toString());
-    expect(purchaseRecordAccount.amountSpent.toNumber()).to.equal(purchaseAmountSol * oneSol);
+    assert.strictEqual(purchaseRecordAccount.purchaser.toString(), purchaser.publicKey.toString());
+    assert.strictEqual(purchaseRecordAccount.amountSpent.toNumber(), purchaseAmountSol * oneSol);
   });
 
   it("Should fail to purchase if sale has not started", async () => {
@@ -122,15 +145,15 @@ describe("presale", () => {
 
       try {
         await program.methods.purchase(1).rpc(); // Ta transakcja powinna się nie powieść
-        expect.fail("Transaction should have failed but did not.");
-      } catch (err) {
-        expect(err.error.errorCode.code).to.equal("SaleNotStarted");
+        assert.fail("Transaction should have failed but did not.");
+      } catch (err: any) {
+        assert.strictEqual(err.error.errorCode.code, "SaleNotStarted");
       }
   });
 
   it("Allows authority to withdraw funds after sale ends", async () => {
     // Czekamy na zakończenie przedsprzedaży (ustawionej na 3 sekundy w pierwszym teście)
-    await new Promise(resolve => setTimeout(resolve, 4000)); 
+    await new Promise(resolve => setTimeout(resolve, 4000));
 
     const treasuryBalanceBefore = await provider.connection.getBalance(treasury.publicKey);
     const vaultBalanceBefore = await provider.connection.getBalance(vaultPda);
@@ -148,8 +171,34 @@ describe("presale", () => {
     const treasuryBalanceAfter = await provider.connection.getBalance(treasury.publicKey);
     const vaultBalanceAfter = await provider.connection.getBalance(vaultPda);
 
-    expect(treasuryBalanceAfter).to.equal(treasuryBalanceBefore + vaultBalanceBefore);
-    expect(vaultBalanceAfter).to.equal(0);
+    assert.strictEqual(treasuryBalanceAfter, treasuryBalanceBefore + vaultBalanceBefore);
+    assert.strictEqual(vaultBalanceAfter, 0);
+  });
+
+  it("Allows purchaser to claim tokens after sale", async () => {
+    const saleAccount: any = await program.account.sale.fetch(salePda);
+
+    await program.methods
+      .claimTokens()
+      .accounts({
+        sale: salePda,
+        purchaseRecord: purchaseRecordPda,
+        purchaser: purchaser.publicKey,
+        tokenMint: tokenMint,
+        purchaserTokenAccount: purchaserTokenAccount,
+        tokenProgram: TOKEN_PROGRAM_ID,
+      })
+      .signers([purchaser])
+      .rpc();
+
+    const tokenAccountInfo = await program.provider.connection.getTokenAccountBalance(purchaserTokenAccount);
+    assert.strictEqual(
+      tokenAccountInfo.value.uiAmount,
+      saleAccount.totalRaised / saleAccount.priceLamports
+    );
+
+    const purchaseRecordAccount: any = await program.account.purchaseRecord.fetch(purchaseRecordPda);
+    assert.strictEqual(purchaseRecordAccount.claimed, true);
   });
   
 });

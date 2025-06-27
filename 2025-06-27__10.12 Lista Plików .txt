@@ -1,10 +1,10 @@
-﻿Lista plików i ich zawarto z folderu: C:\Users\Jurek\Documents\GitHub\a
-Wygenerowano: 06/27/2025 09:27:25
+﻿Lista plików i ich zawarto z folderu: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia
+Wygenerowano: 06/27/2025 10:12:53
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\.eslintignore
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintignore
    Rozmiar: 26 bajtów
 
 
@@ -12,13 +12,13 @@ node_modules
 __generated__
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\.eslintignore
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintignore
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\.eslintrc.json
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintrc.json
    Rozmiar: 34 bajtów
 
 
@@ -30,14 +30,14 @@ __generated__
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\.eslintrc.json
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintrc.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\.gitignore
-   Rozmiar: 427 bajtów
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.gitignore
+   Rozmiar: 511 bajtów
 
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
@@ -81,24 +81,29 @@ yarn-error.log*
 # logs
 *.log
 
-
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\.gitignore
-
-
-
-------------------------------------------------------------------------------------------------------------------
-
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\2025-06-27__09.27 Lista Plików .txt
-   Rozmiar: 112 bajtów
+# Anchor build artifacts
+presale/target
+presale/tests/*.js
+presale/migrations/*.js
 
 
-Lista plików i ich zawarto z folderu: C:\Users\Jurek\Documents\GitHub\a
-Wygenerowano: 06/27/2025 09:27:25
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.gitignore
+
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\.eslintignore
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\2025-06-27__10.12 Lista Plików .txt
+   Rozmiar: 135 bajtów
+
+
+Lista plików i ich zawarto z folderu: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia
+Wygenerowano: 06/27/2025 10:12:53
+
+
+------------------------------------------------------------------------------------------------------------------
+
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintignore
    Rozmiar: 26 bajtów
 
 
@@ -106,13 +111,13 @@ node_modules
 __generated__
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\.eslintignore
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintignore
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\.eslintrc.json
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintrc.json
    Rozmiar: 34 bajtów
 
 
@@ -124,14 +129,14 @@ __generated__
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\.eslintrc.json
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintrc.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\.gitignore
-   Rozmiar: 427 bajtów
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.gitignore
+   Rozmiar: 511 bajtów
 
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
@@ -175,31 +180,36 @@ yarn-error.log*
 # logs
 *.log
 
-
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\.gitignore
-
-
-
-------------------------------------------------------------------------------------------------------------------
-
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\2025-06-27__09.27 Lista Plików .txt
-   Rozmiar: 112 bajtów
+# Anchor build artifacts
+presale/target
+presale/tests/*.js
+presale/migrations/*.js
 
 
-
-
-
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\2025-06-27__09.27 Lista Plików .txt
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.gitignore
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\Dockerfile
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\2025-06-27__10.12 Lista Plików .txt
+   Rozmiar: 135 bajtów
+
+
+
+
+
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\2025-06-27__10.12 Lista Plików .txt
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\Dockerfile
    Rozmiar: 179 bajtów
 
 
-FROM node:12-alpine
+FROM node:20-alpine
 
 WORKDIR /opt/app
 
@@ -216,13 +226,13 @@ RUN npm install --dev && npm run build
 CMD [ "npm", "start" ]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\Dockerfile
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\Dockerfile
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\LICENSE
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\LICENSE
    Rozmiar: 11357 bajtów
 
 
@@ -430,13 +440,13 @@ CMD [ "npm", "start" ]
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\LICENSE
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\LICENSE
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\next-env.d.ts
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\next-env.d.ts
    Rozmiar: 201 bajtów
 
 
@@ -448,13 +458,13 @@ CMD [ "npm", "start" ]
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\next-env.d.ts
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\next-env.d.ts
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\next.config.js
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\next.config.js
    Rozmiar: 118 bajtów
 
 
@@ -467,13 +477,13 @@ module.exports = nextConfig
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\next.config.js
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\next.config.js
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\package-lock.json
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\package-lock.json
    Rozmiar: 878627 bajtów
 
 
@@ -24127,13 +24137,13 @@ module.exports = nextConfig
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\package-lock.json
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\package-lock.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\package.json
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\package.json
    Rozmiar: 1782 bajtów
 
 
@@ -24201,13 +24211,13 @@ module.exports = nextConfig
 }
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\package.json
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\package.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\postcss.config.js
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\postcss.config.js
    Rozmiar: 82 bajtów
 
 
@@ -24220,13 +24230,13 @@ module.exports = {
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\postcss.config.js
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\postcss.config.js
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\tailwind.config.js
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\tailwind.config.js
    Rozmiar: 999 bajtów
 
 
@@ -24263,13 +24273,13 @@ module.exports = {
 };
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\tailwind.config.js
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\tailwind.config.js
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\tsconfig.json
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\tsconfig.json
    Rozmiar: 697 bajtów
 
 
@@ -24304,13 +24314,13 @@ module.exports = {
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\tsconfig.json
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\tsconfig.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\.devcontainer\devcontainer.json
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.devcontainer\devcontainer.json
    Rozmiar: 519 bajtów
 
 
@@ -24335,26 +24345,26 @@ module.exports = {
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\.devcontainer\devcontainer.json
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.devcontainer\devcontainer.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\.git    zawartość folderu spakowana.rar
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\.git    zawartość folderu spakowana.rar
    Rozmiar: 13807 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .rar)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\.git    zawartość folderu spakowana.rar
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\.git    zawartość folderu spakowana.rar
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\.gitignore
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\.gitignore
    Rozmiar: 67 bajtów
 
 
@@ -24368,13 +24378,13 @@ test-ledger
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\.gitignore
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\.gitignore
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\.prettierignore
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\.prettierignore
    Rozmiar: 61 bajtów
 
 
@@ -24388,13 +24398,13 @@ test-ledger
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\.prettierignore
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\.prettierignore
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\Anchor.toml
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\Anchor.toml
    Rozmiar: 502 bajtów
 
 
@@ -24422,13 +24432,13 @@ wallet = "~/.config/solana/id.json"
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\Anchor.toml
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\Anchor.toml
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\Cargo.lock
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\Cargo.lock
    Rozmiar: 54536 bajtów
 
 
@@ -26600,13 +26610,13 @@ checksum = "ced3678a2879b30306d323f4542626697a464a97c0a07c9aebf7ebca65cd4dde"
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\Cargo.lock
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\Cargo.lock
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\Cargo.toml
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\Cargo.toml
    Rozmiar: 105 bajtów
 
 
@@ -26620,13 +26630,13 @@ resolver = "2"
 overflow-checks = true
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\Cargo.toml
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\Cargo.toml
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\package.json
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\package.json
    Rozmiar: 461 bajtów
 
 
@@ -26653,36 +26663,36 @@ overflow-checks = true
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\package.json
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\package.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\tsconfig.json
-   Rozmiar: 205 bajtów
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\tsconfig.json
+   Rozmiar: 236 bajtów
 
 
 {
   "compilerOptions": {
-    "types": ["mocha", "chai"],
-    "typeRoots": ["./node_modules/@types"],
+    "types": ["node"],
     "lib": ["es2015"],
     "module": "commonjs",
     "target": "es6",
-    "esModuleInterop": true
-  }
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  },
+  "include": ["tests/**/*.ts", "tests/global.d.ts"]
 }
 
 
-
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\tsconfig.json
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\tsconfig.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\yarn.lock
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\yarn.lock
    Rozmiar: 51932 bajtów
 
 
@@ -27833,13 +27843,13 @@ yocto-queue@^0.1.0:
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\yarn.lock
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\yarn.lock
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\migrations\deploy.ts
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\migrations\deploy.ts
    Rozmiar: 1233 bajtów
 
 
@@ -27872,14 +27882,14 @@ module.exports = async function (provider) {
 };
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\migrations\deploy.ts
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\migrations\deploy.ts
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\programs\presale\Cargo.toml
-   Rozmiar: 291 bajtów
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\programs\presale\Cargo.toml
+   Rozmiar: 313 bajtów
 
 
 [package]
@@ -27901,15 +27911,16 @@ default = []
 
 [dependencies]
 anchor-lang = "0.29.0"
+anchor-spl = "0.29.0"
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\programs\presale\Cargo.toml
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\programs\presale\Cargo.toml
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\programs\presale\Xargo.toml
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\programs\presale\Xargo.toml
    Rozmiar: 62 bajtów
 
 
@@ -27918,19 +27929,20 @@ features = []
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\programs\presale\Xargo.toml
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\programs\presale\Xargo.toml
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\programs\presale\src\lib.rs
-   Rozmiar: 6318 bajtów
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\programs\presale\src\lib.rs
+   Rozmiar: 7223 bajtów
 
 
 // programs/presale/src/lib.rs
 use anchor_lang::prelude::*;
 use anchor_lang::system_program;
+use anchor_spl::token::{self, Mint, MintTo, Token, TokenAccount};
 
 declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
 
@@ -27945,11 +27957,14 @@ pub mod phoenix_presale {
         hard_cap_sol: f64,
         start_time: i64,
         end_time: i64,
+        token_mint: Pubkey,
     ) -> Result<()> {
         let sale = &mut ctx.accounts.sale;
         sale.authority = ctx.accounts.authority.key();
         sale.treasury = ctx.accounts.treasury.key();
         sale.vault = ctx.accounts.vault.key();
+
+        sale.token_mint = token_mint;
 
         sale.price_lamports = (price_sol * 1_000_000_000.0) as u64;
         sale.soft_cap_lamports = (soft_cap_sol * 1_000_000_000.0) as u64;
@@ -27976,23 +27991,7 @@ pub mod phoenix_presale {
 
         require!(sale.is_active, PresaleError::SaleNotActive);
         require!(clock.unix_timestamp >= sale.start_time, PresaleError::SaleNotStarted);
-        require!(clock.unix_timestamp < sale.end_time, PresaleError::SaleEnded);
-        require!(sale.total_raised.checked_add(amount_lamports).unwrap() <= sale.hard_cap_lamports, PresaleError::HardCapExceeded);
-
-        let cpi_context = CpiContext::new(
-            ctx.accounts.system_program.to_account_info(),
-            system_program::Transfer {
-                from: ctx.accounts.purchaser.to_account_info(),
-                to: ctx.accounts.vault.to_account_info(),
-            },
-        );
-        system_program::transfer(cpi_context, amount_lamports)?;
-
-        sale.total_raised = sale.total_raised.checked_add(amount_lamports).unwrap();
-
-        let purchase_record = &mut ctx.accounts.purchase_record;
-        if purchase_record.purchaser == Pubkey::default() {
-            purchase_record.purchaser = ctx.accounts.purchaser.key();
+@@ -66,67 +70,94 @@ pub mod phoenix_presale {
         }
         purchase_record.amount_spent = purchase_record.amount_spent.checked_add(amount_lamports).unwrap();
 
@@ -28018,8 +28017,32 @@ pub mod phoenix_presale {
         Ok(())
     }
 
-    pub fn claim_tokens(_ctx: Context<ClaimTokens>) -> Result<()> {
-        msg!("Logika odbioru tokenów zostanie zaimplementowana w przyszłości.");
+    pub fn claim_tokens(ctx: Context<ClaimTokens>) -> Result<()> {
+        let sale = &ctx.accounts.sale;
+        let purchase_record = &mut ctx.accounts.purchase_record;
+        let clock = Clock::get()?;
+
+        require!(clock.unix_timestamp >= sale.end_time, PresaleError::SaleNotEndedYet);
+        require!(purchase_record.amount_spent > 0, PresaleError::NothingToClaim);
+        require!(!purchase_record.claimed, PresaleError::AlreadyClaimed);
+
+        let token_amount = purchase_record.amount_spent / sale.price_lamports;
+        let seeds: &[&[u8]] = &[b"sale", &[ctx.bumps.get("sale").copied().unwrap()]];
+
+        token::mint_to(
+            CpiContext::new_with_signer(
+                ctx.accounts.token_program.to_account_info(),
+                MintTo {
+                    mint: ctx.accounts.token_mint.to_account_info(),
+                    to: ctx.accounts.purchaser_token_account.to_account_info(),
+                    authority: ctx.accounts.sale.to_account_info(),
+                },
+                &[seeds],
+            ),
+            token_amount,
+        )?;
+
+        purchase_record.claimed = true;
         Ok(())
     }
 }
@@ -28034,6 +28057,9 @@ pub struct Initialize<'info> {
         bump
     )]
     pub sale: Account<'info, Sale>,
+
+    #[account(mut)]
+    pub token_mint: Account<'info, Mint>,
 
     #[account(
         init,
@@ -28060,13 +28086,7 @@ pub struct Purchase<'info> {
 
     #[account(mut, seeds = [b"vault"], bump)]
     pub vault: SystemAccount<'info>,
-
-    #[account(
-        init_if_needed,
-        payer = purchaser,
-        space = 8 + PurchaseRecord::INIT_SPACE,
-        seeds = [b"purchase", purchaser.key().as_ref()],
-        bump
+@@ -140,64 +171,87 @@ pub struct Purchase<'info> {
     )]
     pub purchase_record: Account<'info, PurchaseRecord>,
 
@@ -28092,7 +28112,24 @@ pub struct WithdrawSol<'info> {
 }
 
 #[derive(Accounts)]
-pub struct ClaimTokens {}
+pub struct ClaimTokens<'info> {
+    #[account(mut, seeds = [b"sale"], bump, has_one = token_mint)]
+    pub sale: Account<'info, Sale>,
+
+    #[account(mut, seeds = [b"purchase", purchaser.key().as_ref()], bump)]
+    pub purchase_record: Account<'info, PurchaseRecord>,
+
+    #[account(mut)]
+    pub purchaser: Signer<'info>,
+
+    #[account(mut)]
+    pub token_mint: Account<'info, Mint>,
+
+    #[account(mut)]
+    pub purchaser_token_account: Account<'info, TokenAccount>,
+
+    pub token_program: Program<'info, Token>,
+}
 
 #[account]
 #[derive(InitSpace)]
@@ -28100,6 +28137,7 @@ pub struct Sale {
     pub authority: Pubkey,       // POPRAWKA: PublicKey -> Pubkey
     pub treasury: Pubkey,        // POPRAWKA: PublicKey -> Pubkey
     pub vault: Pubkey,           // POPRAWKA: PublicKey -> Pubkey
+    pub token_mint: Pubkey,
     pub price_lamports: u64,
     pub start_time: i64,
     pub end_time: i64,
@@ -28114,6 +28152,7 @@ pub struct Sale {
 pub struct PurchaseRecord {
     pub purchaser: Pubkey,       // POPRAWKA: PublicKey -> Pubkey
     pub amount_spent: u64,
+    pub claimed: bool,
 }
 
 #[error_code]
@@ -28130,29 +28169,48 @@ pub enum PresaleError {
     InsufficientVaultBalance,
     #[msg("The sale has not ended yet, you cannot withdraw.")]
     SaleNotEndedYet,
+    #[msg("Nothing to claim for this purchaser.")]
+    NothingToClaim,
+    #[msg("Tokens already claimed.")]
+    AlreadyClaimed,
 }
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\programs\presale\src\lib.rs
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\programs\presale\src\lib.rs
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\tests\presale.ts
-   Rozmiar: 5715 bajtów
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\tests\global.d.ts
+   Rozmiar: 200 bajtów
+
+
+declare function describe(description: string, callback: () => void): void;
+declare function it(description: string, callback: () => void): void;
+declare function before(callback: () => void): void;
+
+
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\tests\global.d.ts
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\tests\presale.ts
+   Rozmiar: 7198 bajtów
 
 
 import * as anchor from "@coral-xyz/anchor";
 import { Program, web3 } from "@coral-xyz/anchor";
-import { expect } from "chai";
-import { Presale } from "../target/types/presale";
+import { createMint, getAssociatedTokenAddress, createAssociatedTokenAccount, TOKEN_PROGRAM_ID } from "@solana/spl-token";
+import assert from "assert";
 
 describe("presale", () => {
   // --- Konfiguracja klienta ---
   const provider = anchor.AnchorProvider.env();
   anchor.setProvider(provider);
-  const program = anchor.workspace.Presale as Program<Presale>;
+  const program = anchor.workspace.Presale as Program;
 
   // --- Klucze i konta testowe ---
   const authority = provider.wallet as anchor.Wallet;
@@ -28172,6 +28230,9 @@ describe("presale", () => {
     [Buffer.from("purchase"), purchaser.publicKey.toBuffer()],
     program.programId
   );
+
+  let tokenMint: web3.PublicKey;
+  let purchaserTokenAccount: web3.PublicKey;
     
   // --- Parametry przedsprzedaży ---
   const priceSol = 0.5;
@@ -28193,6 +28254,24 @@ describe("presale", () => {
     // Zasilenie portfeli testowych w SOL
     await airdrop(purchaser.publicKey, 2);
     await airdrop(treasury.publicKey, 1);
+
+    tokenMint = await createMint(
+      provider.connection,
+      authority.payer,
+      salePda,
+      null,
+      0,
+      undefined,
+      {},
+      TOKEN_PROGRAM_ID
+    );
+
+    purchaserTokenAccount = await createAssociatedTokenAccount(
+      provider.connection,
+      purchaser,
+      tokenMint,
+      purchaser.publicKey
+    );
   });
 
   it("Is initialized!", async () => {
@@ -28206,24 +28285,26 @@ describe("presale", () => {
         softCapSol,
         hardCapSol,
         startTime,
-        endTime
+        endTime,
+        tokenMint
       )
       .accounts({
         sale: salePda,
         vault: vaultPda,
+        tokenMint: tokenMint,
         authority: authority.publicKey,
         treasury: treasury.publicKey,
         systemProgram: web3.SystemProgram.programId,
       })
       .rpc();
 
-    const saleAccount = await program.account.sale.fetch(salePda);
-    expect(saleAccount.authority.toString()).to.equal(authority.publicKey.toString());
-    expect(saleAccount.treasury.toString()).to.equal(treasury.publicKey.toString());
-    expect(saleAccount.vault.toString()).to.equal(vaultPda.toString());
-    expect(saleAccount.priceLamports.toNumber()).to.equal(priceSol * oneSol);
-    expect(saleAccount.hardCapLamports.toNumber()).to.equal(hardCapSol * oneSol);
-    expect(saleAccount.isActive).to.be.true;
+    const saleAccount: any = await program.account.sale.fetch(salePda);
+    assert.strictEqual(saleAccount.authority.toString(), authority.publicKey.toString());
+    assert.strictEqual(saleAccount.treasury.toString(), treasury.publicKey.toString());
+    assert.strictEqual(saleAccount.vault.toString(), vaultPda.toString());
+    assert.strictEqual(saleAccount.priceLamports.toNumber(), priceSol * oneSol);
+    assert.strictEqual(saleAccount.hardCapLamports.toNumber(), hardCapSol * oneSol);
+    assert.strictEqual(saleAccount.isActive, true);
   });
   
   it("Allows a user to purchase tokens", async () => {
@@ -28244,16 +28325,16 @@ describe("presale", () => {
       .rpc();
 
     const vaultBalanceAfter = await provider.connection.getBalance(vaultPda);
-    const saleAccount = await program.account.sale.fetch(salePda);
-    const purchaseRecordAccount = await program.account.purchaseRecord.fetch(purchaseRecordPda);
+    const saleAccount: any = await program.account.sale.fetch(salePda);
+    const purchaseRecordAccount: any = await program.account.purchaseRecord.fetch(purchaseRecordPda);
 
     // Sprawdź, czy środki trafiły do sejfu
-    expect(vaultBalanceAfter).to.equal(vaultBalanceBefore + (purchaseAmountSol * oneSol));
+    assert.strictEqual(vaultBalanceAfter, vaultBalanceBefore + (purchaseAmountSol * oneSol));
     // Sprawdź, czy stan kontraktu został zaktualizowany
-    expect(saleAccount.totalRaised.toNumber()).to.equal(purchaseAmountSol * oneSol);
+    assert.strictEqual(saleAccount.totalRaised.toNumber(), purchaseAmountSol * oneSol);
     // Sprawdź, czy rekord zakupu został poprawnie utworzony
-    expect(purchaseRecordAccount.purchaser.toString()).to.equal(purchaser.publicKey.toString());
-    expect(purchaseRecordAccount.amountSpent.toNumber()).to.equal(purchaseAmountSol * oneSol);
+    assert.strictEqual(purchaseRecordAccount.purchaser.toString(), purchaser.publicKey.toString());
+    assert.strictEqual(purchaseRecordAccount.amountSpent.toNumber(), purchaseAmountSol * oneSol);
   });
 
   it("Should fail to purchase if sale has not started", async () => {
@@ -28267,15 +28348,15 @@ describe("presale", () => {
 
       try {
         await program.methods.purchase(1).rpc(); // Ta transakcja powinna się nie powieść
-        expect.fail("Transaction should have failed but did not.");
-      } catch (err) {
-        expect(err.error.errorCode.code).to.equal("SaleNotStarted");
+        assert.fail("Transaction should have failed but did not.");
+      } catch (err: any) {
+        assert.strictEqual(err.error.errorCode.code, "SaleNotStarted");
       }
   });
 
   it("Allows authority to withdraw funds after sale ends", async () => {
     // Czekamy na zakończenie przedsprzedaży (ustawionej na 3 sekundy w pierwszym teście)
-    await new Promise(resolve => setTimeout(resolve, 4000)); 
+    await new Promise(resolve => setTimeout(resolve, 4000));
 
     const treasuryBalanceBefore = await provider.connection.getBalance(treasury.publicKey);
     const vaultBalanceBefore = await provider.connection.getBalance(vaultPda);
@@ -28293,605 +28374,631 @@ describe("presale", () => {
     const treasuryBalanceAfter = await provider.connection.getBalance(treasury.publicKey);
     const vaultBalanceAfter = await provider.connection.getBalance(vaultPda);
 
-    expect(treasuryBalanceAfter).to.equal(treasuryBalanceBefore + vaultBalanceBefore);
-    expect(vaultBalanceAfter).to.equal(0);
+    assert.strictEqual(treasuryBalanceAfter, treasuryBalanceBefore + vaultBalanceBefore);
+    assert.strictEqual(vaultBalanceAfter, 0);
+  });
+
+  it("Allows purchaser to claim tokens after sale", async () => {
+    const saleAccount: any = await program.account.sale.fetch(salePda);
+
+    await program.methods
+      .claimTokens()
+      .accounts({
+        sale: salePda,
+        purchaseRecord: purchaseRecordPda,
+        purchaser: purchaser.publicKey,
+        tokenMint: tokenMint,
+        purchaserTokenAccount: purchaserTokenAccount,
+        tokenProgram: TOKEN_PROGRAM_ID,
+      })
+      .signers([purchaser])
+      .rpc();
+
+    const tokenAccountInfo = await program.provider.connection.getTokenAccountBalance(purchaserTokenAccount);
+    assert.strictEqual(
+      tokenAccountInfo.value.uiAmount,
+      saleAccount.totalRaised / saleAccount.priceLamports
+    );
+
+    const purchaseRecordAccount: any = await program.account.purchaseRecord.fetch(purchaseRecordPda);
+    assert.strictEqual(purchaseRecordAccount.claimed, true);
   });
   
 });
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\presale\tests\presale.ts
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\tests\presale.ts
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\android-chrome-192x192.png
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\android-chrome-192x192.png
    Rozmiar: 42838 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\android-chrome-192x192.png
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\android-chrome-192x192.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\android-chrome-512x512.png
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\android-chrome-512x512.png
    Rozmiar: 232372 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\android-chrome-512x512.png
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\android-chrome-512x512.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\apple-touch-icon.png
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\apple-touch-icon.png
    Rozmiar: 38269 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\apple-touch-icon.png
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\apple-touch-icon.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\favicon-16x16.png
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon-16x16.png
    Rozmiar: 823 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\favicon-16x16.png
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon-16x16.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\favicon-32x32.png
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon-32x32.png
    Rozmiar: 2282 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\favicon-32x32.png
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon-32x32.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\favicon-48x48.ico
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon-48x48.ico
    Rozmiar: 9662 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .ico)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\favicon-48x48.ico
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon-48x48.ico
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\favicon.ico
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon.ico
    Rozmiar: 9662 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .ico)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\favicon.ico
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon.ico
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\phoenix-lightpaper.pdf
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\phoenix-lightpaper.pdf
    Rozmiar: 7633043 bajtów
 
 
 [Zawarto pliku pominita z powodu rozmiaru (Rozmiar: 7454.14 KB > Limit: 5120 KB)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\phoenix-lightpaper.pdf
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\phoenix-lightpaper.pdf
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\sol.png
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\sol.png
    Rozmiar: 37778 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\sol.png
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\sol.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\solanaLogo.png
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\solanaLogo.png
    Rozmiar: 47946 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\solanaLogo.png
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\solanaLogo.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\vercel.svg
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\vercel.svg
    Rozmiar: 1101 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .svg)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\vercel.svg
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\vercel.svg
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\xxxxfavicon.ico
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\xxxxfavicon.ico
    Rozmiar: 15406 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .ico)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\xxxxfavicon.ico
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\xxxxfavicon.ico
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\logo.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\logo.webp
    Rozmiar: 39708 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\logo.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\logo.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\logo_feniks.png
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\logo_feniks.png
    Rozmiar: 232140 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\logo_feniks.png
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\logo_feniks.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\projects\logo_feniks.png
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\projects\logo_feniks.png
    Rozmiar: 232140 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\projects\logo_feniks.png
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\projects\logo_feniks.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\0.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\0.webp
    Rozmiar: 10488 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\0.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\0.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\1.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\1.webp
    Rozmiar: 9916 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\1.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\1.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\10.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\10.webp
    Rozmiar: 14618 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\10.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\10.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\11.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\11.webp
    Rozmiar: 9950 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\11.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\11.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\12.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\12.webp
    Rozmiar: 10638 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\12.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\12.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\13.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\13.webp
    Rozmiar: 7416 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\13.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\13.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\14.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\14.webp
    Rozmiar: 14558 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\14.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\14.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\15.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\15.webp
    Rozmiar: 13130 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\15.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\15.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\16.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\16.webp
    Rozmiar: 10612 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\16.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\16.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\17.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\17.webp
    Rozmiar: 13206 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\17.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\17.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\18.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\18.webp
    Rozmiar: 13704 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\18.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\18.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\19.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\19.webp
    Rozmiar: 8776 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\19.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\19.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\2.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\2.webp
    Rozmiar: 9250 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\2.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\2.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\20.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\20.webp
    Rozmiar: 20090 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\20.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\20.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\21.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\21.webp
    Rozmiar: 10116 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\21.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\21.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\22.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\22.webp
    Rozmiar: 11220 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\22.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\22.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\23.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\23.webp
    Rozmiar: 7944 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\23.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\23.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\24.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\24.webp
    Rozmiar: 9868 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\24.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\24.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\25.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\25.webp
    Rozmiar: 11752 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\25.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\25.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\26.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\26.webp
    Rozmiar: 11496 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\26.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\26.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\3.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\3.webp
    Rozmiar: 12486 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\3.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\3.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\4.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\4.webp
    Rozmiar: 14974 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\4.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\4.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\5.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\5.webp
    Rozmiar: 17840 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\5.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\5.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\6.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\6.webp
    Rozmiar: 11612 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\6.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\6.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\7.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\7.webp
    Rozmiar: 9924 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\7.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\7.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\8.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\8.webp
    Rozmiar: 10460 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\8.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\8.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\9.webp
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\9.webp
    Rozmiar: 10478 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\quests\9.webp
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\9.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\tokens\placeholder-logo-alpha.png
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\tokens\placeholder-logo-alpha.png
    Rozmiar: 14724 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\tokens\placeholder-logo-alpha.png
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\tokens\placeholder-logo-alpha.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\tokens\sol.png
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\tokens\sol.png
    Rozmiar: 21226 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\tokens\sol.png
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\tokens\sol.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\tokens\usdc.png
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\tokens\usdc.png
    Rozmiar: 32640 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\public\images\tokens\usdc.png
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\tokens\usdc.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\providers.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\providers.tsx
    Rozmiar: 1414 bajtów
 
 
@@ -28941,13 +29048,13 @@ export function Providers({ children }: { children: React.ReactNode }) {
 }
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\providers.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\providers.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\AppBar.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\AppBar.tsx
    Rozmiar: 9146 bajtów
 
 
@@ -29103,13 +29210,13 @@ export default function AppBar() {
 }
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\AppBar.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\AppBar.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\ContentContainer.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\ContentContainer.tsx
    Rozmiar: 1252 bajtów
 
 
@@ -29157,13 +29264,13 @@ export const ContentContainer: React.FC<Props> = ({ children }) => {
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\ContentContainer.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\ContentContainer.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\Footer.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\Footer.tsx
    Rozmiar: 2029 bajtów
 
 
@@ -29218,13 +29325,13 @@ const Footer: FC = () => {
 export default Footer;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\Footer.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\Footer.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\MyMultiButton.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\MyMultiButton.tsx
    Rozmiar: 799 bajtów
 
 
@@ -29254,13 +29361,13 @@ const MyMultiButton = ({ className = "" }) => {
 export default MyMultiButton;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\MyMultiButton.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\MyMultiButton.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\Notification.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\Notification.tsx
    Rozmiar: 3167 bajtów
 
 
@@ -29343,13 +29450,13 @@ const Notification = ({ notification, onDismiss }) => {
 export default NotificationList;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\Notification.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\Notification.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\RequestAirdrop.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\RequestAirdrop.tsx
    Rozmiar: 2424 bajtów
 
 
@@ -29413,13 +29520,13 @@ export const RequestAirdrop: FC = () => {
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\RequestAirdrop.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\RequestAirdrop.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\SendTransaction.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\SendTransaction.tsx
    Rozmiar: 3024 bajtów
 
 
@@ -29494,13 +29601,13 @@ export const SendTransaction: FC = () => {
 };
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\SendTransaction.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\SendTransaction.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\SendVersionedTransaction.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\SendVersionedTransaction.tsx
    Rozmiar: 3000 bajtów
 
 
@@ -29575,13 +29682,13 @@ export const SendVersionedTransaction: FC = () => {
 };
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\SendVersionedTransaction.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\SendVersionedTransaction.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\SignMessage.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\SignMessage.tsx
    Rozmiar: 2139 bajtów
 
 
@@ -29633,13 +29740,13 @@ export const SignMessage: FC = () => {
 };
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\SignMessage.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\SignMessage.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\TokenModal.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\TokenModal.tsx
    Rozmiar: 2482 bajtów
 
 
@@ -29710,13 +29817,13 @@ const TokenModal: React.FC<TokenModalProps> = ({ tokens, isOpen, onClose, onSele
 export default TokenModal;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\TokenModal.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\TokenModal.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\nav-element\index.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\nav-element\index.tsx
    Rozmiar: 1705 bajtów
 
 
@@ -29786,13 +29893,13 @@ export default NavElement;
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\nav-element\index.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\nav-element\index.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\Text\index.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\Text\index.tsx
    Rozmiar: 1558 bajtów
 
 
@@ -29856,13 +29963,13 @@ const Text = ({ variant, className, href, children }: TextProps) => (
 export default Text;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\components\Text\index.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\Text\index.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\hooks\useQueryContext.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\hooks\useQueryContext.tsx
    Rozmiar: 566 bajtów
 
 
@@ -29890,13 +29997,13 @@ export default function useQueryContext() {
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\hooks\useQueryContext.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\hooks\useQueryContext.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\idl\phoenix_presale.json
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\idl\phoenix_presale.json
    Rozmiar: 3316 bajtów
 
 
@@ -29994,13 +30101,13 @@ export default function useQueryContext() {
 }
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\idl\phoenix_presale.json
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\idl\phoenix_presale.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\models\types.ts
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\models\types.ts
    Rozmiar: 62 bajtów
 
 
@@ -30008,13 +30115,13 @@ export type EndpointTypes = 'mainnet' | 'devnet' | 'localnet'
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\models\types.ts
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\models\types.ts
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\b2m.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\b2m.tsx
    Rozmiar: 7276 bajtów
 
 
@@ -30133,13 +30240,13 @@ const BurnToMintPage: NextPage = () => {
 export default BurnToMintPage;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\b2m.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\b2m.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\bank.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\bank.tsx
    Rozmiar: 9932 bajtów
 
 
@@ -30337,13 +30444,13 @@ const BankPage: NextPage = () => {
 export default BankPage;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\bank.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\bank.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\basics.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\basics.tsx
    Rozmiar: 391 bajtów
 
 
@@ -30370,13 +30477,13 @@ export default Basics;
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\basics.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\basics.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\create-presale.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\create-presale.tsx
    Rozmiar: 5168 bajtów
 
 
@@ -30535,13 +30642,13 @@ const CreatePresalePage: NextPage = () => {
 export default CreatePresalePage;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\create-presale.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\create-presale.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\farms.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\farms.tsx
    Rozmiar: 9758 bajtów
 
 
@@ -30732,13 +30839,13 @@ const FarmsPage: NextPage = () => {
 export default FarmsPage;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\farms.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\farms.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\index.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\index.tsx
    Rozmiar: 9435 bajtów
 
 
@@ -30912,13 +31019,13 @@ const HomePage: React.FC = () => {
 export default HomePage;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\index.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\index.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\launchpad.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\launchpad.tsx
    Rozmiar: 8058 bajtów
 
 
@@ -31082,13 +31189,13 @@ const LaunchpadPage: NextPage = () => {
 export default LaunchpadPage;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\launchpad.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\launchpad.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\liquidity.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\liquidity.tsx
    Rozmiar: 6965 bajtów
 
 
@@ -31204,13 +31311,13 @@ const LiquidityPage: NextPage = () => {
 export default LiquidityPage;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\liquidity.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\liquidity.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\manage-presale.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\manage-presale.tsx
    Rozmiar: 3260 bajtów
 
 
@@ -31312,13 +31419,13 @@ const ManagePresalePage: NextPage = () => {
 export default ManagePresalePage;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\manage-presale.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\manage-presale.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\quests.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\quests.tsx
    Rozmiar: 11861 bajtów
 
 
@@ -31467,13 +31574,13 @@ const QuestsPage: NextPage = () => {
 export default QuestsPage;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\quests.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\quests.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\smart-swap.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\smart-swap.tsx
    Rozmiar: 1709 bajtów
 
 
@@ -31524,13 +31631,13 @@ const SmartSwapComingSoonPage: NextPage = () => {
 export default SmartSwapComingSoonPage;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\smart-swap.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\smart-swap.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\swap.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\swap.tsx
    Rozmiar: 2297 bajtów
 
 
@@ -31595,13 +31702,13 @@ const SwapPage: NextPage = () => {
 export default SwapPage;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\swap.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\swap.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\tokenfactory.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\tokenfactory.tsx
    Rozmiar: 13947 bajtów
 
 
@@ -31807,13 +31914,13 @@ const TokenFactoryPage: NextPage = () => {
 export default TokenFactoryPage;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\tokenfactory.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\tokenfactory.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\_app.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\_app.tsx
    Rozmiar: 859 bajtów
 
 
@@ -31852,13 +31959,13 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
 export default App;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\_app.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\_app.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\_document.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\_document.tsx
    Rozmiar: 420 bajtów
 
 
@@ -31880,13 +31987,13 @@ export default function Document() {
 }
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\_document.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\_document.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\api\hello.ts
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\api\hello.ts
    Rozmiar: 307 bajtów
 
 
@@ -31906,29 +32013,60 @@ export default function handler(
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\api\hello.ts
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\api\hello.ts
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\launchpad\phnx.tsx
-   Rozmiar: 24 bajtów
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\launchpad\phnx.tsx
+   Rozmiar: 1129 bajtów
 
 
 // src/pages/phnx.tsx
 
+"use client";
+
+import { NextPage } from "next";
+import Head from "next/head";
+import Link from "next/link";
+
+const PhnxLaunchpadPage: NextPage = () => {
+  return (
+    <div>
+      <Head>
+        <title>PHNX Presale - Phoenix Swap</title>
+        <meta name="description" content="Details of the PHNX token presale." />
+      </Head>
+      <div className="flex-1 w-full py-8 px-4 max-w-3xl mx-auto">
+        <h1 className="text-3xl font-bold text-phoenix-text-primary mb-4">Phoenix Token Presale</h1>
+        <p className="text-phoenix-text-secondary mb-6">
+          Welcome to the official presale of the PHNX token. Below you can find basic information about the event.
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-phoenix-text-secondary mb-8">
+          <li>Price per token: 0.005 SOL</li>
+          <li>Soft cap: 5,000 SOL</li>
+          <li>Hard cap: 10,000 SOL</li>
+        </ul>
+        <Link href="/launchpad" className="text-phoenix-accent hover:underline">
+          Back to Launchpad
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default PhnxLaunchpadPage;
 
 
 
-
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\pages\launchpad\phnx.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\launchpad\phnx.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\stores\useNotificationStore.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\stores\useNotificationStore.tsx
    Rozmiar: 919 bajtów
 
 
@@ -31969,13 +32107,13 @@ const useNotificationStore = create<NotificationStore>((set) => ({
 export default useNotificationStore;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\stores\useNotificationStore.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\stores\useNotificationStore.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\stores\useUserSOLBalanceStore.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\stores\useUserSOLBalanceStore.tsx
    Rozmiar: 733 bajtów
 
 
@@ -32008,13 +32146,13 @@ const useUserSOLBalanceStore = create<UserSOLBalanceStore>((set) => ({
 export default useUserSOLBalanceStore;
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\stores\useUserSOLBalanceStore.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\stores\useUserSOLBalanceStore.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\styles\globals.css
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\styles\globals.css
    Rozmiar: 507 bajtów
 
 
@@ -32041,13 +32179,13 @@ export default useUserSOLBalanceStore;
 }
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\styles\globals.css
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\styles\globals.css
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\utils\createToken.ts
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\createToken.ts
    Rozmiar: 3845 bajtów
 
 
@@ -32184,13 +32322,13 @@ export async function createToken(options: CreateTokenInput): Promise<PublicKey>
 }
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\utils\createToken.ts
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\createToken.ts
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\utils\explorer.ts
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\explorer.ts
    Rozmiar: 719 bajtów
 
 
@@ -32219,13 +32357,13 @@ export function getExplorerUrl(
   }
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\utils\explorer.ts
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\explorer.ts
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\utils\index.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\index.tsx
    Rozmiar: 909 bajtów
 
 
@@ -32266,13 +32404,13 @@ export {
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\utils\index.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\index.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\utils\notifications.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\notifications.tsx
    Rozmiar: 532 bajtów
 
 
@@ -32293,13 +32431,13 @@ export function notify(newNotification: { type?: 'success' | 'info' | 'error', m
 }
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\utils\notifications.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\notifications.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\views\index.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\views\index.tsx
    Rozmiar: 74 bajtów
 
 
@@ -32308,13 +32446,13 @@ export { BasicsView } from "./basics";
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\views\index.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\views\index.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\views\basics\index.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\views\basics\index.tsx
    Rozmiar: 784 bajtów
 
 
@@ -32345,13 +32483,13 @@ export const BasicsView: FC = ({ }) => {
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\views\basics\index.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\views\basics\index.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\views\home\index.tsx
+   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\views\home\index.tsx
    Rozmiar: 2526 bajtów
 
 
@@ -32427,6 +32565,6 @@ export const HomeView: FC = ({ }) => {
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\a\src\views\home\index.tsx
+  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\views\home\index.tsx
 
 
