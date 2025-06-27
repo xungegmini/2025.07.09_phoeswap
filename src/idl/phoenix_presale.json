@@ -1,0 +1,92 @@
+{
+  "version": "0.1.0",
+  "name": "phoenix_presale",
+  "instructions": [
+    {
+      "name": "initialize",
+      "accounts": [
+        { "name": "sale", "isMut": true, "isSigner": false },
+        { "name": "vault", "isMut": true, "isSigner": false },
+        { "name": "authority", "isMut": true, "isSigner": true },
+        { "name": "treasury", "isMut": true, "isSigner": false },
+        { "name": "systemProgram", "isMut": false, "isSigner": false }
+      ],
+      "args": [
+        { "name": "priceSol", "type": "f64" },
+        { "name": "softCapSol", "type": "f64" },
+        { "name": "hardCapSol", "type": "f64" },
+        { "name": "startTime", "type": "i64" },
+        { "name": "endTime", "type": "i64" }
+      ]
+    },
+    {
+      "name": "purchase",
+      "accounts": [
+        { "name": "sale", "isMut": true, "isSigner": false },
+        { "name": "vault", "isMut": true, "isSigner": false },
+        { "name": "purchaseRecord", "isMut": true, "isSigner": false },
+        { "name": "purchaser", "isMut": true, "isSigner": true },
+        { "name": "systemProgram", "isMut": false, "isSigner": false }
+      ],
+      "args": [
+        { "name": "amountSol", "type": "f64" }
+      ]
+    },
+    {
+      "name": "withdrawSol",
+      "accounts": [
+        { "name": "sale", "isMut": true, "isSigner": false },
+        { "name": "vault", "isMut": true, "isSigner": false },
+        { "name": "authority", "isMut": true, "isSigner": true },
+        { "name": "treasury", "isMut": true, "isSigner": false }
+      ],
+      "args": []
+    },
+    {
+      "name": "claimTokens",
+      "accounts": [],
+      "args": []
+    }
+  ],
+  "accounts": [
+    {
+      "name": "sale",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          { "name": "authority", "type": "publicKey" },
+          { "name": "treasury", "type": "publicKey" },
+          { "name": "vault", "type": "publicKey" },
+          { "name": "priceLamports", "type": "u64" },
+          { "name": "startTime", "type": "i64" },
+          { "name": "endTime", "type": "i64" },
+          { "name": "softCapLamports", "type": "u64" },
+          { "name": "hardCapLamports", "type": "u64" },
+          { "name": "totalRaised", "type": "u64" },
+          { "name": "isActive", "type": "bool" }
+        ]
+      }
+    },
+    {
+      "name": "purchaseRecord",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          { "name": "purchaser", "type": "publicKey" },
+          { "name": "amountSpent", "type": "u64" }
+        ]
+      }
+    }
+  ],
+  "errors": [
+    { "code": 6000, "name": "SaleNotStarted", "msg": "The sale has not started yet." },
+    { "code": 6001, "name": "SaleEnded", "msg": "The sale has already ended." },
+    { "code": 6002, "name": "SaleNotActive", "msg": "The sale is currently not active." },
+    { "code": 6003, "name": "HardCapExceeded", "msg": "The hard cap for this sale has been reached." },
+    { "code": 6004, "name": "InsufficientVaultBalance", "msg": "The vault has an insufficient balance for withdrawal." },
+    { "code": 6005, "name": "SaleNotEndedYet", "msg": "The sale has not ended yet, you cannot withdraw." }
+  ],
+  "metadata": {
+    "address": "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+  }
+}

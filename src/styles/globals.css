@@ -1,0 +1,21 @@
+/* src/styles/globals.css */
+@import "@solana/wallet-adapter-react-ui/styles.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, .dark {
+    --phoenix-bg: 224 18% 12%;
+    --phoenix-container-bg: 224 16% 15%;
+    --phoenix-text-primary: 210 40% 98%;
+    --phoenix-text-secondary: 215 20% 65%;
+    --phoenix-accent: 38 92% 50%;
+    --phoenix-highlight: 45 100% 51%;
+    --phoenix-border: 215 28% 23%;
+  }
+  body {
+    @apply bg-phoenix-bg text-phoenix-text-primary;
+  }
+}
