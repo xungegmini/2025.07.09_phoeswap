@@ -1,13 +1,23 @@
 {
-  "name": "Phoenix Swap (Anchor v0.29.0)",
-  "image": "ghcr.io/project-serum/anchor-dev:v0.29.0",
+  "name": "Phoenix Swap (Rust & Solana)",
+  // Używamy standardowego, publicznego obrazu od Microsoftu z preinstalowanym Rustem.
+  "image": "mcr.microsoft.com/devcontainers/rust:1-bullseye",
+
+  // Deklaratywnie dodajemy potrzebne nam narzędzia w konkretnych wersjach.
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "18"
+    },
+    "ghcr.io/devcontainers-contrib/features/solana:1": {
+      "version": "1.18.14" // Stabilna wersja Solana CLI
     }
   },
-  "postCreateCommand": "echo 'Running npm install'; npm install",
-  "postAttachCommand": "source /etc/profile && echo 'Setting ANCHOR_WALLET'; export ANCHOR_WALLET=~/.config/solana/id.json",
+
+  // Po stworzeniu kontenera, instalujemy dokładną wersję Anchor, której potrzebuje nasz kontrakt.
+  // Na końcu uruchamiamy `npm install` dla zależności front-endu.
+  "postCreateCommand": "cargo install --git https://github.com/coral-xyz/anchor --tag v0.29.0 anchor-cli --locked && npm install",
+
+  // Ustawienia dla VS Code wewnątrz kontenera.
   "customizations": {
     "vscode": {
       "extensions": [
