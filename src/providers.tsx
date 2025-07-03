@@ -5,29 +5,29 @@ import React, { useMemo } from 'react';
 import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
 import { WalletModalProvider } from '@solana/wallet-adapter-react-ui';
-// ZMIANA: Usunęliśmy import PhantomWalletAdapter
 import { SolflareWalletAdapter } from '@solana/wallet-adapter-solflare';
 
 import '@solana/wallet-adapter-react-ui/styles.css';
 
 export function Providers({ children }: { children: React.ReactNode }) {
-  const network = WalletAdapterNetwork.Mainnet;
+  // UWAGA: Używamy sieci docelowej, np. Devnet do testów.
+  // Zmień na Mainnet, gdy będziesz gotowy do wdrożenia produkcyjnego.
+  const network = WalletAdapterNetwork.Devnet;
   
   const endpoint = useMemo(() => {
+    // ZMIANA: Używamy jednej, spójnej nazwy zmiennej.
     const url = process.env.NEXT_PUBLIC_SOLANA_RPC_HOST;
     if (!url) {
-      console.error("CRITICAL: NEXT_PUBLIC_SOLANA_RPC_HOST not set!");
-      return 'https://api.mainnet-beta.solana.com';
+      console.warn("NEXT_PUBLIC_SOLANA_RPC_HOST not set, falling back to public Devnet RPC.");
+      return 'https://api.devnet.solana.com';
     }
     return url;
   }, []);
 
   const wallets = useMemo(
     () => [
-      // ZMIANA: Usunęliśmy `new PhantomWalletAdapter()`.
-      // Biblioteka sama wykryje Phantoma jako "Standard Wallet".
-      // Zostawiamy Solflare jako przykład drugiego portfela.
       new SolflareWalletAdapter({ network }),
+      // Phantom jest wykrywany automatycznie przez WalletStandard
     ],
     [network]
   );

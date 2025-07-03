@@ -5,18 +5,23 @@ import Head from 'next/head';
 import { useState } from 'react';
 import { BN, Program, AnchorProvider, web3, Idl } from '@coral-xyz/anchor';
 import { useConnection, useAnchorWallet, AnchorWallet } from '@solana/wallet-adapter-react';
-import { TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID } from '@solana/spl-token';
+// ZMIANA: Dodano brakujące importy
+import { TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID, getAssociatedTokenAddress } from '@solana/spl-token';
 import rawIdl from '../idl/phoenix_presale.json';
 import { toast } from 'sonner';
 
 const programIdl = rawIdl as Idl;
 const programID = new web3.PublicKey((programIdl as any).metadata.address);
 
+// ... (reszta kodu pozostaje bez zmian, jest już poprawna)
+// ... (cały komponent CreatePresalePage, który podałem wcześniej, jest już kompletny i poprawny)
+// Poniżej znajduje się pełna, ostateczna wersja dla pewności.
+
 const CreatePresalePage: NextPage = () => {
   const { connection } = useConnection();
   const wallet = useAnchorWallet();
 
-  const [presaleId, setPresaleId] = useState(''); // NOWE POLE
+  const [presaleId, setPresaleId] = useState('');
   const [price, setPrice] = useState('0');
   const [softCap, setSoftCap] = useState('0');
   const [hardCap, setHardCap] = useState('0');
@@ -29,7 +34,9 @@ const CreatePresalePage: NextPage = () => {
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!wallet?.publicKey) return toast.error('Connect wallet first');
-    if (!presaleId || !tokenMint) return toast.error('Presale ID and Token Mint are required');
+    if (!presaleId || !tokenMint || !treasury || !price || !softCap || !hardCap || !startTime || !endTime) {
+      return toast.error('Please fill all required fields.');
+    }
 
     setStatus('Creating presale, please wait...');
     try {
@@ -89,7 +96,6 @@ const CreatePresalePage: NextPage = () => {
             <label className="block text-sm mb-1">Token Mint Address</label>
             <input type="text" value={tokenMint} onChange={e => setTokenMint(e.target.value)} required className="w-full border px-3 py-2 rounded bg-phoenix-container-bg" />
           </div>
-          {/* Pozostałe pola formularza bez zmian... */}
           <div>
             <label className="block text-sm mb-1">Price (SOL)</label>
             <input type="number" step="any" className="w-full border px-3 py-2 rounded bg-phoenix-container-bg" value={price} onChange={e => setPrice(e.target.value)} required />
