@@ -7,14 +7,15 @@
       "accounts": [
         { "name": "sale", "isMut": true, "isSigner": false },
         { "name": "vault", "isMut": true, "isSigner": false },
+        { "name": "tokenMint", "isMut": false, "isSigner": false },
         { "name": "authority", "isMut": true, "isSigner": true },
         { "name": "treasury", "isMut": true, "isSigner": false },
         { "name": "systemProgram", "isMut": false, "isSigner": false }
       ],
       "args": [
-        { "name": "priceSol", "type": "f64" },
-        { "name": "softCapSol", "type": "f64" },
-        { "name": "hardCapSol", "type": "f64" },
+        { "name": "priceLamports", "type": "u64" },
+        { "name": "softCapLamports", "type": "u64" },
+        { "name": "hardCapLamports", "type": "u64" },
         { "name": "startTime", "type": "i64" },
         { "name": "endTime", "type": "i64" }
       ]
@@ -29,7 +30,7 @@
         { "name": "systemProgram", "isMut": false, "isSigner": false }
       ],
       "args": [
-        { "name": "amountSol", "type": "f64" }
+        { "name": "amountLamports", "type": "u64" }
       ]
     },
     {
@@ -37,26 +38,37 @@
       "accounts": [
         { "name": "sale", "isMut": true, "isSigner": false },
         { "name": "vault", "isMut": true, "isSigner": false },
-        { "name": "authority", "isMut": true, "isSigner": true },
+        { "name": "authority", "isMut": true, "isSigner": false },
         { "name": "treasury", "isMut": true, "isSigner": false }
       ],
       "args": []
     },
     {
       "name": "claimTokens",
-      "accounts": [],
+      "accounts": [
+        { "name": "sale", "isMut": true, "isSigner": false },
+        { "name": "purchaseRecord", "isMut": true, "isSigner": false },
+        { "name": "purchaser", "isMut": true, "isSigner": true },
+        { "name": "tokenMint", "isMut": true, "isSigner": false },
+        { "name": "purchaserTokenAccount", "isMut": true, "isSigner": false },
+        { "name": "saleTokenAccount", "isMut": true, "isSigner": false },
+        { "name": "associatedTokenProgram", "isMut": false, "isSigner": false },
+        { "name": "tokenProgram", "isMut": false, "isSigner": false },
+        { "name": "systemProgram", "isMut": false, "isSigner": false }
+      ],
       "args": []
     }
   ],
   "accounts": [
     {
-      "name": "sale",
+      "name": "Sale",
       "type": {
         "kind": "struct",
         "fields": [
           { "name": "authority", "type": "publicKey" },
           { "name": "treasury", "type": "publicKey" },
           { "name": "vault", "type": "publicKey" },
+          { "name": "tokenMint", "type": "publicKey" },
           { "name": "priceLamports", "type": "u64" },
           { "name": "startTime", "type": "i64" },
           { "name": "endTime", "type": "i64" },
@@ -68,12 +80,13 @@
       }
     },
     {
-      "name": "purchaseRecord",
+      "name": "PurchaseRecord",
       "type": {
         "kind": "struct",
         "fields": [
           { "name": "purchaser", "type": "publicKey" },
-          { "name": "amountSpent", "type": "u64" }
+          { "name": "amountSpent", "type": "u64" },
+          { "name": "claimed", "type": "bool" }
         ]
       }
     }
@@ -84,9 +97,13 @@
     { "code": 6002, "name": "SaleNotActive", "msg": "The sale is currently not active." },
     { "code": 6003, "name": "HardCapExceeded", "msg": "The hard cap for this sale has been reached." },
     { "code": 6004, "name": "InsufficientVaultBalance", "msg": "The vault has an insufficient balance for withdrawal." },
-    { "code": 6005, "name": "SaleNotEndedYet", "msg": "The sale has not ended yet, you cannot withdraw." }
+    { "code": 6005, "name": "SaleNotEndedYet", "msg": "The sale has not ended yet, you cannot withdraw." },
+    { "code": 6006, "name": "ZeroAmount", "msg": "Amount must be greater than zero." },
+    { "code": 6007, "name": "NoTokensToClaim", "msg": "You have no tokens to claim." },
+    { "code": 6008, "name": "SoftCapNotReached", "msg": "Soft cap not reached, withdrawal not allowed." },
+    { "code": 6009, "name": "AlreadyClaimed", "msg": "Tokens have already been claimed." }
   ],
   "metadata": {
-    "address": "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+    "address": "9oemjxjE2zFJFVRynHVmWg1nTMWgTM3hGCetuAJkG21U"
   }
 }

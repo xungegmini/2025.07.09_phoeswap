@@ -1,22 +1,20 @@
-[toolchain]
-package_manager = "yarn"
-
 [features]
-resolution = true
+seeds = false
 skip-lint = false
 
-# ZMIANA: Zmieniamy nazwę klastra na 'devnet'
 [programs.devnet]
-# ZMIANA: Zmieniamy nazwę programu, aby odzwierciedlała klaster
-presale = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+presale = "9oemjxjE2zFJFVRynHVmWg1nTMWgTM3hGCetuAJkG21U"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-# ZMIANA: Ustawiamy klaster na 'devnet'
 cluster = "devnet"
-wallet = "~/.config/solana/id.json"
+wallet = "/root/.config/solana/id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
+# === DODAJ TĘ SEKCJĘ ===
+[toolchain]
+anchor_version = "0.30.1"

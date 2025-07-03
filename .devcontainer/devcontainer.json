@@ -1,28 +1,22 @@
 {
-  "name": "Phoenix Swap (Rust & Solana)",
-  // Używamy standardowego, publicznego obrazu od Microsoftu z preinstalowanym Rustem.
-  "image": "mcr.microsoft.com/devcontainers/rust:1-bullseye",
+	"name": "Phoenix Swap (Final Root Build)",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
 
-  // Deklaratywnie dodajemy potrzebne nam narzędzia w konkretnych wersjach.
-  "features": {
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "18"
-    },
-    "ghcr.io/devcontainers-contrib/features/solana:1": {
-      "version": "1.18.14" // Stabilna wersja Solana CLI
-    }
-  },
+	// === KLUCZOWA ZMIANA: Łączymy się jako root ===
+	// To eliminuje wszystkie problemy z uprawnieniami wewnątrz kontenera.
+	"remoteUser": "root",
 
-  // Po stworzeniu kontenera, instalujemy dokładną wersję Anchor, której potrzebuje nasz kontrakt.
-  // Na końcu uruchamiamy `npm install` dla zależności front-endu.
-  "postCreateCommand": "cargo install --git https://github.com/coral-xyz/anchor --tag v0.29.0 anchor-cli --locked && npm install",
-
-  // Ustawienia dla VS Code wewnątrz kontenera.
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "rust-lang.rust-analyzer"
-      ]
-    }
-  }
+	// Ta komenda zostanie uruchomiona po zbudowaniu kontenera jako root
+	"postCreateCommand": "npm install",
+	
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rust-lang.rust-analyzer"
+			]
+		}
+	}
 }

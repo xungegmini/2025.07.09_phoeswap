@@ -1,10 +1,10 @@
-﻿Lista plików i ich zawarto z folderu: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia
-Wygenerowano: 06/27/2025 12:08:35
+﻿Lista plików i ich zawarto z folderu: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap
+Wygenerowano: 07/03/2025 12:24:53
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintignore
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.eslintignore
    Rozmiar: 26 bajtów
 
 
@@ -12,13 +12,13 @@ node_modules
 __generated__
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintignore
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.eslintignore
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintrc.json
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.eslintrc.json
    Rozmiar: 39 bajtów
 
 
@@ -27,13 +27,13 @@ __generated__
 }
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintrc.json
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.eslintrc.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.gitattributes
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.gitattributes
    Rozmiar: 66 bajtów
 
 
@@ -42,13 +42,13 @@ __generated__
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.gitattributes
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.gitattributes
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.gitignore
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.gitignore
    Rozmiar: 511 bajtów
 
 
@@ -99,23 +99,23 @@ presale/tests/*.js
 presale/migrations/*.js
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.gitignore
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.gitignore
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\2025-06-27__12.08 Lista Plików .txt
-   Rozmiar: 135 bajtów
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-03__12.24 Lista Plików .txt
+   Rozmiar: 130 bajtów
 
 
-Lista plików i ich zawarto z folderu: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia
-Wygenerowano: 06/27/2025 12:08:35
+Lista plików i ich zawarto z folderu: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap
+Wygenerowano: 07/03/2025 12:24:53
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintignore
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.eslintignore
    Rozmiar: 26 bajtów
 
 
@@ -123,13 +123,13 @@ node_modules
 __generated__
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintignore
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.eslintignore
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintrc.json
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.eslintrc.json
    Rozmiar: 39 bajtów
 
 
@@ -138,13 +138,13 @@ __generated__
 }
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.eslintrc.json
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.eslintrc.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.gitattributes
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.gitattributes
    Rozmiar: 66 bajtów
 
 
@@ -153,13 +153,13 @@ __generated__
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.gitattributes
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.gitattributes
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.gitignore
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.gitignore
    Rozmiar: 511 bajtów
 
 
@@ -210,26 +210,26 @@ presale/tests/*.js
 presale/migrations/*.js
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.gitignore
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.gitignore
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\2025-06-27__12.08 Lista Plików .txt
-   Rozmiar: 135 bajtów
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-03__12.24 Lista Plików .txt
+   Rozmiar: 130 bajtów
 
 
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\2025-06-27__12.08 Lista Plików .txt
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-03__12.24 Lista Plików .txt
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\Dockerfile
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\Dockerfile
    Rozmiar: 179 bajtów
 
 
@@ -250,13 +250,13 @@ RUN npm install --dev && npm run build
 CMD [ "npm", "start" ]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\Dockerfile
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\Dockerfile
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\LICENSE
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\LICENSE
    Rozmiar: 1055 bajtów
 
 
@@ -283,13 +283,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\LICENSE
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\LICENSE
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\next-env.d.ts
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\next-env.d.ts
    Rozmiar: 201 bajtów
 
 
@@ -301,13 +301,13 @@ SOFTWARE.
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\next-env.d.ts
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\next-env.d.ts
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\next.config.js
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\next.config.js
    Rozmiar: 118 bajtów
 
 
@@ -320,14 +320,14 @@ module.exports = nextConfig
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\next.config.js
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\next.config.js
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\package-lock.json
-   Rozmiar: 878627 bajtów
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\package-lock.json
+   Rozmiar: 882202 bajtów
 
 
 {
@@ -340,7 +340,7 @@ module.exports = nextConfig
       "name": "phoenix-swap-dapp",
       "version": "1.0",
       "dependencies": {
-        "@coral-xyz/anchor": "^0.29.0",
+        "@coral-xyz/anchor": "latest",
         "@heroicons/react": "^2.2.0",
         "@jup-ag/react-hook": "^6.2.0",
         "@jup-ag/terminal": "^4.3.0",
@@ -936,12 +936,13 @@ module.exports = nextConfig
       }
     },
     "node_modules/@coral-xyz/anchor": {
-      "version": "0.29.0",
-      "resolved": "https://registry.npmjs.org/@coral-xyz/anchor/-/anchor-0.29.0.tgz",
-      "integrity": "sha512-eny6QNG0WOwqV0zQ7cs/b1tIuzZGmP7U7EcH+ogt4Gdbl8HDmIYVMh/9aTmYZPaFWjtUaI8qSn73uYEXWfATdA==",
+      "version": "0.30.1",
+      "resolved": "https://registry.npmjs.org/@coral-xyz/anchor/-/anchor-0.30.1.tgz",
+      "integrity": "sha512-gDXFoF5oHgpriXAaLpxyWBHdCs8Awgf/gLHIo6crv7Aqm937CNdY+x+6hoj7QR5vaJV7MxWSQ0NGFzL3kPbWEQ==",
       "license": "(MIT OR Apache-2.0)",
       "dependencies": {
-        "@coral-xyz/borsh": "^0.29.0",
+        "@coral-xyz/anchor-errors": "^0.30.1",
+        "@coral-xyz/borsh": "^0.30.1",
         "@noble/hashes": "^1.3.1",
         "@solana/web3.js": "^1.68.0",
         "bn.js": "^5.1.2",
@@ -960,6 +961,15 @@ module.exports = nextConfig
         "node": ">=11"
       }
     },
+    "node_modules/@coral-xyz/anchor-errors": {
+      "version": "0.30.1",
+      "resolved": "https://registry.npmjs.org/@coral-xyz/anchor-errors/-/anchor-errors-0.30.1.tgz",
+      "integrity": "sha512-9Mkradf5yS5xiLWrl9WrpjqOrAV+/W2RQHDlbnAZBivoGpOs1ECjoDCkVk4aRG8ZdiFiB8zQEVlxf+8fKkmSfQ==",
+      "license": "Apache-2.0",
+      "engines": {
+        "node": ">=10"
+      }
+    },
     "node_modules/@coral-xyz/anchor/node_modules/bs58": {
       "version": "4.0.1",
       "resolved": "https://registry.npmjs.org/bs58/-/bs58-4.0.1.tgz",
@@ -970,9 +980,9 @@ module.exports = nextConfig
       }
     },
     "node_modules/@coral-xyz/borsh": {
-      "version": "0.29.0",
-      "resolved": "https://registry.npmjs.org/@coral-xyz/borsh/-/borsh-0.29.0.tgz",
-      "integrity": "sha512-s7VFVa3a0oqpkuRloWVPdCK7hMbAMY270geZOGfCnaqexrP5dTIpbEHL33req6IYPPJ0hYa71cdvJ1h6V55/oQ==",
+      "version": "0.30.1",
+      "resolved": "https://registry.npmjs.org/@coral-xyz/borsh/-/borsh-0.30.1.tgz",
+      "integrity": "sha512-aaxswpPrCFKl8vZTbxLssA2RvwX2zmKLlRCIktJOwW+VpVwYtXRtlWiIP+c2pPRKneiTiWCN2GEMSH9j1zTlWQ==",
       "license": "Apache-2.0",
       "dependencies": {
         "bn.js": "^5.1.2",
@@ -2039,6 +2049,47 @@ module.exports = nextConfig
         "@solana/web3.js": ">=1.78.3"
       }
     },
+    "node_modules/@jup-ag/common/node_modules/@coral-xyz/anchor": {
+      "version": "0.29.0",
+      "resolved": "https://registry.npmjs.org/@coral-xyz/anchor/-/anchor-0.29.0.tgz",
+      "integrity": "sha512-eny6QNG0WOwqV0zQ7cs/b1tIuzZGmP7U7EcH+ogt4Gdbl8HDmIYVMh/9aTmYZPaFWjtUaI8qSn73uYEXWfATdA==",
+      "license": "(MIT OR Apache-2.0)",
+      "dependencies": {
+        "@coral-xyz/borsh": "^0.29.0",
+        "@noble/hashes": "^1.3.1",
+        "@solana/web3.js": "^1.68.0",
+        "bn.js": "^5.1.2",
+        "bs58": "^4.0.1",
+        "buffer-layout": "^1.2.2",
+        "camelcase": "^6.3.0",
+        "cross-fetch": "^3.1.5",
+        "crypto-hash": "^1.3.0",
+        "eventemitter3": "^4.0.7",
+        "pako": "^2.0.3",
+        "snake-case": "^3.0.4",
+        "superstruct": "^0.15.4",
+        "toml": "^3.0.0"
+      },
+      "engines": {
+        "node": ">=11"
+      }
+    },
+    "node_modules/@jup-ag/common/node_modules/@coral-xyz/borsh": {
+      "version": "0.29.0",
+      "resolved": "https://registry.npmjs.org/@coral-xyz/borsh/-/borsh-0.29.0.tgz",
+      "integrity": "sha512-s7VFVa3a0oqpkuRloWVPdCK7hMbAMY270geZOGfCnaqexrP5dTIpbEHL33req6IYPPJ0hYa71cdvJ1h6V55/oQ==",
+      "license": "Apache-2.0",
+      "dependencies": {
+        "bn.js": "^5.1.2",
+        "buffer-layout": "^1.2.0"
+      },
+      "engines": {
+        "node": ">=10"
+      },
+      "peerDependencies": {
+        "@solana/web3.js": "^1.68.0"
+      }
+    },
     "node_modules/@jup-ag/common/node_modules/@mercurial-finance/optimist": {
       "version": "0.3.2",
       "resolved": "https://registry.npmjs.org/@mercurial-finance/optimist/-/optimist-0.3.2.tgz",
@@ -2120,9 +2171,9 @@ module.exports = nextConfig
       }
     },
     "node_modules/@jup-ag/terminal": {
-      "version": "4.4.0",
-      "resolved": "https://registry.npmjs.org/@jup-ag/terminal/-/terminal-4.4.0.tgz",
-      "integrity": "sha512-i/dA82w/vTIEyjFDKh72wKLFJqk5GyrCh79EViuqSKwffG1KE9dFdrMImciaODrNXQgal5l9pWCI54XuZeoTYg==",
+      "version": "4.4.2",
+      "resolved": "https://registry.npmjs.org/@jup-ag/terminal/-/terminal-4.4.2.tgz",
+      "integrity": "sha512-byhzTNegHuSucW/OSw6o07IQGac7ht8uxTLL813HdrVgA85CxLCElfKHu8FHQxvV54XQML5+qId+U0hTcih2sQ==",
       "license": "MIT",
       "dependencies": {
         "@jup-ag/react-hook": "6.2.0",
@@ -19906,19 +19957,51 @@ module.exports = nextConfig
       }
     },
     "node_modules/pbkdf2": {
-      "version": "3.1.2",
-      "resolved": "https://registry.npmjs.org/pbkdf2/-/pbkdf2-3.1.2.tgz",
-      "integrity": "sha512-iuh7L6jA7JEGu2WxDwtQP1ddOpaJNC4KlDEFfdQajSGgGPNi4OyDc2R7QnbY2bR9QjBVGwgvTdNJZoE7RaxUMA==",
+      "version": "3.1.3",
+      "resolved": "https://registry.npmjs.org/pbkdf2/-/pbkdf2-3.1.3.tgz",
+      "integrity": "sha512-wfRLBZ0feWRhCIkoMB6ete7czJcnNnqRpcoWQBLqatqXXmelSRqfdDK4F3u9T2s2cXas/hQJcryI/4lAL+XTlA==",
       "license": "MIT",
       "dependencies": {
-        "create-hash": "^1.1.2",
-        "create-hmac": "^1.1.4",
-        "ripemd160": "^2.0.1",
-        "safe-buffer": "^5.0.1",
-        "sha.js": "^2.4.8"
+        "create-hash": "~1.1.3",
+        "create-hmac": "^1.1.7",
+        "ripemd160": "=2.0.1",
+        "safe-buffer": "^5.2.1",
+        "sha.js": "^2.4.11",
+        "to-buffer": "^1.2.0"
       },
       "engines": {
         "node": ">=0.12"
+      }
+    },
+    "node_modules/pbkdf2/node_modules/create-hash": {
+      "version": "1.1.3",
+      "resolved": "https://registry.npmjs.org/create-hash/-/create-hash-1.1.3.tgz",
+      "integrity": "sha512-snRpch/kwQhcdlnZKYanNF1m0RDlrCdSKQaH87w1FCFPVPNCQ/Il9QJKAX2jVBZddRdaHBMC+zXa9Gw9tmkNUA==",
+      "license": "MIT",
+      "dependencies": {
+        "cipher-base": "^1.0.1",
+        "inherits": "^2.0.1",
+        "ripemd160": "^2.0.0",
+        "sha.js": "^2.4.0"
+      }
+    },
+    "node_modules/pbkdf2/node_modules/hash-base": {
+      "version": "2.0.2",
+      "resolved": "https://registry.npmjs.org/hash-base/-/hash-base-2.0.2.tgz",
+      "integrity": "sha512-0TROgQ1/SxE6KmxWSvXHvRj90/Xo1JvZShofnYF+f6ZsGtR4eES7WfrQzPalmyagfKZCXpVnitiRebZulWsbiw==",
+      "license": "MIT",
+      "dependencies": {
+        "inherits": "^2.0.1"
+      }
+    },
+    "node_modules/pbkdf2/node_modules/ripemd160": {
+      "version": "2.0.1",
+      "resolved": "https://registry.npmjs.org/ripemd160/-/ripemd160-2.0.1.tgz",
+      "integrity": "sha512-J7f4wutN8mdbV08MJnXibYpCOPHR+yzy+iQ/AsjMv2j8cLavQ8VGagDFUwwTAdF8FmRKVeNpbTTEwNHCW1g94w==",
+      "license": "MIT",
+      "dependencies": {
+        "hash-base": "^2.0.0",
+        "inherits": "^2.0.1"
       }
     },
     "node_modules/picocolors": {
@@ -22740,6 +22823,20 @@ module.exports = nextConfig
       "license": "BSD-3-Clause",
       "peer": true
     },
+    "node_modules/to-buffer": {
+      "version": "1.2.1",
+      "resolved": "https://registry.npmjs.org/to-buffer/-/to-buffer-1.2.1.tgz",
+      "integrity": "sha512-tB82LpAIWjhLYbqjx3X4zEeHN6M8CiuOEy2JY8SEQVdYRe3CCHOFaqrBW1doLDrfpWhplcW7BL+bO3/6S3pcDQ==",
+      "license": "MIT",
+      "dependencies": {
+        "isarray": "^2.0.5",
+        "safe-buffer": "^5.2.1",
+        "typed-array-buffer": "^1.0.3"
+      },
+      "engines": {
+        "node": ">= 0.4"
+      }
+    },
     "node_modules/to-regex-range": {
       "version": "5.0.1",
       "resolved": "https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz",
@@ -22876,7 +22973,6 @@ module.exports = nextConfig
       "version": "1.0.3",
       "resolved": "https://registry.npmjs.org/typed-array-buffer/-/typed-array-buffer-1.0.3.tgz",
       "integrity": "sha512-nAYYwfY3qnzX30IkA6AQZjVbtK6duGontcQm1WSG1MD94YLqK0515GNApXkoxKOWMusVssAHWLh9SeaoefYFGw==",
-      "dev": true,
       "license": "MIT",
       "dependencies": {
         "call-bound": "^1.0.3",
@@ -23980,14 +24076,14 @@ module.exports = nextConfig
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\package-lock.json
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\package-lock.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\package.json
-   Rozmiar: 1782 bajtów
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\package.json
+   Rozmiar: 1781 bajtów
 
 
 {
@@ -24003,7 +24099,7 @@ module.exports = nextConfig
     "format:fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
-    "@coral-xyz/anchor": "^0.29.0",
+    "@coral-xyz/anchor": "0.31.1",
     "@heroicons/react": "^2.2.0",
     "@jup-ag/react-hook": "^6.2.0",
     "@jup-ag/terminal": "^4.3.0",
@@ -24054,13 +24150,13 @@ module.exports = nextConfig
 }
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\package.json
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\package.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\postcss.config.js
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\postcss.config.js
    Rozmiar: 82 bajtów
 
 
@@ -24073,13 +24169,13 @@ module.exports = {
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\postcss.config.js
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\postcss.config.js
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\README.md
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\README.md
    Rozmiar: 2025 bajtów
 
 
@@ -24140,13 +24236,13 @@ Using Yarn:
 yarn install
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\README.md
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\README.md
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\tailwind.config.js
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\tailwind.config.js
    Rozmiar: 999 bajtów
 
 
@@ -24183,13 +24279,13 @@ module.exports = {
 };
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\tailwind.config.js
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\tailwind.config.js
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\tsconfig.json
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\tsconfig.json
    Rozmiar: 697 bajtów
 
 
@@ -24224,66 +24320,79 @@ module.exports = {
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\tsconfig.json
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\tsconfig.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.devcontainer\devcontainer.json
-   Rozmiar: 984 bajtów
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.devcontainer\devcontainer.json
+   Rozmiar: 489 bajtów
 
 
 {
-  "name": "Phoenix Swap (Rust & Solana)",
-  // Używamy standardowego, publicznego obrazu od Microsoftu z preinstalowanym Rustem.
-  "image": "mcr.microsoft.com/devcontainers/rust:1-bullseye",
+	"name": "Phoenix Swap (Final Root Build)",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
 
-  // Deklaratywnie dodajemy potrzebne nam narzędzia w konkretnych wersjach.
-  "features": {
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "18"
-    },
-    "ghcr.io/devcontainers-contrib/features/solana:1": {
-      "version": "1.18.14" // Stabilna wersja Solana CLI
-    }
-  },
+	// === KLUCZOWA ZMIANA: Łączymy się jako root ===
+	// To eliminuje wszystkie problemy z uprawnieniami wewnątrz kontenera.
+	"remoteUser": "root",
 
-  // Po stworzeniu kontenera, instalujemy dokładną wersję Anchor, której potrzebuje nasz kontrakt.
-  // Na końcu uruchamiamy `npm install` dla zależności front-endu.
-  "postCreateCommand": "cargo install --git https://github.com/coral-xyz/anchor --tag v0.29.0 anchor-cli --locked && npm install",
-
-  // Ustawienia dla VS Code wewnątrz kontenera.
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "rust-lang.rust-analyzer"
-      ]
-    }
-  }
+	// Ta komenda zostanie uruchomiona po zbudowaniu kontenera jako root
+	"postCreateCommand": "npm install",
+	
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rust-lang.rust-analyzer"
+			]
+		}
+	}
 }
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\.devcontainer\devcontainer.json
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.devcontainer\devcontainer.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\.git    zawartość folderu spakowana.rar
-   Rozmiar: 13807 bajtów
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.devcontainer\Dockerfile
+   Rozmiar: 1075 bajtów
 
 
-[Zawarto pliku pominita (rozszerzenie: .rar)]
+# Krok 1: Zaczynamy od obrazu bazowego z Rustem
+FROM mcr.microsoft.com/devcontainers/rust:1-bullseye
+
+# Krok 2: Definiujemy wersje narzędzi
+ARG SOLANA_VERSION=1.18.14
+ARG NODE_VERSION=18.17.1
+ARG ANCHOR_VERSION=latest 
+
+# Krok 3: Aktualizujemy system i instalujemy pakiety jako root
+RUN apt-get update && export DEBIAN_FRONTEND=noninteractive && apt-get -y install --no-install-recommends \
+    build-essential pkg-config libudev-dev curl git ca-certificates xz-utils \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Krok 4: Instalujemy Solana, Node.js i Anchor jako root
+RUN sh -c "$(curl -sSfL https://release.solana.com/v${SOLANA_VERSION}/install)"
+RUN curl -fsSL "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-x64.tar.xz" | tar -xJ -C /usr/local --strip-components=1
+RUN cargo install --git https://github.com/coral-xyz/anchor anchor-cli --locked --force
+
+# Krok 5: Ustawiamy globalne zmienne środowiskowe dla roota
+ENV PATH="/usr/local/bin:/root/.local/share/solana/install/active_release/bin:/root/.cargo/bin:${PATH}"
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\.git    zawartość folderu spakowana.rar
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\.devcontainer\Dockerfile
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\.gitignore
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\.gitignore
    Rozmiar: 67 bajtów
 
 
@@ -24297,13 +24406,13 @@ test-ledger
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\.gitignore
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\.gitignore
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\.prettierignore
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\.prettierignore
    Rozmiar: 61 bajtów
 
 
@@ -24317,53 +24426,98 @@ test-ledger
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\.prettierignore
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\.prettierignore
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\Anchor.toml
-   Rozmiar: 502 bajtów
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\Anchor.toml
+   Rozmiar: 378 bajtów
 
-
-[toolchain]
-package_manager = "yarn"
 
 [features]
-resolution = true
+seeds = false
 skip-lint = false
 
-# ZMIANA: Zmieniamy nazwę klastra na 'devnet'
 [programs.devnet]
-# ZMIANA: Zmieniamy nazwę programu, aby odzwierciedlała klaster
-presale = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+presale = "9oemjxjE2zFJFVRynHVmWg1nTMWgTM3hGCetuAJkG21U"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-# ZMIANA: Ustawiamy klaster na 'devnet'
 cluster = "devnet"
-wallet = "~/.config/solana/id.json"
+wallet = "/root/.config/solana/id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
 
+# === DODAJ TĘ SEKCJĘ ===
+[toolchain]
+anchor_version = "0.30.1"
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\Anchor.toml
+
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\Anchor.toml
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\Cargo.lock
-   Rozmiar: 54536 bajtów
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\Cargo.lock
+   Rozmiar: 66696 bajtów
 
 
 # This file is automatically @generated by Cargo.
 # It is not intended for manual editing.
 version = 4
+
+[[package]]
+name = "aead"
+version = "0.4.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0b613b8e1e3cf911a086f53f03bf286f52fd7a7258e4fa606f0ef220d39d8877"
+dependencies = [
+ "generic-array",
+]
+
+[[package]]
+name = "aes"
+version = "0.7.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9e8b47f52ea9bae42228d07ec09eb676433d7c4ed1ebdf0f1d1c29ed446f1ab8"
+dependencies = [
+ "cfg-if",
+ "cipher",
+ "cpufeatures",
+ "opaque-debug",
+]
+
+[[package]]
+name = "aes-gcm-siv"
+version = "0.10.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "589c637f0e68c877bbd59a4599bbe849cac8e5f3e4b5a3ebae8f528cd218dcdc"
+dependencies = [
+ "aead",
+ "aes",
+ "cipher",
+ "ctr",
+ "polyval",
+ "subtle",
+ "zeroize",
+]
+
+[[package]]
+name = "ahash"
+version = "0.7.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "891477e0c6a8957309ee5c45a6368af3ae14bb510732d2684ffa19af310920f9"
+dependencies = [
+ "getrandom 0.2.16",
+ "once_cell",
+ "version_check",
+]
 
 [[package]]
 name = "ahash"
@@ -24378,10 +24532,19 @@ dependencies = [
 ]
 
 [[package]]
-name = "anchor-attribute-access-control"
-version = "0.31.1"
+name = "aho-corasick"
+version = "1.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3f70fd141a4d18adf11253026b32504f885447048c7494faf5fa83b01af9c0cf"
+checksum = "8e60d3430d3a69478ad0993f19238d2df97c507009a52b3c10addcd7f6bcb916"
+dependencies = [
+ "memchr",
+]
+
+[[package]]
+name = "anchor-attribute-access-control"
+version = "0.29.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e5f619f1d04f53621925ba8a2e633ba5a6081f2ae14758cbb67f38fd823e0a3e"
 dependencies = [
  "anchor-syn",
  "proc-macro2",
@@ -24391,12 +24554,12 @@ dependencies = [
 
 [[package]]
 name = "anchor-attribute-account"
-version = "0.31.1"
+version = "0.29.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "715a261c57c7679581e06f07a74fa2af874ac30f86bd8ea07cca4a7e5388a064"
+checksum = "e7f2a3e1df4685f18d12a943a9f2a7456305401af21a07c9fe076ef9ecd6e400"
 dependencies = [
  "anchor-syn",
- "bs58",
+ "bs58 0.5.1",
  "proc-macro2",
  "quote",
  "syn 1.0.109",
@@ -24404,9 +24567,9 @@ dependencies = [
 
 [[package]]
 name = "anchor-attribute-constant"
-version = "0.31.1"
+version = "0.29.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "730d6df8ae120321c5c25e0779e61789e4b70dc8297102248902022f286102e4"
+checksum = "9423945cb55627f0b30903288e78baf6f62c6c8ab28fb344b6b25f1ffee3dca7"
 dependencies = [
  "anchor-syn",
  "quote",
@@ -24415,9 +24578,9 @@ dependencies = [
 
 [[package]]
 name = "anchor-attribute-error"
-version = "0.31.1"
+version = "0.29.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "27e6e449cc3a37b2880b74dcafb8e5a17b954c0e58e376432d7adc646fb333ef"
+checksum = "93ed12720033cc3c3bf3cfa293349c2275cd5ab99936e33dd4bf283aaad3e241"
 dependencies = [
  "anchor-syn",
  "quote",
@@ -24426,9 +24589,9 @@ dependencies = [
 
 [[package]]
 name = "anchor-attribute-event"
-version = "0.31.1"
+version = "0.29.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d7710e4c54adf485affcd9be9adec5ef8846d9c71d7f31e16ba86ff9fc1dd49f"
+checksum = "eef4dc0371eba2d8c8b54794b0b0eb786a234a559b77593d6f80825b6d2c77a2"
 dependencies = [
  "anchor-syn",
  "proc-macro2",
@@ -24438,26 +24601,20 @@ dependencies = [
 
 [[package]]
 name = "anchor-attribute-program"
-version = "0.31.1"
+version = "0.29.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "05ecfd49b2aeadeb32f35262230db402abed76ce87e27562b34f61318b2ec83c"
+checksum = "b18c4f191331e078d4a6a080954d1576241c29c56638783322a18d308ab27e4f"
 dependencies = [
- "anchor-lang-idl",
  "anchor-syn",
- "anyhow",
- "bs58",
- "heck",
- "proc-macro2",
  "quote",
- "serde_json",
  "syn 1.0.109",
 ]
 
 [[package]]
 name = "anchor-derive-accounts"
-version = "0.31.1"
+version = "0.29.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "be89d160793a88495af462a7010b3978e48e30a630c91de47ce2c1d3cb7a6149"
+checksum = "5de10d6e9620d3bcea56c56151cad83c5992f50d5960b3a9bebc4a50390ddc3c"
 dependencies = [
  "anchor-syn",
  "quote",
@@ -24466,12 +24623,12 @@ dependencies = [
 
 [[package]]
 name = "anchor-derive-serde"
-version = "0.31.1"
+version = "0.29.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "abc6ee78acb7bfe0c2dd2abc677aaa4789c0281a0c0ef01dbf6fe85e0fd9e6e4"
+checksum = "f4e2e5be518ec6053d90a2a7f26843dbee607583c779e6c8395951b9739bdfbe"
 dependencies = [
  "anchor-syn",
- "borsh-derive-internal",
+ "borsh-derive-internal 0.10.4",
  "proc-macro2",
  "quote",
  "syn 1.0.109",
@@ -24479,9 +24636,9 @@ dependencies = [
 
 [[package]]
 name = "anchor-derive-space"
-version = "0.31.1"
+version = "0.29.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "134a01c0703f6fd355a0e472c033f6f3e41fac1ef6e370b20c50f4c8d022cea7"
+checksum = "1ecc31d19fa54840e74b7a979d44bcea49d70459de846088a1d71e87ba53c419"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -24490,9 +24647,9 @@ dependencies = [
 
 [[package]]
 name = "anchor-lang"
-version = "0.31.1"
+version = "0.29.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e6bab117055905e930f762c196e08f861f8dfe7241b92cee46677a3b15561a0a"
+checksum = "35da4785497388af0553586d55ebdc08054a8b1724720ef2749d313494f2b8ad"
 dependencies = [
  "anchor-attribute-access-control",
  "anchor-attribute-account",
@@ -24503,46 +24660,37 @@ dependencies = [
  "anchor-derive-accounts",
  "anchor-derive-serde",
  "anchor-derive-space",
- "base64 0.21.7",
+ "arrayref",
+ "base64 0.13.1",
  "bincode",
  "borsh 0.10.4",
  "bytemuck",
+ "getrandom 0.2.16",
  "solana-program",
- "thiserror 1.0.69",
+ "thiserror",
 ]
 
 [[package]]
-name = "anchor-lang-idl"
-version = "0.1.2"
+name = "anchor-spl"
+version = "0.29.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "32e8599d21995f68e296265aa5ab0c3cef582fd58afec014d01bd0bce18a4418"
+checksum = "6c4fd6e43b2ca6220d2ef1641539e678bfc31b6cc393cf892b373b5997b6a39a"
 dependencies = [
- "anchor-lang-idl-spec",
- "anyhow",
- "heck",
- "serde",
- "serde_json",
- "sha2 0.10.9",
-]
-
-[[package]]
-name = "anchor-lang-idl-spec"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2bdf143115440fe621bdac3a29a1f7472e09f6cd82b2aa569429a0c13f103838"
-dependencies = [
- "anyhow",
- "serde",
+ "anchor-lang",
+ "solana-program",
+ "spl-associated-token-account",
+ "spl-token",
+ "spl-token-2022 0.9.0",
 ]
 
 [[package]]
 name = "anchor-syn"
-version = "0.31.1"
+version = "0.29.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5dc7a6d90cc643df0ed2744862cdf180587d1e5d28936538c18fc8908489ed67"
+checksum = "d9101b84702fed2ea57bd22992f75065da5648017135b844283a2f6d74f27825"
 dependencies = [
  "anyhow",
- "bs58",
+ "bs58 0.5.1",
  "heck",
  "proc-macro2",
  "quote",
@@ -24550,7 +24698,7 @@ dependencies = [
  "serde_json",
  "sha2 0.10.9",
  "syn 1.0.109",
- "thiserror 1.0.69",
+ "thiserror",
 ]
 
 [[package]]
@@ -24558,6 +24706,123 @@ name = "anyhow"
 version = "1.0.98"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e16d2d3311acee920a9eb8d33b8cbc1787ce4a264e85f964c2404b969bdcd487"
+
+[[package]]
+name = "ark-bn254"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a22f4561524cd949590d78d7d4c5df8f592430d221f7f3c9497bbafd8972120f"
+dependencies = [
+ "ark-ec",
+ "ark-ff",
+ "ark-std",
+]
+
+[[package]]
+name = "ark-ec"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "defd9a439d56ac24968cca0571f598a61bc8c55f71d50a89cda591cb750670ba"
+dependencies = [
+ "ark-ff",
+ "ark-poly",
+ "ark-serialize",
+ "ark-std",
+ "derivative",
+ "hashbrown 0.13.2",
+ "itertools",
+ "num-traits",
+ "zeroize",
+]
+
+[[package]]
+name = "ark-ff"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ec847af850f44ad29048935519032c33da8aa03340876d351dfab5660d2966ba"
+dependencies = [
+ "ark-ff-asm",
+ "ark-ff-macros",
+ "ark-serialize",
+ "ark-std",
+ "derivative",
+ "digest 0.10.7",
+ "itertools",
+ "num-bigint",
+ "num-traits",
+ "paste",
+ "rustc_version",
+ "zeroize",
+]
+
+[[package]]
+name = "ark-ff-asm"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3ed4aa4fe255d0bc6d79373f7e31d2ea147bcf486cba1be5ba7ea85abdb92348"
+dependencies = [
+ "quote",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "ark-ff-macros"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7abe79b0e4288889c4574159ab790824d0033b9fdcb2a112a3182fac2e514565"
+dependencies = [
+ "num-bigint",
+ "num-traits",
+ "proc-macro2",
+ "quote",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "ark-poly"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d320bfc44ee185d899ccbadfa8bc31aab923ce1558716e1997a1e74057fe86bf"
+dependencies = [
+ "ark-ff",
+ "ark-serialize",
+ "ark-std",
+ "derivative",
+ "hashbrown 0.13.2",
+]
+
+[[package]]
+name = "ark-serialize"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "adb7b85a02b83d2f22f89bd5cac66c9c89474240cb6207cb1efc16d098e822a5"
+dependencies = [
+ "ark-serialize-derive",
+ "ark-std",
+ "digest 0.10.7",
+ "num-bigint",
+]
+
+[[package]]
+name = "ark-serialize-derive"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ae3281bc6d0fd7e549af32b52511e1302185bd688fd3359fa36423346ff682ea"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "ark-std"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "94893f1e0c6eeab764ade8dc4c0db24caf4fe7cbbaafc0eba0a9030f447b5185"
+dependencies = [
+ "num-traits",
+ "rand 0.8.5",
+]
 
 [[package]]
 name = "arrayref"
@@ -24570,6 +24835,23 @@ name = "arrayvec"
 version = "0.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7c02d123df017efcdfbd739ef81735b36c5ba83ec3c59c80a9d7ecc718f92e50"
+
+[[package]]
+name = "assert_matches"
+version = "1.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9b34d609dfbaf33d6889b2b7106d3ca345eacad44200913df5ba02bfd31d2ba9"
+
+[[package]]
+name = "atty"
+version = "0.2.14"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d9b39be18770d11421cdb1b9947a45dd3f37e93092cbf377614828a319d5fee8"
+dependencies = [
+ "hermit-abi",
+ "libc",
+ "winapi",
+]
 
 [[package]]
 name = "autocfg"
@@ -24585,15 +24867,15 @@ checksum = "3441f0f7b02788e948e47f457ca01f1d7e6d92c693bc132c22b087d3141c03ff"
 
 [[package]]
 name = "base64"
-version = "0.21.7"
+version = "0.13.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9d297deb1925b89f2ccc13d7635fa0714f12c87adce1c75356b39ca9b7178567"
+checksum = "9e1b586273c5702936fe7b7d6896644d8be71e6314cfe09d3167c95f712589e8"
 
 [[package]]
 name = "base64"
-version = "0.22.1"
+version = "0.21.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "72b3254f16251a8381aa12e40e3c4d2f0199f8c6508fbecb9d91f575e0fbb8c6"
+checksum = "9d297deb1925b89f2ccc13d7635fa0714f12c87adce1c75356b39ca9b7178567"
 
 [[package]]
 name = "bincode"
@@ -24609,6 +24891,18 @@ name = "bitflags"
 version = "2.9.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1b8e56985ec62d17e9c1001dc89c88ecd7dc08e47eba5ec7c29c7b5eeecde967"
+dependencies = [
+ "serde",
+]
+
+[[package]]
+name = "bitmaps"
+version = "2.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "031043d04099746d8db04daf1fa424b2bc8bd69d92b25962dcde24da39ab64a2"
+dependencies = [
+ "typenum",
+]
 
 [[package]]
 name = "blake3"
@@ -24630,6 +24924,7 @@ version = "0.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4152116fd6e9dadb291ae18fc1ec3575ed6d84c29642d97890f4b4a3417297e4"
 dependencies = [
+ "block-padding",
  "generic-array",
 ]
 
@@ -24640,6 +24935,22 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3078c7629b62d3f0439517fa394996acacc5cbc91c5a20d8c658e77abd503a71"
 dependencies = [
  "generic-array",
+]
+
+[[package]]
+name = "block-padding"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8d696c370c750c948ada61c69a0ee2cbbb9c50b1019ddb86d9317157a99c2cae"
+
+[[package]]
+name = "borsh"
+version = "0.9.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "15bf3650200d8bffa99015595e10f1fbd17de07abbc25bb067da79e769939bfa"
+dependencies = [
+ "borsh-derive 0.9.3",
+ "hashbrown 0.11.2",
 ]
 
 [[package]]
@@ -24664,12 +24975,25 @@ dependencies = [
 
 [[package]]
 name = "borsh-derive"
+version = "0.9.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6441c552f230375d18e3cc377677914d2ca2b0d36e52129fe15450a2dce46775"
+dependencies = [
+ "borsh-derive-internal 0.9.3",
+ "borsh-schema-derive-internal 0.9.3",
+ "proc-macro-crate 0.1.5",
+ "proc-macro2",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "borsh-derive"
 version = "0.10.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "831213f80d9423998dd696e2c5345aba6be7a0bd8cd19e31c5243e13df1cef89"
 dependencies = [
- "borsh-derive-internal",
- "borsh-schema-derive-internal",
+ "borsh-derive-internal 0.10.4",
+ "borsh-schema-derive-internal 0.10.4",
  "proc-macro-crate 0.1.5",
  "proc-macro2",
  "syn 1.0.109",
@@ -24690,9 +25014,31 @@ dependencies = [
 
 [[package]]
 name = "borsh-derive-internal"
+version = "0.9.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5449c28a7b352f2d1e592a8a28bf139bc71afb0764a14f3c02500935d8c44065"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "borsh-derive-internal"
 version = "0.10.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "65d6ba50644c98714aa2a70d13d7df3cd75cd2b523a2b452bf010443800976b3"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "borsh-schema-derive-internal"
+version = "0.9.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cdbd5696d8bfa21d53d9fe39a714a18538bad11492a42d066dbbc395fb1951c0"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -24709,6 +25055,12 @@ dependencies = [
  "quote",
  "syn 1.0.109",
 ]
+
+[[package]]
+name = "bs58"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "771fe0050b883fcc3ea2359b1a96bcfbc090b7116eae7c3c512c7a083fdf23d3"
 
 [[package]]
 name = "bs58"
@@ -24740,6 +25092,9 @@ name = "bytemuck"
 version = "1.23.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5c76a5792e44e4abe34d3abf15636779261d45a7450612059293d1d2cfc63422"
+dependencies = [
+ "bytemuck_derive",
+]
 
 [[package]]
 name = "bytemuck_derive"
@@ -24753,11 +25108,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "byteorder"
+version = "1.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1fd0f2584146f6f2ef48085050886acf353beff7305ebd1ae69500e27c67f64b"
+
+[[package]]
 name = "cc"
 version = "1.2.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d487aa071b5f64da6f19a3e848e3578944b726ee5a4854b82172f02aa876bfdc"
 dependencies = [
+ "jobserver",
+ "libc",
  "shlex",
 ]
 
@@ -24772,6 +25135,24 @@ name = "cfg_aliases"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "613afe47fcd5fac7ccf1db93babcb082c5994d996f20b8b159f2ad1658eb5724"
+
+[[package]]
+name = "chrono"
+version = "0.4.41"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c469d952047f47f91b68d1cba3f10d63c11d73e4636f24f08daf0278abf01c4d"
+dependencies = [
+ "num-traits",
+]
+
+[[package]]
+name = "cipher"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7ee52072ec15386f770805afd189a01c8841be8696bed250fa2f13c4c0d6dfb7"
+dependencies = [
+ "generic-array",
+]
 
 [[package]]
 name = "console_error_panic_hook"
@@ -24809,6 +25190,31 @@ dependencies = [
 ]
 
 [[package]]
+name = "crossbeam-deque"
+version = "0.8.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9dd111b7b7f7d55b72c0a6ae361660ee5853c9af73f70c3c2ef6858b950e2e51"
+dependencies = [
+ "crossbeam-epoch",
+ "crossbeam-utils",
+]
+
+[[package]]
+name = "crossbeam-epoch"
+version = "0.9.18"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5b82ac4a3c2ca9c3460964f020e1402edd5753411d7737aa39c3714ad1b5420e"
+dependencies = [
+ "crossbeam-utils",
+]
+
+[[package]]
+name = "crossbeam-utils"
+version = "0.8.21"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d0a5c400df2834b80a4c3327b3aad3a4c4cd4de0629063962b03235697506a28"
+
+[[package]]
 name = "crunchy"
 version = "0.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -24825,31 +25231,88 @@ dependencies = [
 ]
 
 [[package]]
-name = "curve25519-dalek"
-version = "4.1.3"
+name = "crypto-mac"
+version = "0.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "97fb8b7c4503de7d6ae7b42ab72a5a59857b4c937ec27a3d4539dba95b5ab2be"
+checksum = "b584a330336237c1eecd3e94266efb216c56ed91225d634cb2991c5f3fd1aeab"
 dependencies = [
- "cfg-if",
- "cpufeatures",
- "curve25519-dalek-derive",
- "digest 0.10.7",
- "fiat-crypto",
- "rand_core 0.6.4",
- "rustc_version",
+ "generic-array",
+ "subtle",
+]
+
+[[package]]
+name = "ctr"
+version = "0.8.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "049bb91fb4aaf0e3c7efa6cd5ef877dbbbd15b39dad06d9948de4ec8a75761ea"
+dependencies = [
+ "cipher",
+]
+
+[[package]]
+name = "curve25519-dalek"
+version = "3.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "90f9d052967f590a76e62eb387bd0bbb1b000182c3cefe5364db6b7211651bc0"
+dependencies = [
+ "byteorder",
+ "digest 0.9.0",
+ "rand_core 0.5.1",
+ "serde",
  "subtle",
  "zeroize",
 ]
 
 [[package]]
-name = "curve25519-dalek-derive"
-version = "0.1.1"
+name = "darling"
+version = "0.20.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f46882e17999c6cc590af592290432be3bce0428cb0d5f8b6715e4dc7b383eb3"
+checksum = "fc7f46116c46ff9ab3eb1597a45688b6715c6e628b5c133e288e709a29bcb4ee"
+dependencies = [
+ "darling_core",
+ "darling_macro",
+]
+
+[[package]]
+name = "darling_core"
+version = "0.20.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0d00b9596d185e565c2207a0b01f8bd1a135483d02d9b7b0a54b11da8d53412e"
+dependencies = [
+ "fnv",
+ "ident_case",
+ "proc-macro2",
+ "quote",
+ "strsim",
+ "syn 2.0.103",
+]
+
+[[package]]
+name = "darling_macro"
+version = "0.20.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fc34b93ccb385b40dc71c6fceac4b2ad23662c7eeb248cf10d529b7e055b6ead"
+dependencies = [
+ "darling_core",
+ "quote",
+ "syn 2.0.103",
+]
+
+[[package]]
+name = "derivation-path"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6e5c37193a1db1d8ed868c03ec7b152175f26160a5b740e5e484143877e0adf0"
+
+[[package]]
+name = "derivative"
+version = "2.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fcc3dd5e9e9c0b295d6e1e4d811fb6f157d5ffd784b8d202fc62eac8035a770b"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.103",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -24873,6 +25336,60 @@ dependencies = [
 ]
 
 [[package]]
+name = "ed25519"
+version = "1.5.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "91cff35c70bba8a626e3185d8cd48cc11b5437e1a5bcd15b9b5fa3c64b6dfee7"
+dependencies = [
+ "signature",
+]
+
+[[package]]
+name = "ed25519-dalek"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c762bae6dcaf24c4c84667b8579785430908723d5c889f469d76a41d59cc7a9d"
+dependencies = [
+ "curve25519-dalek",
+ "ed25519",
+ "rand 0.7.3",
+ "serde",
+ "sha2 0.9.9",
+ "zeroize",
+]
+
+[[package]]
+name = "ed25519-dalek-bip32"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9d2be62a4061b872c8c0873ee4fc6f101ce7b889d039f019c5fa2af471a59908"
+dependencies = [
+ "derivation-path",
+ "ed25519-dalek",
+ "hmac 0.12.1",
+ "sha2 0.10.9",
+]
+
+[[package]]
+name = "either"
+version = "1.15.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "48c757948c5ede0e46177b7add2e67155f70e33c07fea8284df6576da70b3719"
+
+[[package]]
+name = "env_logger"
+version = "0.9.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a12e6657c4c97ebab115a42dcee77225f7f482cdd841cf7088c657a42e9e00e7"
+dependencies = [
+ "atty",
+ "humantime",
+ "log",
+ "regex",
+ "termcolor",
+]
+
+[[package]]
 name = "equivalent"
 version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -24885,34 +25402,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "835a3dc7d1ec9e75e2b5fb4ba75396837112d2060b03f7d43bc1897c7f7211da"
 
 [[package]]
-name = "fiat-crypto"
-version = "0.2.9"
+name = "fnv"
+version = "1.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "28dea519a9695b9977216879a3ebfddf92f1c08c05d984f8996aecd6ecdc811d"
-
-[[package]]
-name = "five8"
-version = "0.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a75b8549488b4715defcb0d8a8a1c1c76a80661b5fa106b4ca0e7fce59d7d875"
-dependencies = [
- "five8_core",
-]
-
-[[package]]
-name = "five8_const"
-version = "0.1.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "26dec3da8bc3ef08f2c04f61eab298c3ab334523e55f076354d6d6f613799a7b"
-dependencies = [
- "five8_core",
-]
-
-[[package]]
-name = "five8_core"
-version = "0.1.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2551bf44bc5f776c15044b9b94153a00198be06743e262afaaa61f11ac7523a5"
+checksum = "3f9eec918d3f24069decb9af1554cad7c880e2da24a9afd88aca000531ab82c1"
 
 [[package]]
 name = "generic-array"
@@ -24920,6 +25413,7 @@ version = "0.14.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "85649ca51fd72272d7821adaf274ad91c288277713d9c18820d8499a7ff69e9a"
 dependencies = [
+ "serde",
  "typenum",
  "version_check",
 ]
@@ -24931,8 +25425,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8fc3cb4d91f53b50155bdcfd23f6a4c39ae1969c2ae85982b135750cccaf5fce"
 dependencies = [
  "cfg-if",
+ "js-sys",
  "libc",
  "wasi 0.9.0+wasi-snapshot-preview1",
+ "wasm-bindgen",
 ]
 
 [[package]]
@@ -24949,12 +25445,33 @@ dependencies = [
 ]
 
 [[package]]
+name = "getrandom"
+version = "0.3.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "26145e563e54f2cadc477553f1ec5ee650b00862f0a58bcd12cbdc5f0ea2d2f4"
+dependencies = [
+ "cfg-if",
+ "libc",
+ "r-efi",
+ "wasi 0.14.2+wasi-0.2.4",
+]
+
+[[package]]
+name = "hashbrown"
+version = "0.11.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ab5ef0d4909ef3724cc8cce6ccc8572c5c817592e9285f5464f8e86f8bd3726e"
+dependencies = [
+ "ahash 0.7.8",
+]
+
+[[package]]
 name = "hashbrown"
 version = "0.13.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "43a3c133739dddd0d2990f9a4bdf8eb4b21ef50e4851ca85ab661199821d510e"
 dependencies = [
- "ahash",
+ "ahash 0.8.12",
 ]
 
 [[package]]
@@ -24973,6 +25490,73 @@ dependencies = [
 ]
 
 [[package]]
+name = "hermit-abi"
+version = "0.1.19"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "62b467343b94ba476dcb2500d242dadbb39557df889310ac77c5d99100aaac33"
+dependencies = [
+ "libc",
+]
+
+[[package]]
+name = "hmac"
+version = "0.8.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "126888268dcc288495a26bf004b38c5fdbb31682f992c84ceb046a1f0fe38840"
+dependencies = [
+ "crypto-mac",
+ "digest 0.9.0",
+]
+
+[[package]]
+name = "hmac"
+version = "0.12.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6c49c37c09c17a53d937dfbb742eb3a961d65a994e6bcdcf37e7399d0cc8ab5e"
+dependencies = [
+ "digest 0.10.7",
+]
+
+[[package]]
+name = "hmac-drbg"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "17ea0a1394df5b6574da6e0c1ade9e78868c9fb0a4e5ef4428e32da4676b85b1"
+dependencies = [
+ "digest 0.9.0",
+ "generic-array",
+ "hmac 0.8.1",
+]
+
+[[package]]
+name = "humantime"
+version = "2.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9b112acc8b3adf4b107a8ec20977da0273a8c386765a3ec0229bd500a1443f9f"
+
+[[package]]
+name = "ident_case"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b9e0384b61958566e926dc50660321d12159025e767c18e043daf26b70104c39"
+
+[[package]]
+name = "im"
+version = "15.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d0acd33ff0285af998aaf9b57342af478078f53492322fafc47450e09397e0e9"
+dependencies = [
+ "bitmaps",
+ "rand_core 0.6.4",
+ "rand_xoshiro",
+ "rayon",
+ "serde",
+ "sized-chunks",
+ "typenum",
+ "version_check",
+]
+
+[[package]]
 name = "indexmap"
 version = "2.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -24983,10 +25567,29 @@ dependencies = [
 ]
 
 [[package]]
+name = "itertools"
+version = "0.10.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b0fd2260e829bddf4cb6ea802289de2f86d6a7a690192fbe91b3f46e0f2c8473"
+dependencies = [
+ "either",
+]
+
+[[package]]
 name = "itoa"
 version = "1.0.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4a5f13b858c8d314ee3e8f639011f7ccefe71f97f96e50151fb991f267928e2c"
+
+[[package]]
+name = "jobserver"
+version = "0.1.33"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "38f262f097c174adebe41eb73d66ae9c06b2844fb0da69969647bbddd9b0538a"
+dependencies = [
+ "getrandom 0.3.3",
+ "libc",
+]
 
 [[package]]
 name = "js-sys"
@@ -25028,12 +25631,14 @@ dependencies = [
  "arrayref",
  "base64 0.12.3",
  "digest 0.9.0",
+ "hmac-drbg",
  "libsecp256k1-core",
  "libsecp256k1-gen-ecmult",
  "libsecp256k1-gen-genmult",
  "rand 0.7.3",
  "serde",
  "sha2 0.9.9",
+ "typenum",
 ]
 
 [[package]]
@@ -25066,6 +25671,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "light-poseidon"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3c9a85a9752c549ceb7578064b4ed891179d20acd85f27318573b64d2d7ee7ee"
+dependencies = [
+ "ark-bn254",
+ "ark-ff",
+ "num-bigint",
+ "thiserror",
+]
+
+[[package]]
 name = "lock_api"
 version = "0.4.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -25088,12 +25705,33 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "32a282da65faaf38286cf3be983213fcf1d2e2a58700e808f83f4ea9a4804bc0"
 
 [[package]]
+name = "memmap2"
+version = "0.5.10"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "83faa42c0a078c393f6b29d5db232d8be22776a891f8f56e5284faee4a20b327"
+dependencies = [
+ "libc",
+]
+
+[[package]]
 name = "memoffset"
 version = "0.9.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "488016bfae457b036d996092f6cb448677611ce4449e970ceaf42695203f218a"
 dependencies = [
  "autocfg",
+]
+
+[[package]]
+name = "merlin"
+version = "3.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "58c38e2799fc0978b65dfff8023ec7843e2330bb462f19198840b34b6582397d"
+dependencies = [
+ "byteorder",
+ "keccak",
+ "rand_core 0.6.4",
+ "zeroize",
 ]
 
 [[package]]
@@ -25136,6 +25774,28 @@ dependencies = [
 ]
 
 [[package]]
+name = "num_enum"
+version = "0.7.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a973b4e44ce6cad84ce69d797acf9a044532e4184c4f267913d1b546a0727b7a"
+dependencies = [
+ "num_enum_derive",
+ "rustversion",
+]
+
+[[package]]
+name = "num_enum_derive"
+version = "0.7.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "77e878c846a8abae00dd069496dbe8751b16ac1c3d6bd2a7283a938e8228f90d"
+dependencies = [
+ "proc-macro-crate 3.3.0",
+ "proc-macro2",
+ "quote",
+ "syn 2.0.103",
+]
+
+[[package]]
 name = "once_cell"
 version = "1.21.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -25171,6 +25831,48 @@ dependencies = [
 ]
 
 [[package]]
+name = "paste"
+version = "1.0.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a"
+
+[[package]]
+name = "pbkdf2"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "216eaa586a190f0a738f2f918511eecfa90f13295abec0e457cdebcceda80cbd"
+dependencies = [
+ "crypto-mac",
+]
+
+[[package]]
+name = "pbkdf2"
+version = "0.11.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "83a0692ec44e4cf1ef28ca317f14f8f07da2d95ec3fa01f86e4467b725e60917"
+dependencies = [
+ "digest 0.10.7",
+]
+
+[[package]]
+name = "percent-encoding"
+version = "2.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e3148f5046208a5d56bcfc03053e3ca6334e51da8dfb19b6cdc8b306fae3283e"
+
+[[package]]
+name = "polyval"
+version = "0.5.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8419d2b623c7c0896ff2d5d96e2cb4ede590fed28fcc34934f4c33c036e620a1"
+dependencies = [
+ "cfg-if",
+ "cpufeatures",
+ "opaque-debug",
+ "universal-hash",
+]
+
+[[package]]
 name = "ppv-lite86"
 version = "0.2.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -25184,6 +25886,7 @@ name = "presale"
 version = "0.1.0"
 dependencies = [
  "anchor-lang",
+ "anchor-spl",
 ]
 
 [[package]]
@@ -25214,6 +25917,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "qstring"
+version = "0.7.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d464fae65fff2680baf48019211ce37aaec0c78e9264c84a3e484717f965104e"
+dependencies = [
+ "percent-encoding",
+]
+
+[[package]]
+name = "qualifier_attr"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9e2e25ee72f5b24d773cae88422baddefff7714f97aab68d96fe2b6fc4a28fb2"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.103",
+]
+
+[[package]]
 name = "quote"
 version = "1.0.40"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -25221,6 +25944,12 @@ checksum = "1885c039570dc00dcb4ff087a89e185fd56bae234ddc7f056a945bf36467248d"
 dependencies = [
  "proc-macro2",
 ]
+
+[[package]]
+name = "r-efi"
+version = "5.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "69cdb34c158ceb288df11e18b4bd39de994f6657d83847bdffdbd7f346754b0f"
 
 [[package]]
 name = "rand"
@@ -25294,6 +26023,35 @@ dependencies = [
 ]
 
 [[package]]
+name = "rand_xoshiro"
+version = "0.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6f97cdb2a36ed4183de61b2f824cc45c9f1037f28afe0a322e9fff4c108b5aaa"
+dependencies = [
+ "rand_core 0.6.4",
+]
+
+[[package]]
+name = "rayon"
+version = "1.10.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b418a60154510ca1a002a752ca9714984e21e4241e804d32555251faf8b78ffa"
+dependencies = [
+ "either",
+ "rayon-core",
+]
+
+[[package]]
+name = "rayon-core"
+version = "1.12.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1465873a3dfdaa8ae7cb14b4383657caab0b3e8a0aa9ae8e04b044854c8dfce2"
+dependencies = [
+ "crossbeam-deque",
+ "crossbeam-utils",
+]
+
+[[package]]
 name = "redox_syscall"
 version = "0.5.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -25301,6 +26059,41 @@ checksum = "0d04b7d0ee6b4a0207a0a7adb104d23ecb0b47d6beae7152d0fa34b692b29fd6"
 dependencies = [
  "bitflags",
 ]
+
+[[package]]
+name = "regex"
+version = "1.11.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b544ef1b4eac5dc2db33ea63606ae9ffcfac26c1416a2806ae0bf5f56b201191"
+dependencies = [
+ "aho-corasick",
+ "memchr",
+ "regex-automata",
+ "regex-syntax",
+]
+
+[[package]]
+name = "regex-automata"
+version = "0.4.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "809e8dc61f6de73b46c85f4c96486310fe304c434cfa43669d7b40f711150908"
+dependencies = [
+ "aho-corasick",
+ "memchr",
+ "regex-syntax",
+]
+
+[[package]]
+name = "regex-syntax"
+version = "0.8.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2b15c43186be67a4fd63bee50d0303afffcef381492ebe2c5d87f324e1b8815c"
+
+[[package]]
+name = "rustc-hash"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "08d43f7aa6b08d49f382cde6a7982047c3426db949b1424bc4b7ec9ae12c6ce2"
 
 [[package]]
 name = "rustc_version"
@@ -25377,6 +26170,28 @@ dependencies = [
 ]
 
 [[package]]
+name = "serde_with"
+version = "2.3.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "07ff71d2c147a7b57362cead5e22f772cd52f6ab31cfcd9edcd7f6aeb2a0afbe"
+dependencies = [
+ "serde",
+ "serde_with_macros",
+]
+
+[[package]]
+name = "serde_with_macros"
+version = "2.3.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "881b6f881b17d13214e5d494c939ebab463d01264ce1811e9d4ac3a882e7695f"
+dependencies = [
+ "darling",
+ "proc-macro2",
+ "quote",
+ "syn 2.0.103",
+]
+
+[[package]]
 name = "sha2"
 version = "0.9.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -25402,6 +26217,18 @@ dependencies = [
 
 [[package]]
 name = "sha3"
+version = "0.9.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f81199417d4e5de3f04b1e871023acea7389672c4135918f05aa9cbf2f2fa809"
+dependencies = [
+ "block-buffer 0.9.0",
+ "digest 0.9.0",
+ "keccak",
+ "opaque-debug",
+]
+
+[[package]]
+name = "sha3"
 version = "0.10.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "75872d278a8f37ef87fa0ddbda7802605cb18344497949862c0d4dcb291eba60"
@@ -25417,809 +26244,509 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0fda2ff0d084019ba4d7c6f371c95d8fd75ce3524c3cb8fb653a3023f6323e64"
 
 [[package]]
+name = "signature"
+version = "1.6.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "74233d3b3b2f6d4b006dc19dee745e73e2a6bfb6f93607cd3b02bd5b00797d7c"
+
+[[package]]
+name = "siphasher"
+version = "0.3.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "38b58827f4464d87d377d175e90bf58eb00fd8716ff0a62f80356b5e61555d0d"
+
+[[package]]
+name = "sized-chunks"
+version = "0.6.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "16d69225bde7a69b235da73377861095455d298f2b970996eec25ddbb42b3d1e"
+dependencies = [
+ "bitmaps",
+ "typenum",
+]
+
+[[package]]
 name = "smallvec"
 version = "1.15.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "67b1b7a3b5fe4f1376887184045fcf45c69e92af734b7aaddc05fb777b6fbd03"
 
 [[package]]
-name = "solana-account"
-version = "2.2.1"
+name = "solana-frozen-abi"
+version = "1.18.26"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0f949fe4edaeaea78c844023bfc1c898e0b1f5a100f8a8d2d0f85d0a7b090258"
+checksum = "03ab2c30c15311b511c0d1151e4ab6bc9a3e080a37e7c6e7c2d96f5784cf9434"
 dependencies = [
- "solana-account-info",
- "solana-clock",
- "solana-instruction",
- "solana-pubkey",
- "solana-sdk-ids",
-]
-
-[[package]]
-name = "solana-account-info"
-version = "2.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c8f5152a288ef1912300fc6efa6c2d1f9bb55d9398eb6c72326360b8063987da"
-dependencies = [
- "bincode",
- "serde",
- "solana-program-error",
- "solana-program-memory",
- "solana-pubkey",
-]
-
-[[package]]
-name = "solana-address-lookup-table-interface"
-version = "2.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d1673f67efe870b64a65cb39e6194be5b26527691ce5922909939961a6e6b395"
-dependencies = [
- "bincode",
- "bytemuck",
- "serde",
- "serde_derive",
- "solana-clock",
- "solana-instruction",
- "solana-pubkey",
- "solana-sdk-ids",
- "solana-slot-hashes",
-]
-
-[[package]]
-name = "solana-atomic-u64"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d52e52720efe60465b052b9e7445a01c17550666beec855cce66f44766697bc2"
-dependencies = [
- "parking_lot",
-]
-
-[[package]]
-name = "solana-big-mod-exp"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "75db7f2bbac3e62cfd139065d15bcda9e2428883ba61fc8d27ccb251081e7567"
-dependencies = [
- "num-bigint",
- "num-traits",
- "solana-define-syscall",
-]
-
-[[package]]
-name = "solana-bincode"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "19a3787b8cf9c9fe3dd360800e8b70982b9e5a8af9e11c354b6665dd4a003adc"
-dependencies = [
- "bincode",
- "serde",
- "solana-instruction",
-]
-
-[[package]]
-name = "solana-blake3-hasher"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a1a0801e25a1b31a14494fc80882a036be0ffd290efc4c2d640bfcca120a4672"
-dependencies = [
- "blake3",
- "solana-define-syscall",
- "solana-hash",
- "solana-sanitize",
-]
-
-[[package]]
-name = "solana-borsh"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "718333bcd0a1a7aed6655aa66bef8d7fb047944922b2d3a18f49cbc13e73d004"
-dependencies = [
- "borsh 0.10.4",
- "borsh 1.5.7",
-]
-
-[[package]]
-name = "solana-clock"
-version = "2.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1bb482ab70fced82ad3d7d3d87be33d466a3498eb8aa856434ff3c0dfc2e2e31"
-dependencies = [
- "serde",
- "serde_derive",
- "solana-sdk-ids",
- "solana-sdk-macro",
- "solana-sysvar-id",
-]
-
-[[package]]
-name = "solana-cpi"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8dc71126edddc2ba014622fc32d0f5e2e78ec6c5a1e0eb511b85618c09e9ea11"
-dependencies = [
- "solana-account-info",
- "solana-define-syscall",
- "solana-instruction",
- "solana-program-error",
- "solana-pubkey",
- "solana-stable-layout",
-]
-
-[[package]]
-name = "solana-decode-error"
-version = "2.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8c781686a18db2f942e70913f7ca15dc120ec38dcab42ff7557db2c70c625a35"
-dependencies = [
- "num-traits",
-]
-
-[[package]]
-name = "solana-define-syscall"
-version = "2.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2ae3e2abcf541c8122eafe9a625d4d194b4023c20adde1e251f94e056bb1aee2"
-
-[[package]]
-name = "solana-epoch-rewards"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "86b575d3dd323b9ea10bb6fe89bf6bf93e249b215ba8ed7f68f1a3633f384db7"
-dependencies = [
- "serde",
- "serde_derive",
- "solana-hash",
- "solana-sdk-ids",
- "solana-sdk-macro",
- "solana-sysvar-id",
-]
-
-[[package]]
-name = "solana-epoch-schedule"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3fce071fbddecc55d727b1d7ed16a629afe4f6e4c217bc8d00af3b785f6f67ed"
-dependencies = [
- "serde",
- "serde_derive",
- "solana-sdk-ids",
- "solana-sdk-macro",
- "solana-sysvar-id",
-]
-
-[[package]]
-name = "solana-example-mocks"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "84461d56cbb8bb8d539347151e0525b53910102e4bced875d49d5139708e39d3"
-dependencies = [
- "serde",
- "serde_derive",
- "solana-address-lookup-table-interface",
- "solana-clock",
- "solana-hash",
- "solana-instruction",
- "solana-keccak-hasher",
- "solana-message",
- "solana-nonce",
- "solana-pubkey",
- "solana-sdk-ids",
- "solana-system-interface",
- "thiserror 2.0.12",
-]
-
-[[package]]
-name = "solana-feature-gate-interface"
-version = "2.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "43f5c5382b449e8e4e3016fb05e418c53d57782d8b5c30aa372fc265654b956d"
-dependencies = [
- "bincode",
- "serde",
- "serde_derive",
- "solana-account",
- "solana-account-info",
- "solana-instruction",
- "solana-program-error",
- "solana-pubkey",
- "solana-rent",
- "solana-sdk-ids",
- "solana-system-interface",
-]
-
-[[package]]
-name = "solana-fee-calculator"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d89bc408da0fb3812bc3008189d148b4d3e08252c79ad810b245482a3f70cd8d"
-dependencies = [
- "log",
- "serde",
- "serde_derive",
-]
-
-[[package]]
-name = "solana-hash"
-version = "2.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b5b96e9f0300fa287b545613f007dfe20043d7812bee255f418c1eb649c93b63"
-dependencies = [
- "borsh 1.5.7",
- "bytemuck",
- "bytemuck_derive",
- "five8",
- "js-sys",
- "serde",
- "serde_derive",
- "solana-atomic-u64",
- "solana-sanitize",
- "wasm-bindgen",
-]
-
-[[package]]
-name = "solana-instruction"
-version = "2.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "47298e2ce82876b64f71e9d13a46bc4b9056194e7f9937ad3084385befa50885"
-dependencies = [
- "bincode",
- "borsh 1.5.7",
- "getrandom 0.2.16",
- "js-sys",
- "num-traits",
- "serde",
- "serde_derive",
- "solana-define-syscall",
- "solana-pubkey",
- "wasm-bindgen",
-]
-
-[[package]]
-name = "solana-instructions-sysvar"
-version = "2.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e0e85a6fad5c2d0c4f5b91d34b8ca47118fc593af706e523cdbedf846a954f57"
-dependencies = [
- "bitflags",
- "solana-account-info",
- "solana-instruction",
- "solana-program-error",
- "solana-pubkey",
- "solana-sanitize",
- "solana-sdk-ids",
- "solana-serialize-utils",
- "solana-sysvar-id",
-]
-
-[[package]]
-name = "solana-keccak-hasher"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c7aeb957fbd42a451b99235df4942d96db7ef678e8d5061ef34c9b34cae12f79"
-dependencies = [
- "sha3",
- "solana-define-syscall",
- "solana-hash",
- "solana-sanitize",
-]
-
-[[package]]
-name = "solana-last-restart-slot"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4a6360ac2fdc72e7463565cd256eedcf10d7ef0c28a1249d261ec168c1b55cdd"
-dependencies = [
- "serde",
- "serde_derive",
- "solana-sdk-ids",
- "solana-sdk-macro",
- "solana-sysvar-id",
-]
-
-[[package]]
-name = "solana-loader-v2-interface"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d8ab08006dad78ae7cd30df8eea0539e207d08d91eaefb3e1d49a446e1c49654"
-dependencies = [
- "serde",
- "serde_bytes",
- "serde_derive",
- "solana-instruction",
- "solana-pubkey",
- "solana-sdk-ids",
-]
-
-[[package]]
-name = "solana-loader-v3-interface"
-version = "5.0.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6f7162a05b8b0773156b443bccd674ea78bb9aa406325b467ea78c06c99a63a2"
-dependencies = [
- "serde",
- "serde_bytes",
- "serde_derive",
- "solana-instruction",
- "solana-pubkey",
- "solana-sdk-ids",
- "solana-system-interface",
-]
-
-[[package]]
-name = "solana-loader-v4-interface"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "706a777242f1f39a83e2a96a2a6cb034cb41169c6ecbee2cf09cb873d9659e7e"
-dependencies = [
- "serde",
- "serde_bytes",
- "serde_derive",
- "solana-instruction",
- "solana-pubkey",
- "solana-sdk-ids",
- "solana-system-interface",
-]
-
-[[package]]
-name = "solana-message"
-version = "2.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1796aabce376ff74bf89b78d268fa5e683d7d7a96a0a4e4813ec34de49d5314b"
-dependencies = [
- "bincode",
- "blake3",
+ "block-buffer 0.10.4",
+ "bs58 0.4.0",
+ "bv",
+ "either",
+ "generic-array",
+ "im",
  "lazy_static",
+ "log",
+ "memmap2",
+ "rustc_version",
  "serde",
+ "serde_bytes",
  "serde_derive",
- "solana-bincode",
- "solana-hash",
- "solana-instruction",
- "solana-pubkey",
- "solana-sanitize",
- "solana-sdk-ids",
- "solana-short-vec",
- "solana-system-interface",
- "solana-transaction-error",
- "wasm-bindgen",
+ "sha2 0.10.9",
+ "solana-frozen-abi-macro",
+ "subtle",
+ "thiserror",
 ]
 
 [[package]]
-name = "solana-msg"
-version = "2.2.1"
+name = "solana-frozen-abi-macro"
+version = "1.18.26"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f36a1a14399afaabc2781a1db09cb14ee4cc4ee5c7a5a3cfcc601811379a8092"
+checksum = "c142f779c3633ac83c84d04ff06c70e1f558c876f13358bed77ba629c7417932"
 dependencies = [
- "solana-define-syscall",
+ "proc-macro2",
+ "quote",
+ "rustc_version",
+ "syn 2.0.103",
 ]
 
 [[package]]
-name = "solana-native-token"
-version = "2.3.0"
+name = "solana-logger"
+version = "1.18.26"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "61515b880c36974053dd499c0510066783f0cc6ac17def0c7ef2a244874cf4a9"
-
-[[package]]
-name = "solana-nonce"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "703e22eb185537e06204a5bd9d509b948f0066f2d1d814a6f475dafb3ddf1325"
+checksum = "121d36ffb3c6b958763312cbc697fbccba46ee837d3a0aa4fc0e90fcb3b884f3"
 dependencies = [
- "serde",
- "serde_derive",
- "solana-fee-calculator",
- "solana-hash",
- "solana-pubkey",
- "solana-sha256-hasher",
+ "env_logger",
+ "lazy_static",
+ "log",
 ]
 
 [[package]]
 name = "solana-program"
-version = "2.3.0"
+version = "1.18.26"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "98eca145bd3545e2fbb07166e895370576e47a00a7d824e325390d33bf467210"
+checksum = "c10f4588cefd716b24a1a40dd32c278e43a560ab8ce4de6b5805c9d113afdfa1"
 dependencies = [
+ "ark-bn254",
+ "ark-ec",
+ "ark-ff",
+ "ark-serialize",
+ "base64 0.21.7",
  "bincode",
+ "bitflags",
  "blake3",
  "borsh 0.10.4",
+ "borsh 0.9.3",
  "borsh 1.5.7",
- "bs58",
+ "bs58 0.4.0",
+ "bv",
  "bytemuck",
+ "cc",
  "console_error_panic_hook",
  "console_log",
+ "curve25519-dalek",
  "getrandom 0.2.16",
+ "itertools",
+ "js-sys",
  "lazy_static",
+ "libc",
+ "libsecp256k1",
+ "light-poseidon",
  "log",
  "memoffset",
  "num-bigint",
  "num-derive",
  "num-traits",
+ "parking_lot",
  "rand 0.8.5",
+ "rustc_version",
+ "rustversion",
  "serde",
  "serde_bytes",
  "serde_derive",
- "solana-account-info",
- "solana-address-lookup-table-interface",
- "solana-atomic-u64",
- "solana-big-mod-exp",
- "solana-bincode",
- "solana-blake3-hasher",
- "solana-borsh",
- "solana-clock",
- "solana-cpi",
- "solana-decode-error",
- "solana-define-syscall",
- "solana-epoch-rewards",
- "solana-epoch-schedule",
- "solana-example-mocks",
- "solana-feature-gate-interface",
- "solana-fee-calculator",
- "solana-hash",
- "solana-instruction",
- "solana-instructions-sysvar",
- "solana-keccak-hasher",
- "solana-last-restart-slot",
- "solana-loader-v2-interface",
- "solana-loader-v3-interface",
- "solana-loader-v4-interface",
- "solana-message",
- "solana-msg",
- "solana-native-token",
- "solana-nonce",
- "solana-program-entrypoint",
- "solana-program-error",
- "solana-program-memory",
- "solana-program-option",
- "solana-program-pack",
- "solana-pubkey",
- "solana-rent",
- "solana-sanitize",
- "solana-sdk-ids",
+ "serde_json",
+ "sha2 0.10.9",
+ "sha3 0.10.8",
+ "solana-frozen-abi",
+ "solana-frozen-abi-macro",
  "solana-sdk-macro",
- "solana-secp256k1-recover",
- "solana-serde-varint",
- "solana-serialize-utils",
- "solana-sha256-hasher",
- "solana-short-vec",
- "solana-slot-hashes",
- "solana-slot-history",
- "solana-stable-layout",
- "solana-stake-interface",
- "solana-system-interface",
- "solana-sysvar",
- "solana-sysvar-id",
- "solana-vote-interface",
- "thiserror 2.0.12",
+ "thiserror",
+ "tiny-bip39",
  "wasm-bindgen",
+ "zeroize",
 ]
 
 [[package]]
-name = "solana-program-entrypoint"
-version = "2.3.0"
+name = "solana-sdk"
+version = "1.18.26"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "32ce041b1a0ed275290a5008ee1a4a6c48f5054c8a3d78d313c08958a06aedbd"
+checksum = "580ad66c2f7a4c3cb3244fe21440546bd500f5ecb955ad9826e92a78dded8009"
 dependencies = [
- "solana-account-info",
- "solana-msg",
- "solana-program-error",
- "solana-pubkey",
-]
-
-[[package]]
-name = "solana-program-error"
-version = "2.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9ee2e0217d642e2ea4bee237f37bd61bb02aec60da3647c48ff88f6556ade775"
-dependencies = [
+ "assert_matches",
+ "base64 0.21.7",
+ "bincode",
+ "bitflags",
  "borsh 1.5.7",
- "num-traits",
- "serde",
- "serde_derive",
- "solana-decode-error",
- "solana-instruction",
- "solana-msg",
- "solana-pubkey",
-]
-
-[[package]]
-name = "solana-program-memory"
-version = "2.3.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3a5426090c6f3fd6cfdc10685322fede9ca8e5af43cd6a59e98bfe4e91671712"
-dependencies = [
- "solana-define-syscall",
-]
-
-[[package]]
-name = "solana-program-option"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dc677a2e9bc616eda6dbdab834d463372b92848b2bfe4a1ed4e4b4adba3397d0"
-
-[[package]]
-name = "solana-program-pack"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "319f0ef15e6e12dc37c597faccb7d62525a509fec5f6975ecb9419efddeb277b"
-dependencies = [
- "solana-program-error",
-]
-
-[[package]]
-name = "solana-pubkey"
-version = "2.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9b62adb9c3261a052ca1f999398c388f1daf558a1b492f60a6d9e64857db4ff1"
-dependencies = [
- "borsh 0.10.4",
- "borsh 1.5.7",
+ "bs58 0.4.0",
  "bytemuck",
- "bytemuck_derive",
- "curve25519-dalek",
- "five8",
- "five8_const",
- "getrandom 0.2.16",
+ "byteorder",
+ "chrono",
+ "derivation-path",
+ "digest 0.10.7",
+ "ed25519-dalek",
+ "ed25519-dalek-bip32",
+ "generic-array",
+ "hmac 0.12.1",
+ "itertools",
  "js-sys",
+ "lazy_static",
+ "libsecp256k1",
+ "log",
+ "memmap2",
+ "num-derive",
  "num-traits",
+ "num_enum",
+ "pbkdf2 0.11.0",
+ "qstring",
+ "qualifier_attr",
+ "rand 0.7.3",
+ "rand 0.8.5",
+ "rustc_version",
+ "rustversion",
  "serde",
+ "serde_bytes",
  "serde_derive",
- "solana-atomic-u64",
- "solana-decode-error",
- "solana-define-syscall",
- "solana-sanitize",
- "solana-sha256-hasher",
- "wasm-bindgen",
-]
-
-[[package]]
-name = "solana-rent"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d1aea8fdea9de98ca6e8c2da5827707fb3842833521b528a713810ca685d2480"
-dependencies = [
- "serde",
- "serde_derive",
- "solana-sdk-ids",
+ "serde_json",
+ "serde_with",
+ "sha2 0.10.9",
+ "sha3 0.10.8",
+ "siphasher",
+ "solana-frozen-abi",
+ "solana-frozen-abi-macro",
+ "solana-logger",
+ "solana-program",
  "solana-sdk-macro",
- "solana-sysvar-id",
-]
-
-[[package]]
-name = "solana-sanitize"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "61f1bc1357b8188d9c4a3af3fc55276e56987265eb7ad073ae6f8180ee54cecf"
-
-[[package]]
-name = "solana-sdk-ids"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5c5d8b9cc68d5c88b062a33e23a6466722467dde0035152d8fb1afbcdf350a5f"
-dependencies = [
- "solana-pubkey",
+ "thiserror",
+ "uriparse",
+ "wasm-bindgen",
 ]
 
 [[package]]
 name = "solana-sdk-macro"
-version = "2.2.1"
+version = "1.18.26"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "86280da8b99d03560f6ab5aca9de2e38805681df34e0bb8f238e69b29433b9df"
+checksum = "1b75d0f193a27719257af19144fdaebec0415d1c9e9226ae4bd29b791be5e9bd"
 dependencies = [
- "bs58",
+ "bs58 0.4.0",
  "proc-macro2",
  "quote",
+ "rustversion",
  "syn 2.0.103",
 ]
 
 [[package]]
-name = "solana-secp256k1-recover"
-version = "2.2.1"
+name = "solana-security-txt"
+version = "1.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "baa3120b6cdaa270f39444f5093a90a7b03d296d362878f7a6991d6de3bbe496"
-dependencies = [
- "libsecp256k1",
- "solana-define-syscall",
- "thiserror 2.0.12",
-]
+checksum = "468aa43b7edb1f9b7b7b686d5c3aeb6630dc1708e86e31343499dd5c4d775183"
 
 [[package]]
-name = "solana-serde-varint"
-version = "2.2.2"
+name = "solana-zk-token-sdk"
+version = "1.18.26"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2a7e155eba458ecfb0107b98236088c3764a09ddf0201ec29e52a0be40857113"
+checksum = "7cbdf4249b6dfcbba7d84e2b53313698043f60f8e22ce48286e6fbe8a17c8d16"
 dependencies = [
- "serde",
-]
-
-[[package]]
-name = "solana-serialize-utils"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "817a284b63197d2b27afdba829c5ab34231da4a9b4e763466a003c40ca4f535e"
-dependencies = [
- "solana-instruction",
- "solana-pubkey",
- "solana-sanitize",
-]
-
-[[package]]
-name = "solana-sha256-hasher"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0037386961c0d633421f53560ad7c80675c0447cba4d1bb66d60974dd486c7ea"
-dependencies = [
- "sha2 0.10.9",
- "solana-define-syscall",
- "solana-hash",
-]
-
-[[package]]
-name = "solana-short-vec"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5c54c66f19b9766a56fa0057d060de8378676cb64987533fa088861858fc5a69"
-dependencies = [
- "serde",
-]
-
-[[package]]
-name = "solana-slot-hashes"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0c8691982114513763e88d04094c9caa0376b867a29577939011331134c301ce"
-dependencies = [
- "serde",
- "serde_derive",
- "solana-hash",
- "solana-sdk-ids",
- "solana-sysvar-id",
-]
-
-[[package]]
-name = "solana-slot-history"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "97ccc1b2067ca22754d5283afb2b0126d61eae734fc616d23871b0943b0d935e"
-dependencies = [
- "bv",
- "serde",
- "serde_derive",
- "solana-sdk-ids",
- "solana-sysvar-id",
-]
-
-[[package]]
-name = "solana-stable-layout"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9f14f7d02af8f2bc1b5efeeae71bc1c2b7f0f65cd75bcc7d8180f2c762a57f54"
-dependencies = [
- "solana-instruction",
- "solana-pubkey",
-]
-
-[[package]]
-name = "solana-stake-interface"
-version = "1.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5269e89fde216b4d7e1d1739cf5303f8398a1ff372a81232abbee80e554a838c"
-dependencies = [
- "borsh 0.10.4",
- "borsh 1.5.7",
- "num-traits",
- "serde",
- "serde_derive",
- "solana-clock",
- "solana-cpi",
- "solana-decode-error",
- "solana-instruction",
- "solana-program-error",
- "solana-pubkey",
- "solana-system-interface",
- "solana-sysvar-id",
-]
-
-[[package]]
-name = "solana-system-interface"
-version = "1.0.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "94d7c18cb1a91c6be5f5a8ac9276a1d7c737e39a21beba9ea710ab4b9c63bc90"
-dependencies = [
- "js-sys",
- "num-traits",
- "serde",
- "serde_derive",
- "solana-decode-error",
- "solana-instruction",
- "solana-pubkey",
- "wasm-bindgen",
-]
-
-[[package]]
-name = "solana-sysvar"
-version = "2.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d50c92bc019c590f5e42c61939676e18d14809ed00b2a59695dd5c67ae72c097"
-dependencies = [
- "base64 0.22.1",
+ "aes-gcm-siv",
+ "base64 0.21.7",
  "bincode",
  "bytemuck",
- "bytemuck_derive",
+ "byteorder",
+ "curve25519-dalek",
+ "getrandom 0.1.16",
+ "itertools",
  "lazy_static",
- "serde",
- "serde_derive",
- "solana-account-info",
- "solana-clock",
- "solana-define-syscall",
- "solana-epoch-rewards",
- "solana-epoch-schedule",
- "solana-fee-calculator",
- "solana-hash",
- "solana-instruction",
- "solana-instructions-sysvar",
- "solana-last-restart-slot",
- "solana-program-entrypoint",
- "solana-program-error",
- "solana-program-memory",
- "solana-pubkey",
- "solana-rent",
- "solana-sanitize",
- "solana-sdk-ids",
- "solana-sdk-macro",
- "solana-slot-hashes",
- "solana-slot-history",
- "solana-stake-interface",
- "solana-sysvar-id",
-]
-
-[[package]]
-name = "solana-sysvar-id"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5762b273d3325b047cfda250787f8d796d781746860d5d0a746ee29f3e8812c1"
-dependencies = [
- "solana-pubkey",
- "solana-sdk-ids",
-]
-
-[[package]]
-name = "solana-transaction-error"
-version = "2.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "222a9dc8fdb61c6088baab34fc3a8b8473a03a7a5fd404ed8dd502fa79b67cb1"
-dependencies = [
- "solana-instruction",
- "solana-sanitize",
-]
-
-[[package]]
-name = "solana-vote-interface"
-version = "2.2.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ef4f08746f154458f28b98330c0d55cb431e2de64ee4b8efc98dcbe292e0672b"
-dependencies = [
- "bincode",
+ "merlin",
  "num-derive",
  "num-traits",
+ "rand 0.7.3",
  "serde",
- "serde_derive",
- "solana-clock",
- "solana-decode-error",
- "solana-hash",
- "solana-instruction",
- "solana-pubkey",
- "solana-rent",
- "solana-sdk-ids",
- "solana-serde-varint",
- "solana-serialize-utils",
- "solana-short-vec",
- "solana-system-interface",
+ "serde_json",
+ "sha3 0.9.1",
+ "solana-program",
+ "solana-sdk",
+ "subtle",
+ "thiserror",
+ "zeroize",
 ]
+
+[[package]]
+name = "spl-associated-token-account"
+version = "2.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "992d9c64c2564cc8f63a4b508bf3ebcdf2254b0429b13cd1d31adb6162432a5f"
+dependencies = [
+ "assert_matches",
+ "borsh 0.10.4",
+ "num-derive",
+ "num-traits",
+ "solana-program",
+ "spl-token",
+ "spl-token-2022 1.0.0",
+ "thiserror",
+]
+
+[[package]]
+name = "spl-discriminator"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cce5d563b58ef1bb2cdbbfe0dfb9ffdc24903b10ae6a4df2d8f425ece375033f"
+dependencies = [
+ "bytemuck",
+ "solana-program",
+ "spl-discriminator-derive",
+]
+
+[[package]]
+name = "spl-discriminator-derive"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "07fd7858fc4ff8fb0e34090e41d7eb06a823e1057945c26d480bfc21d2338a93"
+dependencies = [
+ "quote",
+ "spl-discriminator-syn",
+ "syn 2.0.103",
+]
+
+[[package]]
+name = "spl-discriminator-syn"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "18fea7be851bd98d10721782ea958097c03a0c2a07d8d4997041d0ece6319a63"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "sha2 0.10.9",
+ "syn 2.0.103",
+ "thiserror",
+]
+
+[[package]]
+name = "spl-memo"
+version = "4.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a49f49f95f2d02111ded31696ab38a081fab623d4c76bd4cb074286db4560836"
+dependencies = [
+ "solana-program",
+]
+
+[[package]]
+name = "spl-pod"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2881dddfca792737c0706fa0175345ab282b1b0879c7d877bad129645737c079"
+dependencies = [
+ "borsh 0.10.4",
+ "bytemuck",
+ "solana-program",
+ "solana-zk-token-sdk",
+ "spl-program-error",
+]
+
+[[package]]
+name = "spl-program-error"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "249e0318493b6bcf27ae9902600566c689b7dfba9f1bdff5893e92253374e78c"
+dependencies = [
+ "num-derive",
+ "num-traits",
+ "solana-program",
+ "spl-program-error-derive",
+ "thiserror",
+]
+
+[[package]]
+name = "spl-program-error-derive"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1845dfe71fd68f70382232742e758557afe973ae19e6c06807b2c30f5d5cb474"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "sha2 0.10.9",
+ "syn 2.0.103",
+]
+
+[[package]]
+name = "spl-tlv-account-resolution"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "062e148d3eab7b165582757453632ffeef490c02c86a48bfdb4988f63eefb3b9"
+dependencies = [
+ "bytemuck",
+ "solana-program",
+ "spl-discriminator",
+ "spl-pod",
+ "spl-program-error",
+ "spl-type-length-value",
+]
+
+[[package]]
+name = "spl-tlv-account-resolution"
+version = "0.5.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "615d381f48ddd2bb3c57c7f7fb207591a2a05054639b18a62e785117dd7a8683"
+dependencies = [
+ "bytemuck",
+ "solana-program",
+ "spl-discriminator",
+ "spl-pod",
+ "spl-program-error",
+ "spl-type-length-value",
+]
+
+[[package]]
+name = "spl-token"
+version = "4.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b9eb465e4bf5ce1d498f05204c8089378c1ba34ef2777ea95852fc53a1fd4fb2"
+dependencies = [
+ "arrayref",
+ "bytemuck",
+ "num-derive",
+ "num-traits",
+ "num_enum",
+ "solana-program",
+ "thiserror",
+]
+
+[[package]]
+name = "spl-token-2022"
+version = "0.9.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e4abf34a65ba420584a0c35f3903f8d727d1f13ababbdc3f714c6b065a686e86"
+dependencies = [
+ "arrayref",
+ "bytemuck",
+ "num-derive",
+ "num-traits",
+ "num_enum",
+ "solana-program",
+ "solana-zk-token-sdk",
+ "spl-memo",
+ "spl-pod",
+ "spl-token",
+ "spl-token-metadata-interface",
+ "spl-transfer-hook-interface 0.3.0",
+ "spl-type-length-value",
+ "thiserror",
+]
+
+[[package]]
+name = "spl-token-2022"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d697fac19fd74ff472dfcc13f0b442dd71403178ce1de7b5d16f83a33561c059"
+dependencies = [
+ "arrayref",
+ "bytemuck",
+ "num-derive",
+ "num-traits",
+ "num_enum",
+ "solana-program",
+ "solana-security-txt",
+ "solana-zk-token-sdk",
+ "spl-memo",
+ "spl-pod",
+ "spl-token",
+ "spl-token-group-interface",
+ "spl-token-metadata-interface",
+ "spl-transfer-hook-interface 0.4.1",
+ "spl-type-length-value",
+ "thiserror",
+]
+
+[[package]]
+name = "spl-token-group-interface"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b889509d49fa74a4a033ca5dae6c2307e9e918122d97e58562f5c4ffa795c75d"
+dependencies = [
+ "bytemuck",
+ "solana-program",
+ "spl-discriminator",
+ "spl-pod",
+ "spl-program-error",
+]
+
+[[package]]
+name = "spl-token-metadata-interface"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4c16ce3ba6979645fb7627aa1e435576172dd63088dc7848cb09aa331fa1fe4f"
+dependencies = [
+ "borsh 0.10.4",
+ "solana-program",
+ "spl-discriminator",
+ "spl-pod",
+ "spl-program-error",
+ "spl-type-length-value",
+]
+
+[[package]]
+name = "spl-transfer-hook-interface"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "051d31803f873cabe71aec3c1b849f35248beae5d19a347d93a5c9cccc5d5a9b"
+dependencies = [
+ "arrayref",
+ "bytemuck",
+ "solana-program",
+ "spl-discriminator",
+ "spl-pod",
+ "spl-program-error",
+ "spl-tlv-account-resolution 0.4.0",
+ "spl-type-length-value",
+]
+
+[[package]]
+name = "spl-transfer-hook-interface"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7aabdb7c471566f6ddcee724beb8618449ea24b399e58d464d6b5bc7db550259"
+dependencies = [
+ "arrayref",
+ "bytemuck",
+ "solana-program",
+ "spl-discriminator",
+ "spl-pod",
+ "spl-program-error",
+ "spl-tlv-account-resolution 0.5.1",
+ "spl-type-length-value",
+]
+
+[[package]]
+name = "spl-type-length-value"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a468e6f6371f9c69aae760186ea9f1a01c2908351b06a5e0026d21cfc4d7ecac"
+dependencies = [
+ "bytemuck",
+ "solana-program",
+ "spl-discriminator",
+ "spl-pod",
+ "spl-program-error",
+]
+
+[[package]]
+name = "strsim"
+version = "0.11.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7da8b5736845d9f2fcb837ea5d9e2628564b3b043a70948a3f0b778838c5fb4f"
 
 [[package]]
 name = "subtle"
-version = "2.6.1"
+version = "2.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "13c2bddecc57b384dee18652358fb23172facb8a2c51ccc10d74c157bdea3292"
+checksum = "6bdef32e8150c2a081110b42772ffe7d7c9032b606bc226c8260fd97e0976601"
 
 [[package]]
 name = "syn"
@@ -26244,21 +26771,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "termcolor"
+version = "1.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "06794f8f6c5c898b3275aebefa6b8a1cb24cd2c6c79397ab15774837a0bc5755"
+dependencies = [
+ "winapi-util",
+]
+
+[[package]]
 name = "thiserror"
 version = "1.0.69"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b6aaf5339b578ea85b50e080feb250a3e8ae8cfcdff9a461c9ec2904bc923f52"
 dependencies = [
- "thiserror-impl 1.0.69",
-]
-
-[[package]]
-name = "thiserror"
-version = "2.0.12"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "567b8a2dae586314f7be2a752ec7474332959c6460e02bde30d702a66d488708"
-dependencies = [
- "thiserror-impl 2.0.12",
+ "thiserror-impl",
 ]
 
 [[package]]
@@ -26273,14 +26800,22 @@ dependencies = [
 ]
 
 [[package]]
-name = "thiserror-impl"
-version = "2.0.12"
+name = "tiny-bip39"
+version = "0.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7f7cf42b4507d8ea322120659672cf1b9dbb93f8f2d4ecfd6e51350ff5b17a1d"
+checksum = "ffc59cb9dfc85bb312c3a78fd6aa8a8582e310b0fa885d5bb877f6dcc601839d"
 dependencies = [
- "proc-macro2",
- "quote",
- "syn 2.0.103",
+ "anyhow",
+ "hmac 0.8.1",
+ "once_cell",
+ "pbkdf2 0.4.0",
+ "rand 0.7.3",
+ "rustc-hash",
+ "sha2 0.9.9",
+ "thiserror",
+ "unicode-normalization",
+ "wasm-bindgen",
+ "zeroize",
 ]
 
 [[package]]
@@ -26337,10 +26872,39 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5a5f39404a5da50712a4c1eecf25e90dd62b613502b7e925fd4e4d19b5c96512"
 
 [[package]]
+name = "unicode-normalization"
+version = "0.1.24"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5033c97c4262335cded6d6fc3e5c18ab755e1a3dc96376350f3d8e9f009ad956"
+dependencies = [
+ "tinyvec",
+]
+
+[[package]]
 name = "unicode-segmentation"
 version = "1.12.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f6ccf251212114b54433ec949fd6a7841275f9ada20dddd2f29e9ceea4501493"
+
+[[package]]
+name = "universal-hash"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9f214e8f697e925001e66ec2c6e37a4ef93f0f78c2eed7814394e10c62025b05"
+dependencies = [
+ "generic-array",
+ "subtle",
+]
+
+[[package]]
+name = "uriparse"
+version = "0.6.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0200d0fc04d809396c2ad43f3c95da3582a2556eba8d453c1087f4120ee352ff"
+dependencies = [
+ "fnv",
+ "lazy_static",
+]
 
 [[package]]
 name = "version_check"
@@ -26359,6 +26923,15 @@ name = "wasi"
 version = "0.11.1+wasi-snapshot-preview1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ccf3ec651a847eb01de73ccad15eb7d99f80485de043efb2f370cd654f4ea44b"
+
+[[package]]
+name = "wasi"
+version = "0.14.2+wasi-0.2.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9683f9a5a998d873c0d21fcbe3c083009670149a8fab228644b8bd36b2c48cb3"
+dependencies = [
+ "wit-bindgen-rt",
+]
 
 [[package]]
 name = "wasm-bindgen"
@@ -26426,6 +26999,46 @@ checksum = "33b6dd2ef9186f1f2072e409e99cd22a975331a6b3591b12c764e0e55c60d5d2"
 dependencies = [
  "js-sys",
  "wasm-bindgen",
+]
+
+[[package]]
+name = "winapi"
+version = "0.3.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419"
+dependencies = [
+ "winapi-i686-pc-windows-gnu",
+ "winapi-x86_64-pc-windows-gnu",
+]
+
+[[package]]
+name = "winapi-i686-pc-windows-gnu"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6"
+
+[[package]]
+name = "winapi-util"
+version = "0.1.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cf221c93e13a30d793f7645a0e7762c55d169dbb0a49671918a2319d289b10bb"
+dependencies = [
+ "windows-sys",
+]
+
+[[package]]
+name = "winapi-x86_64-pc-windows-gnu"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
+
+[[package]]
+name = "windows-sys"
+version = "0.59.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1e38bc4d79ed67fd075bcc251a1c39b32a1776bbe92e5bef1f0bf1f8c531853b"
+dependencies = [
+ "windows-targets",
 ]
 
 [[package]]
@@ -26502,6 +27115,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "wit-bindgen-rt"
+version = "0.39.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6f42320e61fe2cfd34354ecb597f86f413484a798ba44a8ca1165c58d42da6c1"
+dependencies = [
+ "bitflags",
+]
+
+[[package]]
 name = "zerocopy"
 version = "0.8.26"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -26523,39 +27145,70 @@ dependencies = [
 
 [[package]]
 name = "zeroize"
-version = "1.8.1"
+version = "1.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ced3678a2879b30306d323f4542626697a464a97c0a07c9aebf7ebca65cd4dde"
+checksum = "4756f7db3f7b5574938c3eb1c117038b8e07f95ee6718c0efad4ac21508f1efd"
+dependencies = [
+ "zeroize_derive",
+]
+
+[[package]]
+name = "zeroize_derive"
+version = "1.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ce36e65b0d2999d2aafac989fb249189a141aee1f53c612c1f37d72631959f69"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.103",
+]
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\Cargo.lock
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\Cargo.lock
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\Cargo.toml
-   Rozmiar: 105 bajtów
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\Cargo.toml
+   Rozmiar: 497 bajtów
 
 
-[workspace]
-members = [
-    "programs/presale"
-]
-resolver = "2"
+[package]
+name = "presale"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
 
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "phoenix_presale"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+# === AKTUALIZACJA WERSJI I DODANIE FUNKCJI ===
+anchor-lang = { version = "0.30.1", features = ["init-if-needed"] }
+anchor-spl = "0.30.1"
+
+# === DODANIE WYMAGANEJ KONFIGURACJI ===
 [profile.release]
 overflow-checks = true
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\Cargo.toml
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\Cargo.toml
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\package.json
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\package.json
    Rozmiar: 461 bajtów
 
 
@@ -26582,13 +27235,13 @@ overflow-checks = true
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\package.json
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\package.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\tsconfig.json
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\tsconfig.json
    Rozmiar: 236 bajtów
 
 
@@ -26605,13 +27258,13 @@ overflow-checks = true
 }
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\tsconfig.json
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\tsconfig.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\yarn.lock
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\yarn.lock
    Rozmiar: 51932 bajtów
 
 
@@ -27762,13 +28415,13 @@ yocto-queue@^0.1.0:
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\yarn.lock
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\yarn.lock
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\migrations\deploy.ts
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\migrations\deploy.ts
    Rozmiar: 1233 bajtów
 
 
@@ -27801,13 +28454,13 @@ module.exports = async function (provider) {
 };
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\migrations\deploy.ts
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\migrations\deploy.ts
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\programs\presale\Cargo.toml
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\programs\presale\Cargo.toml
    Rozmiar: 313 bajtów
 
 
@@ -27833,13 +28486,13 @@ anchor-lang = "0.29.0"
 anchor-spl = "0.29.0"
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\programs\presale\Cargo.toml
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\programs\presale\Cargo.toml
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\programs\presale\Xargo.toml
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\programs\presale\Xargo.toml
    Rozmiar: 62 bajtów
 
 
@@ -27848,27 +28501,27 @@ features = []
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\programs\presale\Xargo.toml
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\programs\presale\Xargo.toml
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\programs\presale\src\lib.rs
-   Rozmiar: 7223 bajtów
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\programs\presale\src\lib.rs
+   Rozmiar: 6433 bajtów
 
 
-// programs/presale/src/lib.rs
 use anchor_lang::prelude::*;
 use anchor_lang::system_program;
-use anchor_spl::token::{self, Mint, MintTo, Token, TokenAccount};
 
-declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
+// Deklaracja ID programu, które zostanie nadpisane przy pierwszym wdrożeniu.
+declare_id!("9oemjxjE2zFJFVRynHVmWg1nTMWgTM3hGCetuAJkG21U");
 
 #[program]
 pub mod phoenix_presale {
     use super::*;
 
+    // Inicjalizuje nową przedsprzedaż.
     pub fn initialize(
         ctx: Context<Initialize>,
         price_sol: f64,
@@ -27876,33 +28529,26 @@ pub mod phoenix_presale {
         hard_cap_sol: f64,
         start_time: i64,
         end_time: i64,
-        token_mint: Pubkey,
     ) -> Result<()> {
         let sale = &mut ctx.accounts.sale;
         sale.authority = ctx.accounts.authority.key();
         sale.treasury = ctx.accounts.treasury.key();
         sale.vault = ctx.accounts.vault.key();
-
-        sale.token_mint = token_mint;
-
+        
         sale.price_lamports = (price_sol * 1_000_000_000.0) as u64;
         sale.soft_cap_lamports = (soft_cap_sol * 1_000_000_000.0) as u64;
         sale.hard_cap_lamports = (hard_cap_sol * 1_000_000_000.0) as u64;
-
+        
         sale.start_time = start_time;
         sale.end_time = end_time;
         sale.total_raised = 0;
         sale.is_active = true;
-
-        msg!("Przedsprzedaż zainicjalizowana!");
-        msg!("Cena za token: {} lamportów", sale.price_lamports);
-        msg!("Hard Cap: {} lamportów", sale.hard_cap_lamports);
-        msg!("Skarbiec projektu: {}", sale.treasury);
-        msg!("Sejf kontraktu (Vault): {}", sale.vault);
-
+        
+        msg!("Presale initialized!");
         Ok(())
     }
 
+    // Pozwala użytkownikowi na zakup tokenów.
     pub fn purchase(ctx: Context<Purchase>, amount_sol: f64) -> Result<()> {
         let sale = &mut ctx.accounts.sale;
         let clock = Clock::get()?;
@@ -27910,58 +28556,51 @@ pub mod phoenix_presale {
 
         require!(sale.is_active, PresaleError::SaleNotActive);
         require!(clock.unix_timestamp >= sale.start_time, PresaleError::SaleNotStarted);
-@@ -66,67 +70,94 @@ pub mod phoenix_presale {
+        require!(clock.unix_timestamp < sale.end_time, PresaleError::SaleEnded);
+        require!(sale.total_raised.checked_add(amount_lamports).unwrap() <= sale.hard_cap_lamports, PresaleError::HardCapExceeded);
+
+        let cpi_context = CpiContext::new(
+            ctx.accounts.system_program.to_account_info(),
+            system_program::Transfer {
+                from: ctx.accounts.purchaser.to_account_info(),
+                to: ctx.accounts.vault.to_account_info(),
+            },
+        );
+        system_program::transfer(cpi_context, amount_lamports)?;
+
+        sale.total_raised = sale.total_raised.checked_add(amount_lamports).unwrap();
+
+        let purchase_record = &mut ctx.accounts.purchase_record;
+        if purchase_record.purchaser == Pubkey::default() {
+            purchase_record.purchaser = ctx.accounts.purchaser.key();
         }
         purchase_record.amount_spent = purchase_record.amount_spent.checked_add(amount_lamports).unwrap();
-
-        msg!("Użytkownik {} zakupił tokeny za {} lamportów.", purchase_record.purchaser, amount_lamports);
+        
+        msg!("User {} purchased tokens for {} lamports.", purchase_record.purchaser, amount_lamports);
         Ok(())
     }
 
+    // Pozwala właścicielowi na wypłatę środków.
     pub fn withdraw_sol(ctx: Context<WithdrawSol>) -> Result<()> {
-        let sale = &ctx.accounts.sale;
         let vault = &mut ctx.accounts.vault;
         let treasury = &mut ctx.accounts.treasury;
         let clock = Clock::get()?;
 
-        require!(clock.unix_timestamp >= sale.end_time, PresaleError::SaleNotEndedYet);
-
-        let amount_to_withdraw = vault.lamports();
+        require!(clock.unix_timestamp >= ctx.accounts.sale.end_time, PresaleError::SaleNotEndedYet);
+        
+        let amount_to_withdraw = vault.to_account_info().lamports();
         require!(amount_to_withdraw > 0, PresaleError::InsufficientVaultBalance);
 
         **vault.to_account_info().try_borrow_mut_lamports()? -= amount_to_withdraw;
         **treasury.to_account_info().try_borrow_mut_lamports()? += amount_to_withdraw;
 
-        msg!("Wypłacono {} lamportów z sejfu do skarbca.", amount_to_withdraw);
+        msg!("Withdrew {} lamports from the vault to the treasury.", amount_to_withdraw);
         Ok(())
     }
-
-    pub fn claim_tokens(ctx: Context<ClaimTokens>) -> Result<()> {
-        let sale = &ctx.accounts.sale;
-        let purchase_record = &mut ctx.accounts.purchase_record;
-        let clock = Clock::get()?;
-
-        require!(clock.unix_timestamp >= sale.end_time, PresaleError::SaleNotEndedYet);
-        require!(purchase_record.amount_spent > 0, PresaleError::NothingToClaim);
-        require!(!purchase_record.claimed, PresaleError::AlreadyClaimed);
-
-        let token_amount = purchase_record.amount_spent / sale.price_lamports;
-        let seeds: &[&[u8]] = &[b"sale", &[ctx.bumps.get("sale").copied().unwrap()]];
-
-        token::mint_to(
-            CpiContext::new_with_signer(
-                ctx.accounts.token_program.to_account_info(),
-                MintTo {
-                    mint: ctx.accounts.token_mint.to_account_info(),
-                    to: ctx.accounts.purchaser_token_account.to_account_info(),
-                    authority: ctx.accounts.sale.to_account_info(),
-                },
-                &[seeds],
-            ),
-            token_amount,
-        )?;
-
-        purchase_record.claimed = true;
+    
+    // Szkielet funkcji do odbioru tokenów.
+    pub fn claim_tokens(_ctx: Context<ClaimTokens>) -> Result<()> {
+        msg!("Token claim logic to be implemented in the future.");
         Ok(())
     }
 }
@@ -27969,19 +28608,16 @@ pub mod phoenix_presale {
 #[derive(Accounts)]
 pub struct Initialize<'info> {
     #[account(
-        init,
-        payer = authority,
-        space = 8 + Sale::INIT_SPACE,
-        seeds = [b"sale"],
+        init, 
+        payer = authority, 
+        space = 8 + Sale::INIT_SPACE, 
+        seeds = [b"sale"], 
         bump
     )]
     pub sale: Account<'info, Sale>,
 
-    #[account(mut)]
-    pub token_mint: Account<'info, Mint>,
-
     #[account(
-        init,
+        init, 
         payer = authority,
         space = 8,
         seeds = [b"vault"],
@@ -27991,7 +28627,8 @@ pub struct Initialize<'info> {
 
     #[account(mut)]
     pub authority: Signer<'info>,
-
+    
+    /// CHECK: Safe because it's only set by the authority during initialization.
     #[account(mut)]
     pub treasury: AccountInfo<'info>,
 
@@ -28002,61 +28639,56 @@ pub struct Initialize<'info> {
 pub struct Purchase<'info> {
     #[account(mut, seeds = [b"sale"], bump)]
     pub sale: Account<'info, Sale>,
-
+    
     #[account(mut, seeds = [b"vault"], bump)]
     pub vault: SystemAccount<'info>,
-@@ -140,64 +171,87 @@ pub struct Purchase<'info> {
+    
+    #[account(
+        init_if_needed, 
+        payer = purchaser, 
+        space = 8 + PurchaseRecord::INIT_SPACE, 
+        seeds = [b"purchase", purchaser.key().as_ref()], 
+        bump
     )]
     pub purchase_record: Account<'info, PurchaseRecord>,
-
+    
     #[account(mut)]
     pub purchaser: Signer<'info>,
-
+    
     pub system_program: Program<'info, System>,
 }
 
 #[derive(Accounts)]
 pub struct WithdrawSol<'info> {
-    #[account(mut, has_one = authority, has_one = treasury, seeds = [b"sale"], bump)]
+    #[account(
+        mut, 
+        has_one = authority,
+        has_one = treasury,
+        seeds = [b"sale"], 
+        bump
+    )]
     pub sale: Account<'info, Sale>,
-
+    
     #[account(mut, seeds = [b"vault"], bump)]
     pub vault: SystemAccount<'info>,
-
+    
     #[account(mut)]
     pub authority: Signer<'info>,
-
+    
+    /// CHECK: Safety is guaranteed by the `has_one = treasury` constraint on the `sale` account.
     #[account(mut)]
     pub treasury: AccountInfo<'info>,
 }
 
 #[derive(Accounts)]
-pub struct ClaimTokens<'info> {
-    #[account(mut, seeds = [b"sale"], bump, has_one = token_mint)]
-    pub sale: Account<'info, Sale>,
-
-    #[account(mut, seeds = [b"purchase", purchaser.key().as_ref()], bump)]
-    pub purchase_record: Account<'info, PurchaseRecord>,
-
-    #[account(mut)]
-    pub purchaser: Signer<'info>,
-
-    #[account(mut)]
-    pub token_mint: Account<'info, Mint>,
-
-    #[account(mut)]
-    pub purchaser_token_account: Account<'info, TokenAccount>,
-
-    pub token_program: Program<'info, Token>,
-}
+pub struct ClaimTokens {}
 
 #[account]
-#[derive(InitSpace)]
+#[derive(InitSpace)] 
 pub struct Sale {
-    pub authority: Pubkey,       // POPRAWKA: PublicKey -> Pubkey
-    pub treasury: Pubkey,        // POPRAWKA: PublicKey -> Pubkey
-    pub vault: Pubkey,           // POPRAWKA: PublicKey -> Pubkey
-    pub token_mint: Pubkey,
+    pub authority: Pubkey,
+    pub treasury: Pubkey,
+    pub vault: Pubkey,
     pub price_lamports: u64,
     pub start_time: i64,
     pub end_time: i64,
@@ -28069,9 +28701,8 @@ pub struct Sale {
 #[account]
 #[derive(InitSpace, Default)]
 pub struct PurchaseRecord {
-    pub purchaser: Pubkey,       // POPRAWKA: PublicKey -> Pubkey
+    pub purchaser: Pubkey,
     pub amount_spent: u64,
-    pub claimed: bool,
 }
 
 #[error_code]
@@ -28088,20 +28719,16 @@ pub enum PresaleError {
     InsufficientVaultBalance,
     #[msg("The sale has not ended yet, you cannot withdraw.")]
     SaleNotEndedYet,
-    #[msg("Nothing to claim for this purchaser.")]
-    NothingToClaim,
-    #[msg("Tokens already claimed.")]
-    AlreadyClaimed,
 }
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\programs\presale\src\lib.rs
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\programs\presale\src\lib.rs
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\tests\global.d.ts
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\tests\global.d.ts
    Rozmiar: 200 bajtów
 
 
@@ -28110,13 +28737,13 @@ declare function it(description: string, callback: () => void): void;
 declare function before(callback: () => void): void;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\tests\global.d.ts
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\tests\global.d.ts
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\tests\presale.ts
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\tests\presale.ts
    Rozmiar: 7198 bajtów
 
 
@@ -28326,598 +28953,598 @@ describe("presale", () => {
 });
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\presale\tests\presale.ts
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\tests\presale.ts
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\android-chrome-192x192.png
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\android-chrome-192x192.png
    Rozmiar: 42838 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\android-chrome-192x192.png
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\android-chrome-192x192.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\android-chrome-512x512.png
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\android-chrome-512x512.png
    Rozmiar: 232372 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\android-chrome-512x512.png
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\android-chrome-512x512.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\apple-touch-icon.png
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\apple-touch-icon.png
    Rozmiar: 38269 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\apple-touch-icon.png
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\apple-touch-icon.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon-16x16.png
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\favicon-16x16.png
    Rozmiar: 823 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon-16x16.png
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\favicon-16x16.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon-32x32.png
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\favicon-32x32.png
    Rozmiar: 2282 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon-32x32.png
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\favicon-32x32.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon-48x48.ico
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\favicon-48x48.ico
    Rozmiar: 9662 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .ico)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon-48x48.ico
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\favicon-48x48.ico
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon.ico
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\favicon.ico
    Rozmiar: 9662 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .ico)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\favicon.ico
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\favicon.ico
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\phoenix-lightpaper.pdf
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\phoenix-lightpaper.pdf
    Rozmiar: 7633043 bajtów
 
 
 [Zawarto pliku pominita z powodu rozmiaru (Rozmiar: 7454.14 KB > Limit: 5120 KB)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\phoenix-lightpaper.pdf
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\phoenix-lightpaper.pdf
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\sol.png
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\sol.png
    Rozmiar: 37778 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\sol.png
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\sol.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\solanaLogo.png
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\solanaLogo.png
    Rozmiar: 47946 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\solanaLogo.png
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\solanaLogo.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\vercel.svg
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\vercel.svg
    Rozmiar: 1101 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .svg)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\vercel.svg
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\vercel.svg
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\xxxxfavicon.ico
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\xxxxfavicon.ico
    Rozmiar: 15406 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .ico)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\xxxxfavicon.ico
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\xxxxfavicon.ico
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\logo.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\logo.webp
    Rozmiar: 39708 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\logo.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\logo.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\logo_feniks.png
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\logo_feniks.png
    Rozmiar: 232140 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\logo_feniks.png
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\logo_feniks.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\projects\logo_feniks.png
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\projects\logo_feniks.png
    Rozmiar: 232140 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\projects\logo_feniks.png
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\projects\logo_feniks.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\0.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\0.webp
    Rozmiar: 10488 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\0.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\0.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\1.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\1.webp
    Rozmiar: 9916 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\1.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\1.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\10.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\10.webp
    Rozmiar: 14618 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\10.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\10.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\11.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\11.webp
    Rozmiar: 9950 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\11.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\11.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\12.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\12.webp
    Rozmiar: 10638 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\12.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\12.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\13.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\13.webp
    Rozmiar: 7416 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\13.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\13.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\14.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\14.webp
    Rozmiar: 14558 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\14.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\14.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\15.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\15.webp
    Rozmiar: 13130 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\15.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\15.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\16.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\16.webp
    Rozmiar: 10612 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\16.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\16.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\17.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\17.webp
    Rozmiar: 13206 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\17.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\17.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\18.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\18.webp
    Rozmiar: 13704 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\18.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\18.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\19.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\19.webp
    Rozmiar: 8776 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\19.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\19.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\2.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\2.webp
    Rozmiar: 9250 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\2.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\2.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\20.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\20.webp
    Rozmiar: 20090 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\20.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\20.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\21.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\21.webp
    Rozmiar: 10116 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\21.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\21.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\22.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\22.webp
    Rozmiar: 11220 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\22.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\22.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\23.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\23.webp
    Rozmiar: 7944 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\23.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\23.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\24.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\24.webp
    Rozmiar: 9868 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\24.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\24.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\25.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\25.webp
    Rozmiar: 11752 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\25.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\25.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\26.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\26.webp
    Rozmiar: 11496 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\26.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\26.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\3.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\3.webp
    Rozmiar: 12486 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\3.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\3.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\4.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\4.webp
    Rozmiar: 14974 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\4.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\4.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\5.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\5.webp
    Rozmiar: 17840 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\5.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\5.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\6.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\6.webp
    Rozmiar: 11612 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\6.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\6.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\7.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\7.webp
    Rozmiar: 9924 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\7.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\7.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\8.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\8.webp
    Rozmiar: 10460 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\8.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\8.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\9.webp
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\9.webp
    Rozmiar: 10478 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .webp)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\quests\9.webp
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\quests\9.webp
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\tokens\placeholder-logo-alpha.png
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\tokens\placeholder-logo-alpha.png
    Rozmiar: 14724 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\tokens\placeholder-logo-alpha.png
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\tokens\placeholder-logo-alpha.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\tokens\sol.png
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\tokens\sol.png
    Rozmiar: 21226 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\tokens\sol.png
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\tokens\sol.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\tokens\usdc.png
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\tokens\usdc.png
    Rozmiar: 32640 bajtów
 
 
 [Zawarto pliku pominita (rozszerzenie: .png)]
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\public\images\tokens\usdc.png
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\public\images\tokens\usdc.png
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\providers.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\providers.tsx
    Rozmiar: 1414 bajtów
 
 
@@ -28967,13 +29594,13 @@ export function Providers({ children }: { children: React.ReactNode }) {
 }
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\providers.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\providers.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\AppBar.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\AppBar.tsx
    Rozmiar: 9146 bajtów
 
 
@@ -29129,13 +29756,13 @@ export default function AppBar() {
 }
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\AppBar.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\AppBar.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\ContentContainer.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\ContentContainer.tsx
    Rozmiar: 1252 bajtów
 
 
@@ -29183,13 +29810,13 @@ export const ContentContainer: React.FC<Props> = ({ children }) => {
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\ContentContainer.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\ContentContainer.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\Footer.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\Footer.tsx
    Rozmiar: 2029 bajtów
 
 
@@ -29244,13 +29871,13 @@ const Footer: FC = () => {
 export default Footer;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\Footer.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\Footer.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\MyMultiButton.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\MyMultiButton.tsx
    Rozmiar: 799 bajtów
 
 
@@ -29280,13 +29907,13 @@ const MyMultiButton = ({ className = "" }) => {
 export default MyMultiButton;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\MyMultiButton.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\MyMultiButton.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\Notification.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\Notification.tsx
    Rozmiar: 3167 bajtów
 
 
@@ -29369,13 +29996,13 @@ const Notification = ({ notification, onDismiss }) => {
 export default NotificationList;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\Notification.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\Notification.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\RequestAirdrop.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\RequestAirdrop.tsx
    Rozmiar: 2424 bajtów
 
 
@@ -29439,13 +30066,13 @@ export const RequestAirdrop: FC = () => {
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\RequestAirdrop.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\RequestAirdrop.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\SendTransaction.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\SendTransaction.tsx
    Rozmiar: 3024 bajtów
 
 
@@ -29520,13 +30147,13 @@ export const SendTransaction: FC = () => {
 };
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\SendTransaction.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\SendTransaction.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\SendVersionedTransaction.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\SendVersionedTransaction.tsx
    Rozmiar: 3000 bajtów
 
 
@@ -29601,13 +30228,13 @@ export const SendVersionedTransaction: FC = () => {
 };
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\SendVersionedTransaction.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\SendVersionedTransaction.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\SignMessage.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\SignMessage.tsx
    Rozmiar: 2139 bajtów
 
 
@@ -29659,13 +30286,13 @@ export const SignMessage: FC = () => {
 };
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\SignMessage.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\SignMessage.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\TokenModal.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\TokenModal.tsx
    Rozmiar: 2482 bajtów
 
 
@@ -29736,13 +30363,13 @@ const TokenModal: React.FC<TokenModalProps> = ({ tokens, isOpen, onClose, onSele
 export default TokenModal;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\TokenModal.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\TokenModal.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\nav-element\index.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\nav-element\index.tsx
    Rozmiar: 1705 bajtów
 
 
@@ -29812,13 +30439,13 @@ export default NavElement;
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\nav-element\index.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\nav-element\index.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\Text\index.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\Text\index.tsx
    Rozmiar: 1558 bajtów
 
 
@@ -29882,13 +30509,13 @@ const Text = ({ variant, className, href, children }: TextProps) => (
 export default Text;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\components\Text\index.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\Text\index.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\hooks\useQueryContext.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\hooks\useQueryContext.tsx
    Rozmiar: 566 bajtów
 
 
@@ -29916,14 +30543,14 @@ export default function useQueryContext() {
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\hooks\useQueryContext.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\hooks\useQueryContext.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\idl\phoenix_presale.json
-   Rozmiar: 3316 bajtów
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\idl\phoenix_presale.json
+   Rozmiar: 4552 bajtów
 
 
 {
@@ -29935,14 +30562,15 @@ export default function useQueryContext() {
       "accounts": [
         { "name": "sale", "isMut": true, "isSigner": false },
         { "name": "vault", "isMut": true, "isSigner": false },
+        { "name": "tokenMint", "isMut": false, "isSigner": false },
         { "name": "authority", "isMut": true, "isSigner": true },
         { "name": "treasury", "isMut": true, "isSigner": false },
         { "name": "systemProgram", "isMut": false, "isSigner": false }
       ],
       "args": [
-        { "name": "priceSol", "type": "f64" },
-        { "name": "softCapSol", "type": "f64" },
-        { "name": "hardCapSol", "type": "f64" },
+        { "name": "priceLamports", "type": "u64" },
+        { "name": "softCapLamports", "type": "u64" },
+        { "name": "hardCapLamports", "type": "u64" },
         { "name": "startTime", "type": "i64" },
         { "name": "endTime", "type": "i64" }
       ]
@@ -29957,7 +30585,7 @@ export default function useQueryContext() {
         { "name": "systemProgram", "isMut": false, "isSigner": false }
       ],
       "args": [
-        { "name": "amountSol", "type": "f64" }
+        { "name": "amountLamports", "type": "u64" }
       ]
     },
     {
@@ -29965,26 +30593,37 @@ export default function useQueryContext() {
       "accounts": [
         { "name": "sale", "isMut": true, "isSigner": false },
         { "name": "vault", "isMut": true, "isSigner": false },
-        { "name": "authority", "isMut": true, "isSigner": true },
+        { "name": "authority", "isMut": true, "isSigner": false },
         { "name": "treasury", "isMut": true, "isSigner": false }
       ],
       "args": []
     },
     {
       "name": "claimTokens",
-      "accounts": [],
+      "accounts": [
+        { "name": "sale", "isMut": true, "isSigner": false },
+        { "name": "purchaseRecord", "isMut": true, "isSigner": false },
+        { "name": "purchaser", "isMut": true, "isSigner": true },
+        { "name": "tokenMint", "isMut": true, "isSigner": false },
+        { "name": "purchaserTokenAccount", "isMut": true, "isSigner": false },
+        { "name": "saleTokenAccount", "isMut": true, "isSigner": false },
+        { "name": "associatedTokenProgram", "isMut": false, "isSigner": false },
+        { "name": "tokenProgram", "isMut": false, "isSigner": false },
+        { "name": "systemProgram", "isMut": false, "isSigner": false }
+      ],
       "args": []
     }
   ],
   "accounts": [
     {
-      "name": "sale",
+      "name": "Sale",
       "type": {
         "kind": "struct",
         "fields": [
           { "name": "authority", "type": "publicKey" },
           { "name": "treasury", "type": "publicKey" },
           { "name": "vault", "type": "publicKey" },
+          { "name": "tokenMint", "type": "publicKey" },
           { "name": "priceLamports", "type": "u64" },
           { "name": "startTime", "type": "i64" },
           { "name": "endTime", "type": "i64" },
@@ -29996,12 +30635,13 @@ export default function useQueryContext() {
       }
     },
     {
-      "name": "purchaseRecord",
+      "name": "PurchaseRecord",
       "type": {
         "kind": "struct",
         "fields": [
           { "name": "purchaser", "type": "publicKey" },
-          { "name": "amountSpent", "type": "u64" }
+          { "name": "amountSpent", "type": "u64" },
+          { "name": "claimed", "type": "bool" }
         ]
       }
     }
@@ -30012,21 +30652,25 @@ export default function useQueryContext() {
     { "code": 6002, "name": "SaleNotActive", "msg": "The sale is currently not active." },
     { "code": 6003, "name": "HardCapExceeded", "msg": "The hard cap for this sale has been reached." },
     { "code": 6004, "name": "InsufficientVaultBalance", "msg": "The vault has an insufficient balance for withdrawal." },
-    { "code": 6005, "name": "SaleNotEndedYet", "msg": "The sale has not ended yet, you cannot withdraw." }
+    { "code": 6005, "name": "SaleNotEndedYet", "msg": "The sale has not ended yet, you cannot withdraw." },
+    { "code": 6006, "name": "ZeroAmount", "msg": "Amount must be greater than zero." },
+    { "code": 6007, "name": "NoTokensToClaim", "msg": "You have no tokens to claim." },
+    { "code": 6008, "name": "SoftCapNotReached", "msg": "Soft cap not reached, withdrawal not allowed." },
+    { "code": 6009, "name": "AlreadyClaimed", "msg": "Tokens have already been claimed." }
   ],
   "metadata": {
-    "address": "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+    "address": "9oemjxjE2zFJFVRynHVmWg1nTMWgTM3hGCetuAJkG21U"
   }
 }
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\idl\phoenix_presale.json
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\idl\phoenix_presale.json
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\models\types.ts
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\models\types.ts
    Rozmiar: 62 bajtów
 
 
@@ -30034,13 +30678,13 @@ export type EndpointTypes = 'mainnet' | 'devnet' | 'localnet'
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\models\types.ts
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\models\types.ts
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\b2m.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\b2m.tsx
    Rozmiar: 7276 bajtów
 
 
@@ -30159,13 +30803,13 @@ const BurnToMintPage: NextPage = () => {
 export default BurnToMintPage;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\b2m.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\b2m.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\bank.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\bank.tsx
    Rozmiar: 9932 bajtów
 
 
@@ -30363,13 +31007,13 @@ const BankPage: NextPage = () => {
 export default BankPage;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\bank.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\bank.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\basics.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\basics.tsx
    Rozmiar: 391 bajtów
 
 
@@ -30396,17 +31040,16 @@ export default Basics;
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\basics.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\basics.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\create-presale.tsx
-   Rozmiar: 5168 bajtów
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\create-presale.tsx
+   Rozmiar: 6312 bajtów
 
 
-// src/pages/create-presale.tsx
 "use client";
 
 import { NextPage } from 'next';
@@ -30415,6 +31058,7 @@ import { useState } from 'react';
 import { BN, Program, AnchorProvider, web3, Idl } from '@coral-xyz/anchor';
 import { useConnection, useAnchorWallet, AnchorWallet } from '@solana/wallet-adapter-react';
 import rawIdl from '../idl/phoenix_presale.json';
+import { toast } from 'sonner';
 
 const programIdl = rawIdl as Idl;
 const programID = new web3.PublicKey((programIdl as any).metadata.address);
@@ -30429,14 +31073,21 @@ const CreatePresalePage: NextPage = () => {
   const [startTime, setStartTime] = useState('');
   const [endTime, setEndTime] = useState('');
   const [treasury, setTreasury] = useState('');
+  const [tokenMint, setTokenMint] = useState('');
   const [status, setStatus] = useState('');
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!wallet?.publicKey) {
-      setStatus('Connect wallet first');
+      toast.error('Connect wallet first');
       return;
     }
+    if (!price || !softCap || !hardCap || !startTime || !endTime || !treasury || !tokenMint) {
+      toast.error('Please fill all fields');
+      return;
+    }
+
+    setStatus('Creating presale, please wait...');
     try {
       const provider = new AnchorProvider(connection, wallet as AnchorWallet, {});
       const program = new Program(programIdl, programID, provider);
@@ -30450,38 +31101,55 @@ const CreatePresalePage: NextPage = () => {
         programID,
       );
 
+      const priceLamports = new BN(parseFloat(price) * web3.LAMPORTS_PER_SOL);
+      const softCapLamports = new BN(parseFloat(softCap) * web3.LAMPORTS_PER_SOL);
+      const hardCapLamports = new BN(parseFloat(hardCap) * web3.LAMPORTS_PER_SOL);
+
       await program.methods
         .initialize(
-          parseFloat(price),
-          parseFloat(softCap),
-          parseFloat(hardCap),
+          priceLamports,
+          softCapLamports,
+          hardCapLamports,
           new BN(Math.floor(new Date(startTime).getTime() / 1000)),
           new BN(Math.floor(new Date(endTime).getTime() / 1000)),
         )
         .accounts({
           sale: salePda,
           vault: vaultPda,
+          tokenMint: new web3.PublicKey(tokenMint),
           authority: wallet.publicKey!,
           treasury: new web3.PublicKey(treasury),
           systemProgram: web3.SystemProgram.programId,
         })
         .rpc();
 
-      setStatus('Presale created successfully');
+      toast.success('Presale created successfully!');
+      setStatus(`Presale created successfully! Program ID: ${programID.toBase58()}`);
     } catch (err: any) {
       console.error(err);
-      setStatus('Failed to create presale');
+      toast.error('Failed to create presale', { description: err.message });
+      setStatus(`Failed to create presale: ${err.message}`);
     }
   };
 
   return (
     <div>
       <Head>
-        <title>Create Presale</title>
+        <title>Create Presale - Phoenix</title>
       </Head>
       <div className="max-w-xl mx-auto p-4">
         <h1 className="text-2xl mb-4 text-phoenix-text-primary font-bold">Create Presale</h1>
         <form onSubmit={onSubmit} className="space-y-4">
+          <div>
+            <label className="block text-sm mb-1">Token Mint Address</label>
+            <input
+              type="text"
+              className="w-full border px-3 py-2 rounded bg-phoenix-container-bg"
+              value={tokenMint}
+              onChange={e => setTokenMint(e.target.value)}
+              required
+            />
+          </div>
           <div>
             <label className="block text-sm mb-1">Price (SOL)</label>
             <input
@@ -30552,7 +31220,7 @@ const CreatePresalePage: NextPage = () => {
             Create
           </button>
         </form>
-        {status && <p className="mt-4 text-sm">{status}</p>}
+        {status && <p className="mt-4 text-sm break-all">{status}</p>}
       </div>
     </div>
   );
@@ -30561,13 +31229,13 @@ const CreatePresalePage: NextPage = () => {
 export default CreatePresalePage;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\create-presale.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\create-presale.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\farms.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\farms.tsx
    Rozmiar: 9758 bajtów
 
 
@@ -30758,13 +31426,13 @@ const FarmsPage: NextPage = () => {
 export default FarmsPage;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\farms.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\farms.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\index.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\index.tsx
    Rozmiar: 9995 bajtów
 
 
@@ -30953,13 +31621,13 @@ const HomePage: React.FC = () => {
 export default HomePage;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\index.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\index.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\launchpad.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\launchpad.tsx
    Rozmiar: 8058 bajtów
 
 
@@ -31123,13 +31791,13 @@ const LaunchpadPage: NextPage = () => {
 export default LaunchpadPage;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\launchpad.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\launchpad.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\liquidity.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\liquidity.tsx
    Rozmiar: 6965 bajtów
 
 
@@ -31245,13 +31913,13 @@ const LiquidityPage: NextPage = () => {
 export default LiquidityPage;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\liquidity.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\liquidity.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\manage-presale.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\manage-presale.tsx
    Rozmiar: 3260 bajtów
 
 
@@ -31353,13 +32021,13 @@ const ManagePresalePage: NextPage = () => {
 export default ManagePresalePage;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\manage-presale.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\manage-presale.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\quests.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\quests.tsx
    Rozmiar: 11861 bajtów
 
 
@@ -31508,13 +32176,13 @@ const QuestsPage: NextPage = () => {
 export default QuestsPage;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\quests.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\quests.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\smart-swap.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\smart-swap.tsx
    Rozmiar: 1709 bajtów
 
 
@@ -31565,13 +32233,13 @@ const SmartSwapComingSoonPage: NextPage = () => {
 export default SmartSwapComingSoonPage;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\smart-swap.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\smart-swap.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\swap.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\swap.tsx
    Rozmiar: 2297 bajtów
 
 
@@ -31636,13 +32304,13 @@ const SwapPage: NextPage = () => {
 export default SwapPage;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\swap.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\swap.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\tokenfactory.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\tokenfactory.tsx
    Rozmiar: 13947 bajtów
 
 
@@ -31848,13 +32516,13 @@ const TokenFactoryPage: NextPage = () => {
 export default TokenFactoryPage;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\tokenfactory.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\tokenfactory.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\_app.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\_app.tsx
    Rozmiar: 859 bajtów
 
 
@@ -31893,13 +32561,13 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
 export default App;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\_app.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\_app.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\_document.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\_document.tsx
    Rozmiar: 420 bajtów
 
 
@@ -31921,13 +32589,13 @@ export default function Document() {
 }
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\_document.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\_document.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\api\hello.ts
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\api\hello.ts
    Rozmiar: 307 bajtów
 
 
@@ -31947,13 +32615,13 @@ export default function handler(
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\api\hello.ts
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\api\hello.ts
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\launchpad\phnx.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\launchpad\phnx.tsx
    Rozmiar: 1129 bajtów
 
 
@@ -31994,13 +32662,13 @@ export default PhnxLaunchpadPage;
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\pages\launchpad\phnx.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\launchpad\phnx.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\stores\useNotificationStore.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\stores\useNotificationStore.tsx
    Rozmiar: 919 bajtów
 
 
@@ -32041,13 +32709,13 @@ const useNotificationStore = create<NotificationStore>((set) => ({
 export default useNotificationStore;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\stores\useNotificationStore.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\stores\useNotificationStore.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\stores\useUserSOLBalanceStore.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\stores\useUserSOLBalanceStore.tsx
    Rozmiar: 733 bajtów
 
 
@@ -32080,13 +32748,13 @@ const useUserSOLBalanceStore = create<UserSOLBalanceStore>((set) => ({
 export default useUserSOLBalanceStore;
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\stores\useUserSOLBalanceStore.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\stores\useUserSOLBalanceStore.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\styles\globals.css
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\styles\globals.css
    Rozmiar: 507 bajtów
 
 
@@ -32113,13 +32781,13 @@ export default useUserSOLBalanceStore;
 }
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\styles\globals.css
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\styles\globals.css
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\createToken.ts
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\utils\createToken.ts
    Rozmiar: 3845 bajtów
 
 
@@ -32256,13 +32924,13 @@ export async function createToken(options: CreateTokenInput): Promise<PublicKey>
 }
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\createToken.ts
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\utils\createToken.ts
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\explorer.ts
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\utils\explorer.ts
    Rozmiar: 719 bajtów
 
 
@@ -32291,13 +32959,13 @@ export function getExplorerUrl(
   }
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\explorer.ts
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\utils\explorer.ts
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\index.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\utils\index.tsx
    Rozmiar: 909 bajtów
 
 
@@ -32338,13 +33006,13 @@ export {
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\index.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\utils\index.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\notifications.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\utils\notifications.tsx
    Rozmiar: 532 bajtów
 
 
@@ -32365,13 +33033,13 @@ export function notify(newNotification: { type?: 'success' | 'info' | 'error', m
 }
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\utils\notifications.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\utils\notifications.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\views\index.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\views\index.tsx
    Rozmiar: 74 bajtów
 
 
@@ -32380,13 +33048,13 @@ export { BasicsView } from "./basics";
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\views\index.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\views\index.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\views\basics\index.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\views\basics\index.tsx
    Rozmiar: 784 bajtów
 
 
@@ -32417,13 +33085,13 @@ export const BasicsView: FC = ({ }) => {
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\views\basics\index.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\views\basics\index.tsx
 
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\views\home\index.tsx
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\views\home\index.tsx
    Rozmiar: 2526 bajtów
 
 
@@ -32499,6 +33167,6 @@ export const HomeView: FC = ({ }) => {
 
 
 
-  KONIEC PLIKU: C:\Intel\gp\Files\681809149812\phoenix-swap-v2 — kopia\src\views\home\index.tsx
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\views\home\index.tsx
 
 

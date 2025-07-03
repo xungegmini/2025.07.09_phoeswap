@@ -1,4 +1,3 @@
-// src/pages/create-presale.tsx
 "use client";
 
 import { NextPage } from 'next';
@@ -7,6 +6,7 @@ import { useState } from 'react';
 import { BN, Program, AnchorProvider, web3, Idl } from '@coral-xyz/anchor';
 import { useConnection, useAnchorWallet, AnchorWallet } from '@solana/wallet-adapter-react';
 import rawIdl from '../idl/phoenix_presale.json';
+import { toast } from 'sonner';
 
 const programIdl = rawIdl as Idl;
 const programID = new web3.PublicKey((programIdl as any).metadata.address);
@@ -21,14 +21,21 @@ const CreatePresalePage: NextPage = () => {
   const [startTime, setStartTime] = useState('');
   const [endTime, setEndTime] = useState('');
   const [treasury, setTreasury] = useState('');
+  const [tokenMint, setTokenMint] = useState('');
   const [status, setStatus] = useState('');
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!wallet?.publicKey) {
-      setStatus('Connect wallet first');
+      toast.error('Connect wallet first');
       return;
     }
+    if (!price || !softCap || !hardCap || !startTime || !endTime || !treasury || !tokenMint) {
+      toast.error('Please fill all fields');
+      return;
+    }
+
+    setStatus('Creating presale, please wait...');
     try {
       const provider = new AnchorProvider(connection, wallet as AnchorWallet, {});
       const program = new Program(programIdl, programID, provider);
@@ -42,38 +49,55 @@ const CreatePresalePage: NextPage = () => {
         programID,
       );
 
+      const priceLamports = new BN(parseFloat(price) * web3.LAMPORTS_PER_SOL);
+      const softCapLamports = new BN(parseFloat(softCap) * web3.LAMPORTS_PER_SOL);
+      const hardCapLamports = new BN(parseFloat(hardCap) * web3.LAMPORTS_PER_SOL);
+
       await program.methods
         .initialize(
-          parseFloat(price),
-          parseFloat(softCap),
-          parseFloat(hardCap),
+          priceLamports,
+          softCapLamports,
+          hardCapLamports,
           new BN(Math.floor(new Date(startTime).getTime() / 1000)),
           new BN(Math.floor(new Date(endTime).getTime() / 1000)),
         )
         .accounts({
           sale: salePda,
           vault: vaultPda,
+          tokenMint: new web3.PublicKey(tokenMint),
           authority: wallet.publicKey!,
           treasury: new web3.PublicKey(treasury),
           systemProgram: web3.SystemProgram.programId,
         })
         .rpc();
 
-      setStatus('Presale created successfully');
+      toast.success('Presale created successfully!');
+      setStatus(`Presale created successfully! Program ID: ${programID.toBase58()}`);
     } catch (err: any) {
       console.error(err);
-      setStatus('Failed to create presale');
+      toast.error('Failed to create presale', { description: err.message });
+      setStatus(`Failed to create presale: ${err.message}`);
     }
   };
 
   return (
     <div>
       <Head>
-        <title>Create Presale</title>
+        <title>Create Presale - Phoenix</title>
       </Head>
       <div className="max-w-xl mx-auto p-4">
         <h1 className="text-2xl mb-4 text-phoenix-text-primary font-bold">Create Presale</h1>
         <form onSubmit={onSubmit} className="space-y-4">
+          <div>
+            <label className="block text-sm mb-1">Token Mint Address</label>
+            <input
+              type="text"
+              className="w-full border px-3 py-2 rounded bg-phoenix-container-bg"
+              value={tokenMint}
+              onChange={e => setTokenMint(e.target.value)}
+              required
+            />
+          </div>
           <div>
             <label className="block text-sm mb-1">Price (SOL)</label>
             <input
@@ -144,7 +168,7 @@ const CreatePresalePage: NextPage = () => {
             Create
           </button>
         </form>
-        {status && <p className="mt-4 text-sm">{status}</p>}
+        {status && <p className="mt-4 text-sm break-all">{status}</p>}
       </div>
     </div>
   );
