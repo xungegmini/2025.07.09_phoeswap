@@ -1,5 +1,5 @@
 ﻿Lista plików i ich zawarto z folderu: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap
-Wygenerowano: 07/04/2025 12:26:27
+Wygenerowano: 07/04/2025 12:49:37
 
 
 ------------------------------------------------------------------------------------------------------------------
@@ -119,12 +119,12 @@ presale/migrations/*.js
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__12.26 Lista Plików .txt
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__12.49 Lista Plików .txt
    Rozmiar: 130 bajtów
 
 
 Lista plików i ich zawarto z folderu: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap
-Wygenerowano: 07/04/2025 12:26:27
+Wygenerowano: 07/04/2025 12:49:37
 
 
 ------------------------------------------------------------------------------------------------------------------
@@ -244,14 +244,14 @@ presale/migrations/*.js
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__12.26 Lista Plików .txt
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__12.49 Lista Plików .txt
    Rozmiar: 130 bajtów
 
 
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__12.26 Lista Plików .txt
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__12.49 Lista Plików .txt
 
 
 
@@ -368,7 +368,7 @@ module.exports = nextConfig
       "name": "phoenix-swap-dapp",
       "version": "1.0",
       "dependencies": {
-        "@coral-xyz/anchor": "latest",
+        "@coral-xyz/anchor": "0.30.1",
         "@heroicons/react": "^2.2.0",
         "@jup-ag/react-hook": "^6.2.0",
         "@jup-ag/terminal": "^4.3.0",
@@ -24388,7 +24388,7 @@ module.exports = {
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\tsconfig.json
-   Rozmiar: 697 bajtów
+   Rozmiar: 712 bajtów
 
 
 {
@@ -24411,7 +24411,7 @@ module.exports = {
     "incremental": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", ".next",],
+  "exclude": ["node_modules", ".next", "presale/tests"],
   "ts-node": {
     "require": ["tsconfig-paths/register"],
     "compilerOptions": {
@@ -24419,7 +24419,6 @@ module.exports = {
     }
   }
 }
-
 
 
   KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\tsconfig.json
@@ -24535,7 +24534,7 @@ test-ledger
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\Anchor.toml
-   Rozmiar: 405 bajtów
+   Rozmiar: 427 bajtów
 
 
 [features]
@@ -24555,9 +24554,9 @@ wallet = "/root/.config/solana/id.json"
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
 
-# === POPRAWKA: Dostosowanie wersji do środowiska ===
+# === POPRAWKA: Dostosowanie wersji do tej, której oczekuje środowisko ===
 [toolchain]
-anchor_version = "0.31.0"
+anchor_version = "0.31.2"
 
 
   KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\Anchor.toml
@@ -30442,7 +30441,7 @@ export const SignMessage: FC = () => {
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\components\TokenModal.tsx
-   Rozmiar: 2482 bajtów
+   Rozmiar: 2682 bajtów
 
 
 // src/components/TokenModal.tsx
@@ -30450,6 +30449,7 @@ export const SignMessage: FC = () => {
 
 import React, { useState, useEffect } from 'react';
 import { TokenInfo } from '@solana/spl-token-registry';
+import Image from 'next/image'; // POPRAWKA: Import komponentu Image
 
 interface TokenModalProps {
   tokens: TokenInfo[];
@@ -30495,7 +30495,8 @@ const TokenModal: React.FC<TokenModalProps> = ({ tokens, isOpen, onClose, onSele
                 onClick={() => { onSelectToken(token); onClose(); }}
                 className="w-full flex items-center gap-3 p-2.5 rounded-md hover:bg-phoenix-border transition-colors"
               >
-                <img src={token.logoURI} alt={token.symbol} className="h-7 w-7 rounded-full" />
+                {/* POPRAWKA: Zamiana <img> na <Image> */}
+                <Image src={token.logoURI || '/images/tokens/placeholder-logo-alpha.png'} alt={token.symbol} width={28} height={28} className="h-7 w-7 rounded-full" />
                 <div>
                   <p className="font-semibold text-left">{token.name}</p>
                   <p className="text-xs text-phoenix-text-secondary text-left">{token.symbol}</p>
@@ -31196,7 +31197,7 @@ export default Basics;
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\create-presale.tsx
-   Rozmiar: 6565 bajtów
+   Rozmiar: 6603 bajtów
 
 
 "use client";
@@ -31211,8 +31212,11 @@ import { TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID, getAssociatedTokenAddres
 import rawIdl from '../idl/phoenix_presale.json';
 import { toast } from 'sonner';
 
-const programIdl = rawIdl as Idl;
-const programID = new web3.PublicKey((programIdl as any).metadata.address);
+const programIdl = {
+  ...(rawIdl as any),
+  address: (rawIdl as any).metadata.address,
+} as Idl;
+const programID = new web3.PublicKey(programIdl.address);
 
 // ... (reszta kodu pozostaje bez zmian, jest już poprawna)
 // ... (cały komponent CreatePresalePage, który podałem wcześniej, jest już kompletny i poprawny)
@@ -31242,7 +31246,7 @@ const CreatePresalePage: NextPage = () => {
     setStatus('Creating presale, please wait...');
     try {
       const provider = new AnchorProvider(connection, wallet as AnchorWallet, {});
-      const program = new Program(programIdl, programID, provider);
+      const program = new Program(programIdl, provider);
 
       const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
       const [vaultPda] = web3.PublicKey.findProgramAddressSync([Buffer.from("vault"), Buffer.from(presaleId)], programID);
@@ -31901,23 +31905,22 @@ export default LaunchpadPage;
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\liquidity.tsx
-   Rozmiar: 6965 bajtów
+   Rozmiar: 6618 bajtów
 
 
 // src/pages/liquidity.tsx
 "use client";
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import { useConnection, useWallet } from '@solana/wallet-adapter-react';
-import { PublicKey } from '@solana/web3.js';
 import { TokenInfo } from '@solana/spl-token-registry';
 import TokenModal from '../components/TokenModal';
-import { PlusCircleIcon, MinusCircleIcon, ChevronDownIcon as ChevronDownMiniIcon } from '@heroicons/react/24/outline'; 
+import { PlusCircleIcon, ChevronDownIcon as ChevronDownMiniIcon } from '@heroicons/react/24/outline'; 
 import { toast } from 'sonner';
+import Image from 'next/image'; // POPRAWKA: Import komponentu Image
 
-// ZMIANA: Używamy krótszej, zweryfikowanej listy tokenów, aby uniknąć zawieszania.
 const JUPITER_STRICT_TOKEN_LIST_URL = 'https://token.jup.ag/strict';
 
 interface LiquidityPosition { id: string; tokenA: TokenInfo; tokenB: TokenInfo; amountA: number; amountB: number; shareOfPool: number; lpTokenBalance?: number; }
@@ -31934,13 +31937,11 @@ const LiquidityPage: NextPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [tokenFieldToUpdate, setTokenFieldToUpdate] = useState<'A' | 'B' | null>(null);
   
-  // Pobieranie listy tokenów
   useEffect(() => {
     fetch(JUPITER_STRICT_TOKEN_LIST_URL)
       .then(res => res.json())
       .then((data: TokenInfo[]) => {
         setTokens(data);
-        // Ustawienie domyślnych tokenów
         setTokenA(data.find(t => t.symbol === 'SOL'));
         setTokenB(data.find(t => t.symbol === 'USDC'));
       });
@@ -31974,12 +31975,11 @@ const LiquidityPage: NextPage = () => {
                 <div className="text-center mb-8 md:mb-10"><h1 className="text-3xl md:text-4xl font-bold text-phoenix-text-primary mb-2">Liquidity</h1><p className="text-md text-phoenix-text-secondary max-w-lg mx-auto">Provide liquidity to earn trading fees. Select a pair to get started.</p></div>
                 <div className="bg-phoenix-container-bg p-6 rounded-xl shadow-xl border border-phoenix-border mb-10">
                     <h2 className="text-xl font-semibold text-phoenix-text-primary mb-6">Add Liquidity</h2>
-                    {/* ZMIANA: Przyciski wyboru tokena są nieaktywne, jeśli portfel nie jest połączony */}
                     <div className="mb-4">
                         <label className="block text-sm font-medium text-phoenix-text-secondary mb-1">Token A</label>
                         <div className="flex gap-2">
                             <button onClick={() => openModal('A')} disabled={!connected} className="flex-shrink-0 flex items-center bg-phoenix-bg border border-phoenix-border hover:border-phoenix-accent text-phoenix-text-primary py-2.5 px-4 rounded-lg text-sm font-medium min-w-[150px] justify-between disabled:opacity-50 disabled:cursor-not-allowed">
-                                {tokenA ? (<>{tokenA.logoURI && <img src={tokenA.logoURI} alt={tokenA.symbol} className="h-5 w-5 mr-2 rounded-full" />}{tokenA.symbol}</>) : 'Select'}<ChevronDownMiniIcon className="h-5 w-5 ml-1 text-phoenix-text-secondary" />
+                                {tokenA ? (<>{tokenA.logoURI && <Image src={tokenA.logoURI} alt={tokenA.symbol} width={20} height={20} className="h-5 w-5 mr-2 rounded-full" />}{tokenA.symbol}</>) : 'Select'}<ChevronDownMiniIcon className="h-5 w-5 ml-1 text-phoenix-text-secondary" />
                             </button>
                             <input type="number" placeholder="0.0" value={amountA} onChange={(e) => setAmountA(e.target.value)} className="w-full bg-phoenix-bg border border-phoenix-border rounded-lg p-2.5 text-phoenix-text-primary outline-none focus:border-phoenix-accent" />
                         </div>
@@ -31989,13 +31989,12 @@ const LiquidityPage: NextPage = () => {
                         <label className="block text-sm font-medium text-phoenix-text-secondary mb-1">Token B</label>
                         <div className="flex gap-2">
                             <button onClick={() => openModal('B')} disabled={!connected} className="flex-shrink-0 flex items-center bg-phoenix-bg border border-phoenix-border hover:border-phoenix-accent text-phoenix-text-primary py-2.5 px-4 rounded-lg text-sm font-medium min-w-[150px] justify-between disabled:opacity-50 disabled:cursor-not-allowed">
-                                {tokenB ? (<>{tokenB.logoURI && <img src={tokenB.logoURI} alt={tokenB.symbol} className="h-5 w-5 mr-2 rounded-full" />}{tokenB.symbol}</>) : 'Select'}<ChevronDownMiniIcon className="h-5 w-5 ml-1 text-phoenix-text-secondary" />
+                                {tokenB ? (<>{tokenB.logoURI && <Image src={tokenB.logoURI} alt={tokenB.symbol} width={20} height={20} className="h-5 w-5 mr-2 rounded-full" />}{tokenB.symbol}</>) : 'Select'}<ChevronDownMiniIcon className="h-5 w-5 ml-1 text-phoenix-text-secondary" />
                             </button>
                             <input type="number" placeholder="0.0" value={amountB} onChange={(e) => setAmountB(e.target.value)} className="w-full bg-phoenix-bg border border-phoenix-border rounded-lg p-2.5 text-phoenix-text-primary outline-none focus:border-phoenix-accent" />
                         </div>
                     </div>
                     
-                    {/* ZMIANA: Zamiast MyMultiButton, używamy prostego przycisku, który pasuje stylistycznie */}
                     {connected ? (
                         <button onClick={handleAddLiquidity} className="w-full btn-primary-phoenix py-3 text-base font-semibold" disabled={!tokenA || !tokenB || !amountA || (parseFloat(amountA) <=0) || !amountB || (parseFloat(amountB) <=0) }>
                             Add Liquidity
@@ -32023,7 +32022,7 @@ export default LiquidityPage;
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\manage-presale.tsx
-   Rozmiar: 5053 bajtów
+   Rozmiar: 5083 bajtów
 
 
 // src/pages/manage-presale.tsx
@@ -32037,8 +32036,11 @@ import { useConnection, useAnchorWallet, AnchorWallet } from "@solana/wallet-ada
 import rawIdl from "../idl/phoenix_presale.json";
 import { toast } from "sonner";
 
-const programIdl = rawIdl as Idl;
-const programID = new web3.PublicKey((programIdl as any).metadata.address);
+const programIdl = {
+  ...(rawIdl as any),
+  address: (rawIdl as any).metadata.address,
+} as Idl;
+const programID = new web3.PublicKey(programIdl.address);
 
 const ManagePresalePage: NextPage = () => {
   const { connection } = useConnection();
@@ -32052,9 +32054,9 @@ const ManagePresalePage: NextPage = () => {
     setStatus("Loading sale data...");
     try {
       const provider = new AnchorProvider(connection, (wallet || {}) as AnchorWallet, {});
-      const program = new Program(programIdl, programID, provider);
+      const program = new Program(programIdl, provider);
       const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
-      const data = await program.account.sale.fetch(salePda);
+      const data = await (program.account as any).sale.fetch(salePda);
       setSaleInfo(data);
       setStatus("Sale data loaded successfully.");
       toast.success("Sale data loaded!");
@@ -32076,7 +32078,7 @@ const ManagePresalePage: NextPage = () => {
     setStatus("Withdrawing SOL...");
     try {
       const provider = new AnchorProvider(connection, wallet as AnchorWallet, {});
-      const program = new Program(programIdl, programID, provider);
+      const program = new Program(programIdl, provider);
       const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
       const [vaultPda] = web3.PublicKey.findProgramAddressSync([Buffer.from("vault"), Buffer.from(presaleId)], programID);
 
@@ -32124,8 +32126,8 @@ const ManagePresalePage: NextPage = () => {
           
           {saleInfo && (
             <div className="p-4 bg-phoenix-bg rounded-lg border border-phoenix-border text-sm space-y-2">
-                {/* POPRAWKA: Zmieniono cudzysłowy na apostrofy, aby uniknąć błędu */}
-                <h3 className="font-bold text-lg">Sale: '{saleInfo.presale_id}'</h3>
+                {/* POPRAWKA: Użyto apostrofów, aby uniknąć błędu */}
+                <h3 className="font-bold text-lg">Sale: &apos;{saleInfo.presale_id}&apos;</h3>
                 <p><strong>Total Raised:</strong> {(saleInfo.totalRaised.toNumber() / web3.LAMPORTS_PER_SOL).toFixed(4)} SOL</p>
                 <p><strong>Treasury:</strong> {saleInfo.treasury.toBase58()}</p>
                 <p><strong>End Time:</strong> {new Date(saleInfo.endTime.toNumber() * 1000).toLocaleString()}</p>
@@ -32751,7 +32753,7 @@ export default function handler(
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\launchpad\phnx.tsx
-   Rozmiar: 12417 bajtów
+   Rozmiar: 12452 bajtów
 
 
 // src/pages/launchpad/phnx.tsx
@@ -32772,8 +32774,11 @@ import { ClockIcon, FireIcon, CheckCircleIcon } from "@heroicons/react/24/outlin
 import * as anchor from '@coral-xyz/anchor';
 
 
-const programIdl = rawIdl as Idl;
-const programID = new web3.PublicKey((programIdl as any).metadata.address);
+const programIdl = {
+    ...(rawIdl as any),
+    address: (rawIdl as any).metadata.address,
+} as Idl;
+const programID = new web3.PublicKey(programIdl.address);
 
 const formatTime = (timestamp: number) => new Date(timestamp * 1000).toLocaleString();
 const PhnxLaunchpadPage: NextPage = () => {
@@ -32792,14 +32797,14 @@ const PhnxLaunchpadPage: NextPage = () => {
         try {
             // Użycie pustego portfela, gdy nie jest połączony, pozwala na odczyt danych publicznych
             const provider = new AnchorProvider(connection, (wallet || {}) as AnchorWallet, { commitment: "confirmed" });
-            const program = new Program(programIdl, programID, provider);
+            const program = new Program(programIdl, provider);
             
             const [salePda] = web3.PublicKey.findProgramAddressSync(
                 [Buffer.from("sale"), Buffer.from(presaleId)],
                 programID
             );
             
-            const saleAccount = await program.account.sale.fetch(salePda);
+            const saleAccount = await (program.account as any).sale.fetch(salePda);
             setSaleData(saleAccount);
 
             if (wallet?.publicKey) {
@@ -32808,7 +32813,7 @@ const PhnxLaunchpadPage: NextPage = () => {
                     programID
                 );
                 try {
-                    const record = await program.account.purchaseRecord.fetch(purchaseRecordPda);
+                    const record = await (program.account as any).purchaseRecord.fetch(purchaseRecordPda);
                     setUserPurchaseRecord(record);
                 } catch (error) {
                     console.log("No purchase record found for this user.");
@@ -32836,7 +32841,7 @@ const PhnxLaunchpadPage: NextPage = () => {
         setStatusMessage("Processing purchase...");
         try {
             const provider = new AnchorProvider(connection, wallet, {});
-            const program = new Program(programIdl, programID, provider);
+            const program = new Program(programIdl, provider);
 
             const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
             const [vaultPda] = web3.PublicKey.findProgramAddressSync([Buffer.from("vault"), Buffer.from(presaleId)], programID);
@@ -32869,7 +32874,7 @@ const PhnxLaunchpadPage: NextPage = () => {
         setStatusMessage("Claiming tokens...");
         try {
             const provider = new AnchorProvider(connection, wallet, {});
-            const program = new Program(programIdl, programID, provider);
+            const program = new Program(programIdl, provider);
 
             const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
             const [purchaseRecordPda] = web3.PublicKey.findProgramAddressSync([Buffer.from("purchase"), Buffer.from(presaleId), wallet.publicKey.toBuffer()], programID);
