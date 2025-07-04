@@ -1,5 +1,5 @@
 ﻿Lista plików i ich zawarto z folderu: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap
-Wygenerowano: 07/04/2025 11:12:18
+Wygenerowano: 07/04/2025 11:29:29
 
 
 ------------------------------------------------------------------------------------------------------------------
@@ -119,12 +119,12 @@ presale/migrations/*.js
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__11.12 Lista Plików .txt
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__11.29 Lista Plików .txt
    Rozmiar: 130 bajtów
 
 
 Lista plików i ich zawarto z folderu: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap
-Wygenerowano: 07/04/2025 11:12:18
+Wygenerowano: 07/04/2025 11:29:29
 
 
 ------------------------------------------------------------------------------------------------------------------
@@ -244,14 +244,14 @@ presale/migrations/*.js
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__11.12 Lista Plików .txt
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__11.29 Lista Plików .txt
    Rozmiar: 130 bajtów
 
 
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__11.12 Lista Plików .txt
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__11.29 Lista Plików .txt
 
 
 
