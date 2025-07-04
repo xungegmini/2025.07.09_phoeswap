@@ -1,20 +1,19 @@
+// presale/programs/presale/src/lib.rs
 use anchor_lang::prelude::*;
 use anchor_spl::{
     associated_token::AssociatedToken,
     token::{self, Mint, Token, TokenAccount, Transfer},
 };
 
-// Zaktualizuj ID programu po wdrożeniu nowej wersji
 declare_id!("9oemjxjE2zFJFVRynHVmWg1nTMWgTM3hGCetuAJkG21U");
 
 #[program]
 pub mod phoenix_presale {
     use super::*;
 
-    // ZMIANA: Dodano 'presale_id' do tworzenia unikalnych przedsprzedaży
     pub fn initialize(
         ctx: Context<Initialize>,
-        _presale_id: String, // Używane tylko do wyprowadzenia PDA
+        _presale_id: String,
         price_lamports: u64,
         soft_cap_lamports: u64,
         hard_cap_lamports: u64,
@@ -25,17 +24,18 @@ pub mod phoenix_presale {
         sale.authority = ctx.accounts.authority.key();
         sale.treasury = ctx.accounts.treasury.key();
         sale.vault = ctx.accounts.vault.key();
-        sale.token_mint = ctx.accounts.token_mint.key(); // Implementacja punktu 1.11 z planu
-        sale.sale_token_account = ctx.accounts.sale_token_account.key(); // Implementacja punktu 1.11
-
+        sale.token_mint = ctx.accounts.token_mint.key();
+        sale.sale_token_account = ctx.accounts.sale_token_account.key();
         sale.price_lamports = price_lamports;
         sale.soft_cap_lamports = soft_cap_lamports;
         sale.hard_cap_lamports = hard_cap_lamports;
-        
         sale.start_time = start_time;
         sale.end_time = end_time;
         sale.total_raised = 0;
         sale.is_active = true;
+        
+        // --- POPRAWKA: Dodano brakujące przypisanie ID ---
+        sale.presale_id = _presale_id;
         
         msg!("Presale initialized!");
         Ok(())
@@ -45,9 +45,9 @@ pub mod phoenix_presale {
         let sale = &mut ctx.accounts.sale;
         let clock = Clock::get()?;
 
-        require!(sale.is_active, PresaleError::SaleNotActive); // Implementacja punktu 1.10
-        require!(clock.unix_timestamp >= sale.start_time, PresaleError::SaleNotStarted); // Implementacja punktu 1.10
-        require!(clock.unix_timestamp < sale.end_time, PresaleError::SaleEnded); // Implementacja punktu 1.10
+        require!(sale.is_active, PresaleError::SaleNotActive);
+        require!(clock.unix_timestamp >= sale.start_time, PresaleError::SaleNotStarted);
+        require!(clock.unix_timestamp < sale.end_time, PresaleError::SaleEnded);
         require!(amount_lamports > 0, PresaleError::ZeroAmount);
         require!(sale.total_raised.checked_add(amount_lamports).unwrap() <= sale.hard_cap_lamports, PresaleError::HardCapExceeded);
 
@@ -77,7 +77,7 @@ pub mod phoenix_presale {
         let treasury = &mut ctx.accounts.treasury;
         let clock = Clock::get()?;
 
-        require!(clock.unix_timestamp >= ctx.accounts.sale.end_time, PresaleError::SaleNotEndedYet); // Implementacja punktu 1.13
+        require!(clock.unix_timestamp >= ctx.accounts.sale.end_time, PresaleError::SaleNotEndedYet);
         
         let amount_to_withdraw = vault.to_account_info().lamports();
         require!(amount_to_withdraw > 0, PresaleError::InsufficientVaultBalance);
@@ -89,7 +89,6 @@ pub mod phoenix_presale {
         Ok(())
     }
     
-    // Implementacja punktu 1.8 i 1.9 z planu
     pub fn claim_tokens(ctx: Context<ClaimTokens>) -> Result<()> {
         let sale = &ctx.accounts.sale;
         let purchase_record = &mut ctx.accounts.purchase_record;
@@ -99,10 +98,14 @@ pub mod phoenix_presale {
         require!(purchase_record.amount_spent > 0, PresaleError::NoTokensToClaim);
         require!(!purchase_record.claimed, PresaleError::AlreadyClaimed);
 
-        let tokens_to_claim = purchase_record.amount_spent.checked_div(sale.price_lamports).unwrap();
+        // --- ZMIANA: Usunięto dzielenie, aby uniknąć problemów z precyzją. Tokeny są 1:1 do lamportów ceny ---
+        // Na przykład: jeśli cena to 1000 lamportów, a użytkownik wpłacił 2000 lamportów, powinien dostać 2 tokeny (nie 2 tokeny * 10^9)
+        let tokens_to_claim = purchase_record.amount_spent
+            .checked_div(sale.price_lamports)
+            .unwrap();
         
-        let presale_id = ctx.accounts.sale.presale_id.as_bytes();
-        let authority_seeds = &[b"sale".as_ref(), presale_id.as_ref(), &[*ctx.bumps.get("sale").unwrap()]];
+        let presale_id_bytes = ctx.accounts.sale.presale_id.as_bytes();
+        let authority_seeds = &[b"sale".as_ref(), presale_id_bytes.as_ref(), &[*ctx.bumps.get("sale").unwrap()]];
         
         token::transfer(
             CpiContext::new_with_signer(
@@ -117,14 +120,13 @@ pub mod phoenix_presale {
             tokens_to_claim,
         )?;
 
-        purchase_record.claimed = true; // Zabezpieczenie przed podwójnym odbiorem
+        purchase_record.claimed = true;
 
         msg!("User {} claimed {} tokens.", ctx.accounts.purchaser.key(), tokens_to_claim);
         Ok(())
     }
 }
 
-// ZMIANA: Kontekst z 'presale_id'
 #[derive(Accounts)]
 #[instruction(_presale_id: String)]
 pub struct Initialize<'info> {
@@ -137,7 +139,7 @@ pub struct Initialize<'info> {
         init,
         payer = authority,
         associated_token::mint = token_mint,
-        associated_token::authority = sale // 'sale' PDA jest właścicielem tego konta
+        associated_token::authority = sale
     )]
     pub sale_token_account: Account<'info, TokenAccount>,
     #[account(mut)]
@@ -210,7 +212,7 @@ pub struct Sale {
     pub vault: Pubkey,
     pub token_mint: Pubkey,
     pub sale_token_account: Pubkey,
-    #[max_len(50)] // Ograniczenie długości ID
+    #[max_len(50)]
     pub presale_id: String,
     pub price_lamports: u64,
     pub start_time: i64,
@@ -249,4 +251,7 @@ pub enum PresaleError {
     NoTokensToClaim,
     #[msg("Tokens have already been claimed.")]
     AlreadyClaimed,
+    // --- Błąd, który może być potrzebny w przyszłości, ale zgodnie z decyzją jest teraz nieużywany ---
+    #[msg("Soft cap not reached, withdrawal not allowed.")]
+    SoftCapNotReached,
 }

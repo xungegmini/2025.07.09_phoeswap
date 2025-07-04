@@ -16,7 +16,7 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-# === AKTUALIZACJA WERSJI I DODANIE FUNKCJI ===
+# --- POPRAWKA: Ujednolicono wersje i funkcje ---
 anchor-lang = { version = "0.30.1", features = ["init-if-needed"] }
 anchor-spl = "0.30.1"
 

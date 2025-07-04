@@ -15,22 +15,25 @@ const ManagePresalePage: NextPage = () => {
   const { connection } = useConnection();
   const wallet = useAnchorWallet();
 
+  // ZMIANA: Dodajemy stan dla presaleId
   const [presaleId, setPresaleId] = useState("");
   const [status, setStatus] = useState("");
   const [saleInfo, setSaleInfo] = useState<any>(null);
 
   const fetchSaleInfo = async () => {
     if (!presaleId) return toast.error("Please enter a Presale ID");
+    setStatus("Loading sale data...");
     try {
       const provider = new AnchorProvider(connection, (wallet || {}) as AnchorWallet, {});
       const program = new Program(programIdl, programID, provider);
       const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
       const data = await program.account.sale.fetch(salePda);
       setSaleInfo(data);
-      setStatus("Sale data loaded.");
+      setStatus("Sale data loaded successfully.");
+      toast.success("Sale data loaded!");
     } catch (err) {
       console.error(err);
-      setStatus("Could not fetch sale data.");
+      setStatus(`Could not fetch sale data for ID: ${presaleId}`);
       setSaleInfo(null);
     }
   };
@@ -47,11 +50,12 @@ const ManagePresalePage: NextPage = () => {
     try {
       const provider = new AnchorProvider(connection, wallet as AnchorWallet, {});
       const program = new Program(programIdl, programID, provider);
+      // ZMIANA: Poprawne, sparametryzowane PDA
       const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
       const [vaultPda] = web3.PublicKey.findProgramAddressSync([Buffer.from("vault"), Buffer.from(presaleId)], programID);
 
       await program.methods
-        .withdrawSol()
+        .withdrawSol(presaleId) // Przekazujemy ID do instrukcji
         .accounts({
           sale: salePda,
           vault: vaultPda,
@@ -62,7 +66,7 @@ const ManagePresalePage: NextPage = () => {
 
       toast.success("SOL withdrawn successfully!");
       setStatus("SOL withdrawn successfully");
-      fetchSaleInfo(); // Refresh data
+      fetchSaleInfo();
     } catch (err: any) {
       console.error(err);
       toast.error("Failed to withdraw SOL", { description: err.message });
@@ -86,18 +90,25 @@ const ManagePresalePage: NextPage = () => {
                 className="w-full border px-3 py-2 rounded bg-phoenix-container-bg"
                 value={presaleId}
                 onChange={(e) => setPresaleId(e.target.value)}
+                placeholder="Enter the unique presale ID"
               />
-              <button onClick={fetchSaleInfo} className="px-4 py-2 bg-blue-500 text-white rounded">Load</button>
+              <button onClick={fetchSaleInfo} className="px-4 py-2 bg-blue-500 text-white rounded">Load Info</button>
             </div>
           </div>
           
           {saleInfo && (
-            <div className="p-4 bg-phoenix-bg rounded-lg border border-phoenix-border text-sm space-y-1">
-              <p><strong>Total Raised:</strong> {(saleInfo.totalRaised.toNumber() / web3.LAMPORTS_PER_SOL).toFixed(4)} SOL</p>
-              <p><strong>Treasury:</strong> {saleInfo.treasury.toBase58()}</p>
-              <button onClick={withdrawSol} className="mt-4 px-4 py-2 bg-phoenix-accent text-white rounded w-full" disabled={Date.now() / 1000 < saleInfo.endTime.toNumber()}>
-                {Date.now() / 1000 < saleInfo.endTime.toNumber() ? "Sale Has Not Ended" : "Withdraw SOL"}
-              </button>
+            <div className="p-4 bg-phoenix-bg rounded-lg border border-phoenix-border text-sm space-y-2">
+                <h3 className="font-bold text-lg">Sale: "{saleInfo.presale_id}"</h3>
+                <p><strong>Total Raised:</strong> {(saleInfo.totalRaised.toNumber() / web3.LAMPORTS_PER_SOL).toFixed(4)} SOL</p>
+                <p><strong>Treasury:</strong> {saleInfo.treasury.toBase58()}</p>
+                <p><strong>End Time:</strong> {new Date(saleInfo.endTime.toNumber() * 1000).toLocaleString()}</p>
+                <button 
+                    onClick={withdrawSol} 
+                    className="mt-4 px-4 py-2 bg-phoenix-accent text-white rounded w-full disabled:bg-gray-500 disabled:cursor-not-allowed" 
+                    disabled={Date.now() / 1000 < saleInfo.endTime.toNumber()}
+                >
+                    {Date.now() / 1000 < saleInfo.endTime.toNumber() ? `Cannot withdraw before end time` : "Withdraw All SOL"}
+                </button>
             </div>
           )}
 

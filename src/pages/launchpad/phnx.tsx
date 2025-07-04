@@ -2,6 +2,7 @@
 
 "use client";
 
+import * as anchor from '@coral-xyz/anchor';
 import { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";

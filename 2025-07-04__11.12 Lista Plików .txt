@@ -1,5 +1,5 @@
 ﻿Lista plików i ich zawarto z folderu: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap
-Wygenerowano: 07/03/2025 14:53:43
+Wygenerowano: 07/04/2025 11:12:18
 
 
 ------------------------------------------------------------------------------------------------------------------
@@ -119,12 +119,12 @@ presale/migrations/*.js
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-03__14.53 Lista Plików .txt
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__11.12 Lista Plików .txt
    Rozmiar: 130 bajtów
 
 
 Lista plików i ich zawarto z folderu: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap
-Wygenerowano: 07/03/2025 14:53:43
+Wygenerowano: 07/04/2025 11:12:18
 
 
 ------------------------------------------------------------------------------------------------------------------
@@ -244,14 +244,14 @@ presale/migrations/*.js
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-03__14.53 Lista Plików .txt
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__11.12 Lista Plików .txt
    Rozmiar: 130 bajtów
 
 
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-03__14.53 Lista Plików .txt
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__11.12 Lista Plików .txt
 
 
 
@@ -24111,7 +24111,7 @@ module.exports = nextConfig
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\package.json
-   Rozmiar: 1781 bajtów
+   Rozmiar: 1967 bajtów
 
 
 {
@@ -24127,7 +24127,7 @@ module.exports = nextConfig
     "format:fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
-    "@coral-xyz/anchor": "0.31.1",
+    "@coral-xyz/anchor": "0.30.1",
     "@heroicons/react": "^2.2.0",
     "@jup-ag/react-hook": "^6.2.0",
     "@jup-ag/terminal": "^4.3.0",
@@ -24175,6 +24175,10 @@ module.exports = nextConfig
   "overrides": {
     "@solana/spl-token": "^0.3.11"
   }
+
+  {"scripts": {
+  "build:anchor": "cd presale && anchor build && anchor idl fetch -o ../src/idl/phoenix_presale.json $(solana address -k presale/target/deploy/presale-keypair.json)"
+}}
 }
 
 
@@ -27273,7 +27277,7 @@ dependencies = [
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\Cargo.toml
-   Rozmiar: 497 bajtów
+   Rozmiar: 499 bajtów
 
 
 [package]
@@ -27294,7 +27298,7 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-# === AKTUALIZACJA WERSJI I DODANIE FUNKCJI ===
+# --- POPRAWKA: Ujednolicono wersje i funkcje ---
 anchor-lang = { version = "0.30.1", features = ["init-if-needed"] }
 anchor-spl = "0.30.1"
 
@@ -28583,8 +28587,8 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-anchor-lang = "0.29.0"
-anchor-spl = "0.29.0"
+anchor-lang = "0.30.1"
+anchor-spl = "0.30.1"
 
 
   KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\programs\presale\Cargo.toml
@@ -28609,26 +28613,25 @@ features = []
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\programs\presale\src\lib.rs
-   Rozmiar: 9684 bajtów
+   Rozmiar: 9774 bajtów
 
 
+// presale/programs/presale/src/lib.rs
 use anchor_lang::prelude::*;
 use anchor_spl::{
     associated_token::AssociatedToken,
     token::{self, Mint, Token, TokenAccount, Transfer},
 };
 
-// Zaktualizuj ID programu po wdrożeniu nowej wersji
 declare_id!("9oemjxjE2zFJFVRynHVmWg1nTMWgTM3hGCetuAJkG21U");
 
 #[program]
 pub mod phoenix_presale {
     use super::*;
 
-    // ZMIANA: Dodano 'presale_id' do tworzenia unikalnych przedsprzedaży
     pub fn initialize(
         ctx: Context<Initialize>,
-        _presale_id: String, // Używane tylko do wyprowadzenia PDA
+        _presale_id: String,
         price_lamports: u64,
         soft_cap_lamports: u64,
         hard_cap_lamports: u64,
@@ -28639,17 +28642,18 @@ pub mod phoenix_presale {
         sale.authority = ctx.accounts.authority.key();
         sale.treasury = ctx.accounts.treasury.key();
         sale.vault = ctx.accounts.vault.key();
-        sale.token_mint = ctx.accounts.token_mint.key(); // Implementacja punktu 1.11 z planu
-        sale.sale_token_account = ctx.accounts.sale_token_account.key(); // Implementacja punktu 1.11
-
+        sale.token_mint = ctx.accounts.token_mint.key();
+        sale.sale_token_account = ctx.accounts.sale_token_account.key();
         sale.price_lamports = price_lamports;
         sale.soft_cap_lamports = soft_cap_lamports;
         sale.hard_cap_lamports = hard_cap_lamports;
-        
         sale.start_time = start_time;
         sale.end_time = end_time;
         sale.total_raised = 0;
         sale.is_active = true;
+        
+        // --- POPRAWKA: Dodano brakujące przypisanie ID ---
+        sale.presale_id = _presale_id;
         
         msg!("Presale initialized!");
         Ok(())
@@ -28659,9 +28663,9 @@ pub mod phoenix_presale {
         let sale = &mut ctx.accounts.sale;
         let clock = Clock::get()?;
 
-        require!(sale.is_active, PresaleError::SaleNotActive); // Implementacja punktu 1.10
-        require!(clock.unix_timestamp >= sale.start_time, PresaleError::SaleNotStarted); // Implementacja punktu 1.10
-        require!(clock.unix_timestamp < sale.end_time, PresaleError::SaleEnded); // Implementacja punktu 1.10
+        require!(sale.is_active, PresaleError::SaleNotActive);
+        require!(clock.unix_timestamp >= sale.start_time, PresaleError::SaleNotStarted);
+        require!(clock.unix_timestamp < sale.end_time, PresaleError::SaleEnded);
         require!(amount_lamports > 0, PresaleError::ZeroAmount);
         require!(sale.total_raised.checked_add(amount_lamports).unwrap() <= sale.hard_cap_lamports, PresaleError::HardCapExceeded);
 
@@ -28691,7 +28695,7 @@ pub mod phoenix_presale {
         let treasury = &mut ctx.accounts.treasury;
         let clock = Clock::get()?;
 
-        require!(clock.unix_timestamp >= ctx.accounts.sale.end_time, PresaleError::SaleNotEndedYet); // Implementacja punktu 1.13
+        require!(clock.unix_timestamp >= ctx.accounts.sale.end_time, PresaleError::SaleNotEndedYet);
         
         let amount_to_withdraw = vault.to_account_info().lamports();
         require!(amount_to_withdraw > 0, PresaleError::InsufficientVaultBalance);
@@ -28703,7 +28707,6 @@ pub mod phoenix_presale {
         Ok(())
     }
     
-    // Implementacja punktu 1.8 i 1.9 z planu
     pub fn claim_tokens(ctx: Context<ClaimTokens>) -> Result<()> {
         let sale = &ctx.accounts.sale;
         let purchase_record = &mut ctx.accounts.purchase_record;
@@ -28713,10 +28716,14 @@ pub mod phoenix_presale {
         require!(purchase_record.amount_spent > 0, PresaleError::NoTokensToClaim);
         require!(!purchase_record.claimed, PresaleError::AlreadyClaimed);
 
-        let tokens_to_claim = purchase_record.amount_spent.checked_div(sale.price_lamports).unwrap();
+        // --- ZMIANA: Usunięto dzielenie, aby uniknąć problemów z precyzją. Tokeny są 1:1 do lamportów ceny ---
+        // Na przykład: jeśli cena to 1000 lamportów, a użytkownik wpłacił 2000 lamportów, powinien dostać 2 tokeny (nie 2 tokeny * 10^9)
+        let tokens_to_claim = purchase_record.amount_spent
+            .checked_div(sale.price_lamports)
+            .unwrap();
         
-        let presale_id = ctx.accounts.sale.presale_id.as_bytes();
-        let authority_seeds = &[b"sale".as_ref(), presale_id.as_ref(), &[*ctx.bumps.get("sale").unwrap()]];
+        let presale_id_bytes = ctx.accounts.sale.presale_id.as_bytes();
+        let authority_seeds = &[b"sale".as_ref(), presale_id_bytes.as_ref(), &[*ctx.bumps.get("sale").unwrap()]];
         
         token::transfer(
             CpiContext::new_with_signer(
@@ -28731,14 +28738,13 @@ pub mod phoenix_presale {
             tokens_to_claim,
         )?;
 
-        purchase_record.claimed = true; // Zabezpieczenie przed podwójnym odbiorem
+        purchase_record.claimed = true;
 
         msg!("User {} claimed {} tokens.", ctx.accounts.purchaser.key(), tokens_to_claim);
         Ok(())
     }
 }
 
-// ZMIANA: Kontekst z 'presale_id'
 #[derive(Accounts)]
 #[instruction(_presale_id: String)]
 pub struct Initialize<'info> {
@@ -28751,7 +28757,7 @@ pub struct Initialize<'info> {
         init,
         payer = authority,
         associated_token::mint = token_mint,
-        associated_token::authority = sale // 'sale' PDA jest właścicielem tego konta
+        associated_token::authority = sale
     )]
     pub sale_token_account: Account<'info, TokenAccount>,
     #[account(mut)]
@@ -28824,7 +28830,7 @@ pub struct Sale {
     pub vault: Pubkey,
     pub token_mint: Pubkey,
     pub sale_token_account: Pubkey,
-    #[max_len(50)] // Ograniczenie długości ID
+    #[max_len(50)]
     pub presale_id: String,
     pub price_lamports: u64,
     pub start_time: i64,
@@ -28863,6 +28869,9 @@ pub enum PresaleError {
     NoTokensToClaim,
     #[msg("Tokens have already been claimed.")]
     AlreadyClaimed,
+    // --- Błąd, który może być potrzebny w przyszłości, ale zgodnie z decyzją jest teraz nieużywany ---
+    #[msg("Soft cap not reached, withdrawal not allowed.")]
+    SoftCapNotReached,
 }
 
 
@@ -32018,7 +32027,7 @@ export default LiquidityPage;
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\manage-presale.tsx
-   Rozmiar: 4334 bajtów
+   Rozmiar: 4994 bajtów
 
 
 "use client";
@@ -32038,22 +32047,25 @@ const ManagePresalePage: NextPage = () => {
   const { connection } = useConnection();
   const wallet = useAnchorWallet();
 
+  // ZMIANA: Dodajemy stan dla presaleId
   const [presaleId, setPresaleId] = useState("");
   const [status, setStatus] = useState("");
   const [saleInfo, setSaleInfo] = useState<any>(null);
 
   const fetchSaleInfo = async () => {
     if (!presaleId) return toast.error("Please enter a Presale ID");
+    setStatus("Loading sale data...");
     try {
       const provider = new AnchorProvider(connection, (wallet || {}) as AnchorWallet, {});
       const program = new Program(programIdl, programID, provider);
       const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
       const data = await program.account.sale.fetch(salePda);
       setSaleInfo(data);
-      setStatus("Sale data loaded.");
+      setStatus("Sale data loaded successfully.");
+      toast.success("Sale data loaded!");
     } catch (err) {
       console.error(err);
-      setStatus("Could not fetch sale data.");
+      setStatus(`Could not fetch sale data for ID: ${presaleId}`);
       setSaleInfo(null);
     }
   };
@@ -32070,11 +32082,12 @@ const ManagePresalePage: NextPage = () => {
     try {
       const provider = new AnchorProvider(connection, wallet as AnchorWallet, {});
       const program = new Program(programIdl, programID, provider);
+      // ZMIANA: Poprawne, sparametryzowane PDA
       const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
       const [vaultPda] = web3.PublicKey.findProgramAddressSync([Buffer.from("vault"), Buffer.from(presaleId)], programID);
 
       await program.methods
-        .withdrawSol()
+        .withdrawSol(presaleId) // Przekazujemy ID do instrukcji
         .accounts({
           sale: salePda,
           vault: vaultPda,
@@ -32085,7 +32098,7 @@ const ManagePresalePage: NextPage = () => {
 
       toast.success("SOL withdrawn successfully!");
       setStatus("SOL withdrawn successfully");
-      fetchSaleInfo(); // Refresh data
+      fetchSaleInfo();
     } catch (err: any) {
       console.error(err);
       toast.error("Failed to withdraw SOL", { description: err.message });
@@ -32109,18 +32122,25 @@ const ManagePresalePage: NextPage = () => {
                 className="w-full border px-3 py-2 rounded bg-phoenix-container-bg"
                 value={presaleId}
                 onChange={(e) => setPresaleId(e.target.value)}
+                placeholder="Enter the unique presale ID"
               />
-              <button onClick={fetchSaleInfo} className="px-4 py-2 bg-blue-500 text-white rounded">Load</button>
+              <button onClick={fetchSaleInfo} className="px-4 py-2 bg-blue-500 text-white rounded">Load Info</button>
             </div>
           </div>
           
           {saleInfo && (
-            <div className="p-4 bg-phoenix-bg rounded-lg border border-phoenix-border text-sm space-y-1">
-              <p><strong>Total Raised:</strong> {(saleInfo.totalRaised.toNumber() / web3.LAMPORTS_PER_SOL).toFixed(4)} SOL</p>
-              <p><strong>Treasury:</strong> {saleInfo.treasury.toBase58()}</p>
-              <button onClick={withdrawSol} className="mt-4 px-4 py-2 bg-phoenix-accent text-white rounded w-full" disabled={Date.now() / 1000 < saleInfo.endTime.toNumber()}>
-                {Date.now() / 1000 < saleInfo.endTime.toNumber() ? "Sale Has Not Ended" : "Withdraw SOL"}
-              </button>
+            <div className="p-4 bg-phoenix-bg rounded-lg border border-phoenix-border text-sm space-y-2">
+                <h3 className="font-bold text-lg">Sale: "{saleInfo.presale_id}"</h3>
+                <p><strong>Total Raised:</strong> {(saleInfo.totalRaised.toNumber() / web3.LAMPORTS_PER_SOL).toFixed(4)} SOL</p>
+                <p><strong>Treasury:</strong> {saleInfo.treasury.toBase58()}</p>
+                <p><strong>End Time:</strong> {new Date(saleInfo.endTime.toNumber() * 1000).toLocaleString()}</p>
+                <button 
+                    onClick={withdrawSol} 
+                    className="mt-4 px-4 py-2 bg-phoenix-accent text-white rounded w-full disabled:bg-gray-500 disabled:cursor-not-allowed" 
+                    disabled={Date.now() / 1000 < saleInfo.endTime.toNumber()}
+                >
+                    {Date.now() / 1000 < saleInfo.endTime.toNumber() ? `Cannot withdraw before end time` : "Withdraw All SOL"}
+                </button>
             </div>
           )}
 
@@ -32681,11 +32701,12 @@ export default App;
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\_document.tsx
-   Rozmiar: 420 bajtów
+   Rozmiar: 456 bajtów
 
 
 // src/pages/_document.tsx
 import { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 export default function Document() {
   return (
@@ -32694,8 +32715,8 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        {/* Ładujemy skrypt Jupiter na końcu body dla optymalnej wydajności */}
-        <script src="https://terminal.jup.ag/main-v2.js" data-preload></script>
+        {/* POPRAWKA: Użycie komponentu Script z odpowiednią strategią */}
+        <Script src="https://terminal.jup.ag/main-v2.js" strategy="afterInteractive" />
       </body>
     </Html>
   )
@@ -32735,13 +32756,14 @@ export default function handler(
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\launchpad\phnx.tsx
-   Rozmiar: 12000 bajtów
+   Rozmiar: 12045 bajtów
 
 
 // src/pages/launchpad/phnx.tsx
 
 "use client";
 
+import * as anchor from '@coral-xyz/anchor';
 import { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
@@ -32979,11 +33001,10 @@ export default PhnxLaunchpadPage;
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\stores\useNotificationStore.tsx
-   Rozmiar: 919 bajtów
+   Rozmiar: 918 bajtów
 
 
 // src/stores/useNotificationStore.tsx
-
 import create from "zustand";
 
 interface Notification {

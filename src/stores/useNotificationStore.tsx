@@ -1,5 +1,4 @@
 // src/stores/useNotificationStore.tsx
-
 import create from "zustand";
 
 interface Notification {

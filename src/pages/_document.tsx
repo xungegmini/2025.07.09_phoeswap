@@ -1,5 +1,6 @@
 // src/pages/_document.tsx
 import { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 export default function Document() {
   return (
@@ -8,8 +9,8 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        {/* Ładujemy skrypt Jupiter na końcu body dla optymalnej wydajności */}
-        <script src="https://terminal.jup.ag/main-v2.js" data-preload></script>
+        {/* POPRAWKA: Użycie komponentu Script z odpowiednią strategią */}
+        <Script src="https://terminal.jup.ag/main-v2.js" strategy="afterInteractive" />
       </body>
     </Html>
   )
