@@ -1,8 +1,9 @@
+// src/pages/manage-presale.tsx
 "use client";
 
 import { NextPage } from "next";
 import Head from "next/head";
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import { Program, AnchorProvider, web3, Idl } from "@coral-xyz/anchor";
 import { useConnection, useAnchorWallet, AnchorWallet } from "@solana/wallet-adapter-react";
 import rawIdl from "../idl/phoenix_presale.json";
@@ -14,13 +15,11 @@ const programID = new web3.PublicKey((programIdl as any).metadata.address);
 const ManagePresalePage: NextPage = () => {
   const { connection } = useConnection();
   const wallet = useAnchorWallet();
-
-  // ZMIANA: Dodajemy stan dla presaleId
   const [presaleId, setPresaleId] = useState("");
   const [status, setStatus] = useState("");
   const [saleInfo, setSaleInfo] = useState<any>(null);
 
-  const fetchSaleInfo = async () => {
+  const fetchSaleInfo = useCallback(async () => {
     if (!presaleId) return toast.error("Please enter a Presale ID");
     setStatus("Loading sale data...");
     try {
@@ -36,7 +35,7 @@ const ManagePresalePage: NextPage = () => {
       setStatus(`Could not fetch sale data for ID: ${presaleId}`);
       setSaleInfo(null);
     }
-  };
+  }, [presaleId, connection, wallet]);
 
   const withdrawSol = async () => {
     if (!wallet?.publicKey || !presaleId) {
@@ -50,12 +49,11 @@ const ManagePresalePage: NextPage = () => {
     try {
       const provider = new AnchorProvider(connection, wallet as AnchorWallet, {});
       const program = new Program(programIdl, programID, provider);
-      // ZMIANA: Poprawne, sparametryzowane PDA
       const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
       const [vaultPda] = web3.PublicKey.findProgramAddressSync([Buffer.from("vault"), Buffer.from(presaleId)], programID);
 
       await program.methods
-        .withdrawSol(presaleId) // Przekazujemy ID do instrukcji
+        .withdrawSol(presaleId)
         .accounts({
           sale: salePda,
           vault: vaultPda,
@@ -98,7 +96,8 @@ const ManagePresalePage: NextPage = () => {
           
           {saleInfo && (
             <div className="p-4 bg-phoenix-bg rounded-lg border border-phoenix-border text-sm space-y-2">
-                <h3 className="font-bold text-lg">Sale: "{saleInfo.presale_id}"</h3>
+                {/* POPRAWKA: Użyto apostrofów, aby uniknąć błędu */}
+                <h3 className="font-bold text-lg">Sale: &apos;{saleInfo.presale_id}&apos;</h3>
                 <p><strong>Total Raised:</strong> {(saleInfo.totalRaised.toNumber() / web3.LAMPORTS_PER_SOL).toFixed(4)} SOL</p>
                 <p><strong>Treasury:</strong> {saleInfo.treasury.toBase58()}</p>
                 <p><strong>End Time:</strong> {new Date(saleInfo.endTime.toNumber() * 1000).toLocaleString()}</p>

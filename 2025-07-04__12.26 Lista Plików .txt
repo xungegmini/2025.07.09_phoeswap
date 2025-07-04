@@ -1,5 +1,5 @@
 ﻿Lista plików i ich zawarto z folderu: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap
-Wygenerowano: 07/04/2025 11:31:27
+Wygenerowano: 07/04/2025 12:26:27
 
 
 ------------------------------------------------------------------------------------------------------------------
@@ -119,12 +119,12 @@ presale/migrations/*.js
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__11.31 Lista Plików .txt
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__12.26 Lista Plików .txt
    Rozmiar: 130 bajtów
 
 
 Lista plików i ich zawarto z folderu: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap
-Wygenerowano: 07/04/2025 11:31:27
+Wygenerowano: 07/04/2025 12:26:27
 
 
 ------------------------------------------------------------------------------------------------------------------
@@ -244,14 +244,14 @@ presale/migrations/*.js
 
 ------------------------------------------------------------------------------------------------------------------
 
-   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__11.31 Lista Plików .txt
+   POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__12.26 Lista Plików .txt
    Rozmiar: 130 bajtów
 
 
 
 
 
-  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__11.31 Lista Plików .txt
+  KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\2025-07-04__12.26 Lista Plików .txt
 
 
 
@@ -24535,7 +24535,7 @@ test-ledger
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\Anchor.toml
-   Rozmiar: 378 bajtów
+   Rozmiar: 405 bajtów
 
 
 [features]
@@ -24555,9 +24555,9 @@ wallet = "/root/.config/solana/id.json"
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
 
-# === DODAJ TĘ SEKCJĘ ===
+# === POPRAWKA: Dostosowanie wersji do środowiska ===
 [toolchain]
-anchor_version = "0.30.1"
+anchor_version = "0.31.0"
 
 
   KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\Anchor.toml
@@ -27274,7 +27274,7 @@ dependencies = [
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\Cargo.toml
-   Rozmiar: 499 bajtów
+   Rozmiar: 458 bajtów
 
 
 [package]
@@ -27295,11 +27295,10 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-# --- POPRAWKA: Ujednolicono wersje i funkcje ---
-anchor-lang = { version = "0.30.1", features = ["init-if-needed"] }
-anchor-spl = "0.30.1"
+# === POPRAWKA: Ujednolicono wersje do 0.31.0 ===
+anchor-lang = { version = "0.31.0", features = ["init-if-needed"] }
+anchor-spl = "0.31.0"
 
-# === DODANIE WYMAGANEJ KONFIGURACJI ===
 [profile.release]
 overflow-checks = true
 
@@ -28584,8 +28583,8 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-anchor-lang = "0.30.1"
-anchor-spl = "0.30.1"
+anchor-lang = "0.31.0"
+anchor-spl = "0.31.0"
 
 
   KONIEC PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\presale\programs\presale\Cargo.toml
@@ -32024,14 +32023,15 @@ export default LiquidityPage;
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\manage-presale.tsx
-   Rozmiar: 4994 bajtów
+   Rozmiar: 5053 bajtów
 
 
+// src/pages/manage-presale.tsx
 "use client";
 
 import { NextPage } from "next";
 import Head from "next/head";
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import { Program, AnchorProvider, web3, Idl } from "@coral-xyz/anchor";
 import { useConnection, useAnchorWallet, AnchorWallet } from "@solana/wallet-adapter-react";
 import rawIdl from "../idl/phoenix_presale.json";
@@ -32043,13 +32043,11 @@ const programID = new web3.PublicKey((programIdl as any).metadata.address);
 const ManagePresalePage: NextPage = () => {
   const { connection } = useConnection();
   const wallet = useAnchorWallet();
-
-  // ZMIANA: Dodajemy stan dla presaleId
   const [presaleId, setPresaleId] = useState("");
   const [status, setStatus] = useState("");
   const [saleInfo, setSaleInfo] = useState<any>(null);
 
-  const fetchSaleInfo = async () => {
+  const fetchSaleInfo = useCallback(async () => {
     if (!presaleId) return toast.error("Please enter a Presale ID");
     setStatus("Loading sale data...");
     try {
@@ -32065,7 +32063,7 @@ const ManagePresalePage: NextPage = () => {
       setStatus(`Could not fetch sale data for ID: ${presaleId}`);
       setSaleInfo(null);
     }
-  };
+  }, [presaleId, connection, wallet]);
 
   const withdrawSol = async () => {
     if (!wallet?.publicKey || !presaleId) {
@@ -32079,12 +32077,11 @@ const ManagePresalePage: NextPage = () => {
     try {
       const provider = new AnchorProvider(connection, wallet as AnchorWallet, {});
       const program = new Program(programIdl, programID, provider);
-      // ZMIANA: Poprawne, sparametryzowane PDA
       const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
       const [vaultPda] = web3.PublicKey.findProgramAddressSync([Buffer.from("vault"), Buffer.from(presaleId)], programID);
 
       await program.methods
-        .withdrawSol(presaleId) // Przekazujemy ID do instrukcji
+        .withdrawSol(presaleId)
         .accounts({
           sale: salePda,
           vault: vaultPda,
@@ -32127,7 +32124,8 @@ const ManagePresalePage: NextPage = () => {
           
           {saleInfo && (
             <div className="p-4 bg-phoenix-bg rounded-lg border border-phoenix-border text-sm space-y-2">
-                <h3 className="font-bold text-lg">Sale: "{saleInfo.presale_id}"</h3>
+                {/* POPRAWKA: Zmieniono cudzysłowy na apostrofy, aby uniknąć błędu */}
+                <h3 className="font-bold text-lg">Sale: '{saleInfo.presale_id}'</h3>
                 <p><strong>Total Raised:</strong> {(saleInfo.totalRaised.toNumber() / web3.LAMPORTS_PER_SOL).toFixed(4)} SOL</p>
                 <p><strong>Treasury:</strong> {saleInfo.treasury.toBase58()}</p>
                 <p><strong>End Time:</strong> {new Date(saleInfo.endTime.toNumber() * 1000).toLocaleString()}</p>
@@ -32753,18 +32751,17 @@ export default function handler(
 ------------------------------------------------------------------------------------------------------------------
 
    POCZTEK PLIKU: C:\Users\Jurek\Documents\GitHub\2025.07.03_phoeswap\src\pages\launchpad\phnx.tsx
-   Rozmiar: 12045 bajtów
+   Rozmiar: 12417 bajtów
 
 
 // src/pages/launchpad/phnx.tsx
 
 "use client";
 
-import * as anchor from '@coral-xyz/anchor';
 import { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useConnection, useAnchorWallet, AnchorWallet } from "@solana/wallet-adapter-react";
 import { Program, AnchorProvider, web3, Idl, BN } from "@coral-xyz/anchor";
 import { toast } from "sonner";
@@ -32772,12 +32769,13 @@ import rawIdl from '../../idl/phoenix_presale.json';
 import { getAssociatedTokenAddress, TOKEN_PROGRAM_ID } from "@solana/spl-token";
 import MyMultiButton from "../../components/MyMultiButton";
 import { ClockIcon, FireIcon, CheckCircleIcon } from "@heroicons/react/24/outline";
+import * as anchor from '@coral-xyz/anchor';
+
 
 const programIdl = rawIdl as Idl;
 const programID = new web3.PublicKey((programIdl as any).metadata.address);
 
 const formatTime = (timestamp: number) => new Date(timestamp * 1000).toLocaleString();
-
 const PhnxLaunchpadPage: NextPage = () => {
     const { connection } = useConnection();
     const wallet = useAnchorWallet();
@@ -32789,9 +32787,10 @@ const PhnxLaunchpadPage: NextPage = () => {
 
     const presaleId = "phnx_initial_sale";
 
-    const fetchSaleData = async () => {
+    const fetchSaleData = useCallback(async () => {
         setIsLoading(true);
         try {
+            // Użycie pustego portfela, gdy nie jest połączony, pozwala na odczyt danych publicznych
             const provider = new AnchorProvider(connection, (wallet || {}) as AnchorWallet, { commitment: "confirmed" });
             const program = new Program(programIdl, programID, provider);
             
@@ -32823,11 +32822,11 @@ const PhnxLaunchpadPage: NextPage = () => {
         } finally {
             setIsLoading(false);
         }
-    };
+    }, [connection, wallet]); // Zależności dla useCallback
     
     useEffect(() => {
         fetchSaleData();
-    }, [connection, wallet?.publicKey]);
+    }, [fetchSaleData]); // POPRAWKA: Dodano fetchSaleData do dependency array
 
     const handlePurchase = async () => {
         if (!wallet?.publicKey) return toast.error("Connect wallet first!");
@@ -32844,7 +32843,7 @@ const PhnxLaunchpadPage: NextPage = () => {
             const [purchaseRecordPda] = web3.PublicKey.findProgramAddressSync([Buffer.from("purchase"), Buffer.from(presaleId), wallet.publicKey.toBuffer()], programID);
             
             const tx = await program.methods
-                .purchase(new BN(amount * web3.LAMPORTS_PER_SOL))
+                .purchase(presaleId, new BN(amount * web3.LAMPORTS_PER_SOL))
                 .accounts({
                     sale: salePda,
                     vault: vaultPda,
@@ -32878,7 +32877,7 @@ const PhnxLaunchpadPage: NextPage = () => {
             const purchaserTokenAccount = await getAssociatedTokenAddress(saleData.tokenMint, wallet.publicKey);
 
             const tx = await program.methods
-                .claimTokens()
+                .claimTokens(presaleId)
                 .accounts({
                     sale: salePda,
                     purchaseRecord: purchaseRecordPda,
@@ -32902,9 +32901,9 @@ const PhnxLaunchpadPage: NextPage = () => {
     };
 
     const now = Date.now() / 1000;
-    const isSaleActive = saleData && now > saleData.startTime && now < saleData.endTime;
-    const isSaleUpcoming = saleData && now < saleData.startTime;
-    const isSaleEnded = saleData && now > saleData.endTime;
+    const isSaleActive = saleData && now > saleData.startTime.toNumber() && now < saleData.endTime.toNumber();
+    const isSaleUpcoming = saleData && now < saleData.startTime.toNumber();
+    const isSaleEnded = saleData && now > saleData.endTime.toNumber();
 
     const raisedPercentage = saleData ? (saleData.totalRaised.toNumber() / saleData.hardCapLamports.toNumber()) * 100 : 0;
 
@@ -32924,7 +32923,8 @@ const PhnxLaunchpadPage: NextPage = () => {
         {!isLoading && !saleData && (
             <div className="text-center p-8 bg-phoenix-container-bg rounded-lg border border-phoenix-border">
                 <h2 className="text-2xl font-bold text-red-500">Presale Not Found</h2>
-                <p className="text-phoenix-text-secondary">Could not find a presale with ID: "{presaleId}". Please check if it has been created.</p>
+                 {/* POPRAWKA: Użyto apostrofów zamiast cudzysłowów */}
+                <p className="text-phoenix-text-secondary">Could not find a presale with ID: &apos;{presaleId}&apos;. Please check if it has been created.</p>
             </div>
         )}
 

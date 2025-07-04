@@ -3,6 +3,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { TokenInfo } from '@solana/spl-token-registry';
+import Image from 'next/image'; // POPRAWKA: Import komponentu Image
 
 interface TokenModalProps {
   tokens: TokenInfo[];
@@ -48,7 +49,8 @@ const TokenModal: React.FC<TokenModalProps> = ({ tokens, isOpen, onClose, onSele
                 onClick={() => { onSelectToken(token); onClose(); }}
                 className="w-full flex items-center gap-3 p-2.5 rounded-md hover:bg-phoenix-border transition-colors"
               >
-                <img src={token.logoURI} alt={token.symbol} className="h-7 w-7 rounded-full" />
+                {/* POPRAWKA: Zamiana <img> na <Image> */}
+                <Image src={token.logoURI || '/images/tokens/placeholder-logo-alpha.png'} alt={token.symbol} width={28} height={28} className="h-7 w-7 rounded-full" />
                 <div>
                   <p className="font-semibold text-left">{token.name}</p>
                   <p className="text-xs text-phoenix-text-secondary text-left">{token.symbol}</p>
