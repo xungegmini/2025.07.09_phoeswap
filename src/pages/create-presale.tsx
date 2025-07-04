@@ -10,8 +10,11 @@ import { TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID, getAssociatedTokenAddres
 import rawIdl from '../idl/phoenix_presale.json';
 import { toast } from 'sonner';
 
-const programIdl = rawIdl as Idl;
-const programID = new web3.PublicKey((programIdl as any).metadata.address);
+const programIdl = {
+  ...(rawIdl as any),
+  address: (rawIdl as any).metadata.address,
+} as Idl;
+const programID = new web3.PublicKey(programIdl.address);
 
 // ... (reszta kodu pozostaje bez zmian, jest już poprawna)
 // ... (cały komponent CreatePresalePage, który podałem wcześniej, jest już kompletny i poprawny)
@@ -41,7 +44,7 @@ const CreatePresalePage: NextPage = () => {
     setStatus('Creating presale, please wait...');
     try {
       const provider = new AnchorProvider(connection, wallet as AnchorWallet, {});
-      const program = new Program(programIdl, programID, provider);
+      const program = new Program(programIdl, provider);
 
       const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
       const [vaultPda] = web3.PublicKey.findProgramAddressSync([Buffer.from("vault"), Buffer.from(presaleId)], programID);

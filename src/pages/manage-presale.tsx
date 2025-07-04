@@ -9,8 +9,11 @@ import { useConnection, useAnchorWallet, AnchorWallet } from "@solana/wallet-ada
 import rawIdl from "../idl/phoenix_presale.json";
 import { toast } from "sonner";
 
-const programIdl = rawIdl as Idl;
-const programID = new web3.PublicKey((programIdl as any).metadata.address);
+const programIdl = {
+  ...(rawIdl as any),
+  address: (rawIdl as any).metadata.address,
+} as Idl;
+const programID = new web3.PublicKey(programIdl.address);
 
 const ManagePresalePage: NextPage = () => {
   const { connection } = useConnection();
@@ -24,9 +27,9 @@ const ManagePresalePage: NextPage = () => {
     setStatus("Loading sale data...");
     try {
       const provider = new AnchorProvider(connection, (wallet || {}) as AnchorWallet, {});
-      const program = new Program(programIdl, programID, provider);
+      const program = new Program(programIdl, provider);
       const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
-      const data = await program.account.sale.fetch(salePda);
+      const data = await (program.account as any).sale.fetch(salePda);
       setSaleInfo(data);
       setStatus("Sale data loaded successfully.");
       toast.success("Sale data loaded!");
@@ -48,7 +51,7 @@ const ManagePresalePage: NextPage = () => {
     setStatus("Withdrawing SOL...");
     try {
       const provider = new AnchorProvider(connection, wallet as AnchorWallet, {});
-      const program = new Program(programIdl, programID, provider);
+      const program = new Program(programIdl, provider);
       const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
       const [vaultPda] = web3.PublicKey.findProgramAddressSync([Buffer.from("vault"), Buffer.from(presaleId)], programID);
 

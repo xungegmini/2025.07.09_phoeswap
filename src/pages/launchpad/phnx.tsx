@@ -16,8 +16,11 @@ import { ClockIcon, FireIcon, CheckCircleIcon } from "@heroicons/react/24/outlin
 import * as anchor from '@coral-xyz/anchor';
 
 
-const programIdl = rawIdl as Idl;
-const programID = new web3.PublicKey((programIdl as any).metadata.address);
+const programIdl = {
+    ...(rawIdl as any),
+    address: (rawIdl as any).metadata.address,
+} as Idl;
+const programID = new web3.PublicKey(programIdl.address);
 
 const formatTime = (timestamp: number) => new Date(timestamp * 1000).toLocaleString();
 const PhnxLaunchpadPage: NextPage = () => {
@@ -36,14 +39,14 @@ const PhnxLaunchpadPage: NextPage = () => {
         try {
             // Użycie pustego portfela, gdy nie jest połączony, pozwala na odczyt danych publicznych
             const provider = new AnchorProvider(connection, (wallet || {}) as AnchorWallet, { commitment: "confirmed" });
-            const program = new Program(programIdl, programID, provider);
+            const program = new Program(programIdl, provider);
             
             const [salePda] = web3.PublicKey.findProgramAddressSync(
                 [Buffer.from("sale"), Buffer.from(presaleId)],
                 programID
             );
             
-            const saleAccount = await program.account.sale.fetch(salePda);
+            const saleAccount = await (program.account as any).sale.fetch(salePda);
             setSaleData(saleAccount);
 
             if (wallet?.publicKey) {
@@ -52,7 +55,7 @@ const PhnxLaunchpadPage: NextPage = () => {
                     programID
                 );
                 try {
-                    const record = await program.account.purchaseRecord.fetch(purchaseRecordPda);
+                    const record = await (program.account as any).purchaseRecord.fetch(purchaseRecordPda);
                     setUserPurchaseRecord(record);
                 } catch (error) {
                     console.log("No purchase record found for this user.");
@@ -80,7 +83,7 @@ const PhnxLaunchpadPage: NextPage = () => {
         setStatusMessage("Processing purchase...");
         try {
             const provider = new AnchorProvider(connection, wallet, {});
-            const program = new Program(programIdl, programID, provider);
+            const program = new Program(programIdl, provider);
 
             const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
             const [vaultPda] = web3.PublicKey.findProgramAddressSync([Buffer.from("vault"), Buffer.from(presaleId)], programID);
@@ -113,7 +116,7 @@ const PhnxLaunchpadPage: NextPage = () => {
         setStatusMessage("Claiming tokens...");
         try {
             const provider = new AnchorProvider(connection, wallet, {});
-            const program = new Program(programIdl, programID, provider);
+            const program = new Program(programIdl, provider);
 
             const [salePda] = web3.PublicKey.findProgramAddressSync([Buffer.from("sale"), Buffer.from(presaleId)], programID);
             const [purchaseRecordPda] = web3.PublicKey.findProgramAddressSync([Buffer.from("purchase"), Buffer.from(presaleId), wallet.publicKey.toBuffer()], programID);
