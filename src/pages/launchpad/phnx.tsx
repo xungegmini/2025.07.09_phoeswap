@@ -2,11 +2,10 @@
 
 "use client";
 
-import * as anchor from '@coral-xyz/anchor';
 import { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useConnection, useAnchorWallet, AnchorWallet } from "@solana/wallet-adapter-react";
 import { Program, AnchorProvider, web3, Idl, BN } from "@coral-xyz/anchor";
 import { toast } from "sonner";
@@ -14,12 +13,13 @@ import rawIdl from '../../idl/phoenix_presale.json';
 import { getAssociatedTokenAddress, TOKEN_PROGRAM_ID } from "@solana/spl-token";
 import MyMultiButton from "../../components/MyMultiButton";
 import { ClockIcon, FireIcon, CheckCircleIcon } from "@heroicons/react/24/outline";
+import * as anchor from '@coral-xyz/anchor';
+
 
 const programIdl = rawIdl as Idl;
 const programID = new web3.PublicKey((programIdl as any).metadata.address);
 
 const formatTime = (timestamp: number) => new Date(timestamp * 1000).toLocaleString();
-
 const PhnxLaunchpadPage: NextPage = () => {
     const { connection } = useConnection();
     const wallet = useAnchorWallet();
@@ -31,9 +31,10 @@ const PhnxLaunchpadPage: NextPage = () => {
 
     const presaleId = "phnx_initial_sale";
 
-    const fetchSaleData = async () => {
+    const fetchSaleData = useCallback(async () => {
         setIsLoading(true);
         try {
+            // Użycie pustego portfela, gdy nie jest połączony, pozwala na odczyt danych publicznych
             const provider = new AnchorProvider(connection, (wallet || {}) as AnchorWallet, { commitment: "confirmed" });
             const program = new Program(programIdl, programID, provider);
             
@@ -65,11 +66,11 @@ const PhnxLaunchpadPage: NextPage = () => {
         } finally {
             setIsLoading(false);
         }
-    };
+    }, [connection, wallet]); // Zależności dla useCallback
     
     useEffect(() => {
         fetchSaleData();
-    }, [connection, wallet?.publicKey]);
+    }, [fetchSaleData]); // POPRAWKA: Dodano fetchSaleData do dependency array
 
     const handlePurchase = async () => {
         if (!wallet?.publicKey) return toast.error("Connect wallet first!");
@@ -86,7 +87,7 @@ const PhnxLaunchpadPage: NextPage = () => {
             const [purchaseRecordPda] = web3.PublicKey.findProgramAddressSync([Buffer.from("purchase"), Buffer.from(presaleId), wallet.publicKey.toBuffer()], programID);
             
             const tx = await program.methods
-                .purchase(new BN(amount * web3.LAMPORTS_PER_SOL))
+                .purchase(presaleId, new BN(amount * web3.LAMPORTS_PER_SOL))
                 .accounts({
                     sale: salePda,
                     vault: vaultPda,
@@ -120,7 +121,7 @@ const PhnxLaunchpadPage: NextPage = () => {
             const purchaserTokenAccount = await getAssociatedTokenAddress(saleData.tokenMint, wallet.publicKey);
 
             const tx = await program.methods
-                .claimTokens()
+                .claimTokens(presaleId)
                 .accounts({
                     sale: salePda,
                     purchaseRecord: purchaseRecordPda,
@@ -144,9 +145,9 @@ const PhnxLaunchpadPage: NextPage = () => {
     };
 
     const now = Date.now() / 1000;
-    const isSaleActive = saleData && now > saleData.startTime && now < saleData.endTime;
-    const isSaleUpcoming = saleData && now < saleData.startTime;
-    const isSaleEnded = saleData && now > saleData.endTime;
+    const isSaleActive = saleData && now > saleData.startTime.toNumber() && now < saleData.endTime.toNumber();
+    const isSaleUpcoming = saleData && now < saleData.startTime.toNumber();
+    const isSaleEnded = saleData && now > saleData.endTime.toNumber();
 
     const raisedPercentage = saleData ? (saleData.totalRaised.toNumber() / saleData.hardCapLamports.toNumber()) * 100 : 0;
 
@@ -166,7 +167,8 @@ const PhnxLaunchpadPage: NextPage = () => {
         {!isLoading && !saleData && (
             <div className="text-center p-8 bg-phoenix-container-bg rounded-lg border border-phoenix-border">
                 <h2 className="text-2xl font-bold text-red-500">Presale Not Found</h2>
-                <p className="text-phoenix-text-secondary">Could not find a presale with ID: "{presaleId}". Please check if it has been created.</p>
+                 {/* POPRAWKA: Użyto apostrofów zamiast cudzysłowów */}
+                <p className="text-phoenix-text-secondary">Could not find a presale with ID: &apos;{presaleId}&apos;. Please check if it has been created.</p>
             </div>
         )}
 
