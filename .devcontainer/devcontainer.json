@@ -1,21 +1,4 @@
 {
-	"name": "The Working Anchor Environment",
-
-	// Używamy gotowego, oficjalnego obrazu od twórców Anchor
-	"image": "solanafoundation/anchor:v0.30.1",
-
-	// KLUCZOWA POPRAWKA: Ręcznie ustawiamy serwery DNS dla kontenera
-	"runArgs": ["--dns=8.8.8.8", "--dns=8.8.4.4"],
-	
-	// Reszta konfiguracji pozostaje standardowa
-	"workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/${localWorkspaceFolderBasename},type=bind,consistency=cached",
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"rust-lang.rust-analyzer"
-			]
-		}
-	}
+    "name": "Clean Ubuntu Environment",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-22.04"
 }
