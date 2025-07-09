@@ -1,15 +1,12 @@
 {
 	"name": "Official Anchor v0.30.1 Environment",
 
-	// To jest kluczowy krok: używamy gotowego, oficjalnego obrazu od Anchor.
-	// Zawiera on już Solanę, Rusta, Anchor i wszystkie zależności.
+	// POPRAWKA: Używamy NOWEJ, POPRAWNEJ, oficjalnej nazwy obrazu Anchor.
 	"image": "solanafoundation/anchor:v0.30.1",
 
-	// Te linie zapewniają, że Twój folder z projektem jest poprawnie zamontowany.
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/${localWorkspaceFolderBasename},type=bind,consistency=cached",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 
-	// Dodatkowe ustawienia dla wygody pracy w VS Code.
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -17,7 +14,5 @@
 			]
 		}
 	},
-
-	// Uruchom jako domyślny użytkownik (root), ponieważ obraz jest już poprawnie skonfigurowany.
 	"remoteUser": "root"
 }
