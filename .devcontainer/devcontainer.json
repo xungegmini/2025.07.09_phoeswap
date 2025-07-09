@@ -1,7 +1,9 @@
 {
-	"name": "Anchor Official Environment",
+	"name": "Official Anchor Environment v0.30.1",
+
 	// Ta linia mówi Codespaces, aby pobrał gotowy, oficjalny obraz Anchor.
-	"image": "projectserum/anchor:v0.30.1",
+	// To jest nowy, poprawny adres obrazu.
+	"image": "solanafoundation/anchor:v0.30.1",
 
 	// Ta komenda upewni się, że maszyny wirtualne mają dostęp do folderu projektu.
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/${localWorkspaceFolderBasename},type=bind,consistency=cached",
