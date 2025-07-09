@@ -1,1 +1,1 @@
-FROM solanafoundation/anchor:v0.30.1
+FROM gitpod/workspace-full

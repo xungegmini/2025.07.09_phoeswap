@@ -1,16 +1,23 @@
-image:
-  # To jest kluczowy krok: używamy gotowego, oficjalnego obrazu Anchor
-  file: .gitpod.Dockerfile
-
 tasks:
   - init: |
-      # Ustawiamy właściwą wersję, jeśli jest inna
-      avm use 0.30.1
-      # Instalujemy zależności frontendu
+      echo "Start Gitpod setup..."
+      rustup-init -y
+      source "$HOME/.cargo/env"
+      sh -c "$(curl -sSfL https://release.solana.com/v1.18.14/install)"
+      export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:${PATH}"
+      cargo install avm --locked
+      /home/gitpod/.cargo/bin/avm install 0.30.1
+      /home/gitpod/.cargo/bin/avm use 0.30.1
+      echo 'export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$HOME/.avm/bin:$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
       npm install
     command: |
-      echo "Środowisko jest w pełni gotowe."
-      echo "Sprawdź wersje: solana --version && anchor --version"
+      source "$HOME/.cargo/env"
+      echo "--------------------------------"
+      echo "ŚRODOWISKO JEST GOTOWE."
+      echo "Sprawdź poniższe wersje:"
+      solana --version
+      anchor --version
+      echo "--------------------------------"
 
 vscode:
   extensions:
