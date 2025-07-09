@@ -1,0 +1,14 @@
+tasks:
+  - init: |
+      rustup-init -y
+      echo 'source "$HOME/.cargo/env"' >> ~/.bashrc
+      source "$HOME/.cargo/env"
+      sh -c "$(curl -sSfL https://release.solana.com/v1.18.14/install)"
+      export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:${PATH}"
+      echo 'export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:${PATH}"' >> ~/.bashrc
+      cargo install avm
+      avm install 0.30.1
+      avm use 0.30.1
+    command: |
+      echo "Środowisko gotowe."
+      echo "Sprawdź wersje: solana --version && anchor --version"
