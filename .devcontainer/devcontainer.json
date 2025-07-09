@@ -1,4 +1,35 @@
 {
-    "name": "Clean Ubuntu Environment",
-    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-22.04"
+	"name": "The Final Anchor Environment",
+	// Używamy uniwersalnego obrazu jako czystej bazy.
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+
+	// Ta sekcja automatycznie zainstaluje i skonfiguruje wszystko, czego potrzebujemy.
+	"features": {
+		// Instaluje Rust, Cargo, i podstawowe narzędzia.
+		"ghcr.io/devcontainers/features/rust:1": {},
+		// Instaluje Node.js i npm.
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "18"
+		},
+		// Instaluje Solana CLI.
+		"ghcr.io/devcontainers/features/solana:1": {
+			"version": "1.18.14"
+		}
+	},
+
+	// Ta komenda uruchomi się automatycznie PO zbudowaniu kontenera.
+	// Zainstaluje AVM i ustawi poprawną wersję Anchor.
+	"postCreateCommand": "sudo chown -R $(whoami) /usr/local/cargo/registry && cargo install avm && avm install 0.30.1 && avm use 0.30.1",
+
+	// Ustawienia dla wygody pracy w VS Code.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rust-lang.rust-analyzer"
+			]
+		}
+	},
+
+	// Uruchom kontener jako użytkownik z uprawnieniami, aby uniknąć problemów.
+	"remoteUser": "vscode"
 }
