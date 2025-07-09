@@ -1,24 +1,38 @@
 tasks:
-  - init: |
-      echo "Start Gitpod setup..."
+  - name: Setup Environment & Dependencies
+    # 'init' uruchamia się tylko raz, przy tworzeniu workspace'a
+    init: |
+      echo ">>> START: Instalacja zależności systemowych..."
+      sudo apt-get update && sudo apt-get install -y build-essential pkg-config libssl-dev git curl
+
+      echo ">>> START: Instalacja Rusta..."
       rustup-init -y
       source "$HOME/.cargo/env"
+
+      echo ">>> START: Instalacja Solana..."
       sh -c "$(curl -sSfL https://release.solana.com/v1.18.14/install)"
-      export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:${PATH}"
+
+      echo ">>> START: Instalacja Anchor..."
       cargo install avm --locked
       /home/gitpod/.cargo/bin/avm install 0.30.1
       /home/gitpod/.cargo/bin/avm use 0.30.1
-      echo 'export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$HOME/.avm/bin:$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
+
+      echo ">>> START: Instalacja zależności Node.js..."
       npm install
+
+    # 'command' uruchamia się za każdym razem, gdy otwierasz workspace
     command: |
-      source "$HOME/.cargo/env"
+      echo ">>> Odświeżanie zmiennych środowiskowych..."
+      export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$HOME/.avm/bin:$HOME/.cargo/bin:$PATH"
+
       echo "--------------------------------"
-      echo "ŚRODOWISKO JEST GOTOWE."
+      echo "✅ ŚRODOWISKO JEST W PEŁNI GOTOWE."
       echo "Sprawdź poniższe wersje:"
       solana --version
       anchor --version
       echo "--------------------------------"
 
+# Dodajemy rozszerzenia VS Code dla wygody
 vscode:
   extensions:
     - rust-lang.rust-analyzer
