@@ -1,18 +1,5 @@
 {
 	"name": "Official Anchor v0.30.1 Environment",
-
-	// POPRAWKA: Używamy NOWEJ, POPRAWNEJ, oficjalnej nazwy obrazu Anchor.
-	"image": "solanafoundation/anchor:v0.30.1",
-
-	"workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/${localWorkspaceFolderBasename},type=bind,consistency=cached",
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"rust-lang.rust-analyzer"
-			]
-		}
-	},
-	"remoteUser": "root"
+	// Ta linia mówi: "Pobierz gotowy, oficjalny obraz z Docker Huba. Nic nie buduj."
+	"image": "solanafoundation/anchor:v0.30.1"
 }
