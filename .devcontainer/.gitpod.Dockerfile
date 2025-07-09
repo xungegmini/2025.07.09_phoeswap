@@ -1,0 +1,1 @@
+FROM solanafoundation/anchor:v0.30.1
