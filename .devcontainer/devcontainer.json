@@ -1,15 +1,12 @@
 {
-	"name": "Official Anchor Environment v0.30.1",
+	"name": "The Final Anchor Environment",
 
-	// Ta linia mówi Codespaces, aby pobrał gotowy, oficjalny obraz Anchor.
-	// To jest nowy, poprawny adres obrazu.
+	// POPRAWKA: Używamy nowej, oficjalnej nazwy obrazu Dockerowego
 	"image": "solanafoundation/anchor:v0.30.1",
 
-	// Ta komenda upewni się, że maszyny wirtualne mają dostęp do folderu projektu.
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/${localWorkspaceFolderBasename},type=bind,consistency=cached",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-	
-	// Dodatkowe ustawienia dla wygody.
+
 	"customizations": {
 		"vscode": {
 			"extensions": [
