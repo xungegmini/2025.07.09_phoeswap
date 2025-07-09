@@ -1,19 +1,18 @@
-// presale/programs/presale/src/lib.rs
 use anchor_lang::prelude::*;
 use anchor_spl::{
     associated_token::AssociatedToken,
     token::{self, Mint, Token, TokenAccount, Transfer},
 };
 
-declare_id!("9oemjxjE2zFJFVRynHVmWg1nTMWgTM3hGCetuAJkG21U");
+declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
 
 #[program]
-pub mod phoenix_presale {
+pub mod presale {
     use super::*;
 
     pub fn initialize(
         ctx: Context<Initialize>,
-        _presale_id: String,
+        presale_id: String,
         price_lamports: u64,
         soft_cap_lamports: u64,
         hard_cap_lamports: u64,
@@ -33,11 +32,7 @@ pub mod phoenix_presale {
         sale.end_time = end_time;
         sale.total_raised = 0;
         sale.is_active = true;
-        
-        // --- POPRAWKA: Dodano brakujące przypisanie ID ---
-        sale.presale_id = _presale_id;
-        
-        msg!("Presale initialized!");
+        sale.presale_id = presale_id;
         Ok(())
     }
 
@@ -53,60 +48,47 @@ pub mod phoenix_presale {
 
         let cpi_context = CpiContext::new(
             ctx.accounts.system_program.to_account_info(),
-            system_program::Transfer {
+            anchor_lang::system_program::Transfer {
                 from: ctx.accounts.purchaser.to_account_info(),
                 to: ctx.accounts.vault.to_account_info(),
             },
         );
-        system_program::transfer(cpi_context, amount_lamports)?;
+        anchor_lang::system_program::transfer(cpi_context, amount_lamports)?;
 
         sale.total_raised = sale.total_raised.checked_add(amount_lamports).unwrap();
-        
+
         let purchase_record = &mut ctx.accounts.purchase_record;
-        if purchase_record.purchaser == Pubkey::default() {
-            purchase_record.purchaser = ctx.accounts.purchaser.key();
-        }
+        purchase_record.purchaser = ctx.accounts.purchaser.key();
         purchase_record.amount_spent = purchase_record.amount_spent.checked_add(amount_lamports).unwrap();
-        
-        msg!("User {} purchased for {} lamports.", purchase_record.purchaser, amount_lamports);
+
         Ok(())
     }
 
     pub fn withdraw_sol(ctx: Context<WithdrawSol>) -> Result<()> {
         let vault = &mut ctx.accounts.vault;
         let treasury = &mut ctx.accounts.treasury;
-        let clock = Clock::get()?;
 
-        require!(clock.unix_timestamp >= ctx.accounts.sale.end_time, PresaleError::SaleNotEndedYet);
-        
         let amount_to_withdraw = vault.to_account_info().lamports();
         require!(amount_to_withdraw > 0, PresaleError::InsufficientVaultBalance);
 
         **vault.to_account_info().try_borrow_mut_lamports()? -= amount_to_withdraw;
         **treasury.to_account_info().try_borrow_mut_lamports()? += amount_to_withdraw;
 
-        msg!("Withdrew {} lamports from the vault to the treasury.", amount_to_withdraw);
         Ok(())
     }
-    
+
     pub fn claim_tokens(ctx: Context<ClaimTokens>) -> Result<()> {
         let sale = &ctx.accounts.sale;
-        let purchase_record = &mut ctx.accounts.purchase_record;
-        let clock = Clock::get()?;
+        let purchase_record_mut = &mut ctx.accounts.purchase_record;
 
-        require!(clock.unix_timestamp >= sale.end_time, PresaleError::SaleNotEndedYet);
-        require!(purchase_record.amount_spent > 0, PresaleError::NoTokensToClaim);
-        require!(!purchase_record.claimed, PresaleError::AlreadyClaimed);
+        let tokens_to_claim = purchase_record_mut.amount_spent.checked_div(sale.price_lamports).unwrap();
 
-        // --- ZMIANA: Usunięto dzielenie, aby uniknąć problemów z precyzją. Tokeny są 1:1 do lamportów ceny ---
-        // Na przykład: jeśli cena to 1000 lamportów, a użytkownik wpłacił 2000 lamportów, powinien dostać 2 tokeny (nie 2 tokeny * 10^9)
-        let tokens_to_claim = purchase_record.amount_spent
-            .checked_div(sale.price_lamports)
-            .unwrap();
-        
-        let presale_id_bytes = ctx.accounts.sale.presale_id.as_bytes();
-        let authority_seeds = &[b"sale".as_ref(), presale_id_bytes.as_ref(), &[*ctx.bumps.get("sale").unwrap()]];
-        
+        let authority_seeds = &[
+            b"sale".as_ref(), 
+            sale.presale_id.as_bytes(), 
+            &[ctx.bumps.sale]
+        ];
+
         token::transfer(
             CpiContext::new_with_signer(
                 ctx.accounts.token_program.to_account_info(),
@@ -120,19 +102,29 @@ pub mod phoenix_presale {
             tokens_to_claim,
         )?;
 
-        purchase_record.claimed = true;
-
-        msg!("User {} claimed {} tokens.", ctx.accounts.purchaser.key(), tokens_to_claim);
+        purchase_record_mut.claimed = true;
         Ok(())
     }
 }
 
 #[derive(Accounts)]
-#[instruction(_presale_id: String)]
+#[instruction(presale_id: String)]
 pub struct Initialize<'info> {
-    #[account(init, payer = authority, space = 8 + Sale::INIT_SPACE, seeds = [b"sale", _presale_id.as_bytes()], bump)]
+    #[account(
+        init, 
+        payer = authority, 
+        space = 8 + Sale::MAX_SIZE, 
+        seeds = [b"sale", presale_id.as_bytes()], 
+        bump
+    )]
     pub sale: Account<'info, Sale>,
-    #[account(init, payer = authority, space = 0, seeds = [b"vault", _presale_id.as_bytes()], bump)]
+    #[account(
+        init, 
+        payer = authority, 
+        space = 8, 
+        seeds = [b"vault", presale_id.as_bytes()], 
+        bump
+    )]
     pub vault: SystemAccount<'info>,
     pub token_mint: Account<'info, Mint>,
     #[account(
@@ -144,22 +136,26 @@ pub struct Initialize<'info> {
     pub sale_token_account: Account<'info, TokenAccount>,
     #[account(mut)]
     pub authority: Signer<'info>,
-    /// CHECK: Adres skarbnicy
     #[account(mut)]
-    pub treasury: AccountInfo<'info>,
+    pub treasury: SystemAccount<'info>,
     pub system_program: Program<'info, System>,
     pub token_program: Program<'info, Token>,
     pub associated_token_program: Program<'info, AssociatedToken>,
 }
 
 #[derive(Accounts)]
-#[instruction(presale_id: String)]
 pub struct Purchase<'info> {
-    #[account(mut, seeds = [b"sale", presale_id.as_bytes()], bump, has_one = vault)]
+    #[account(mut, has_one = vault)]
     pub sale: Account<'info, Sale>,
-    #[account(mut, seeds = [b"vault", presale_id.as_bytes()], bump)]
+    #[account(mut, seeds = [b"vault", sale.presale_id.as_bytes()], bump)]
     pub vault: SystemAccount<'info>,
-    #[account(init_if_needed, payer = purchaser, space = 8 + PurchaseRecord::INIT_SPACE, seeds = [b"purchase", presale_id.as_bytes(), purchaser.key().as_ref()], bump)]
+    #[account(
+        init_if_needed, 
+        payer = purchaser, 
+        space = 8 + PurchaseRecord::MAX_SIZE, 
+        seeds = [b"purchase", sale.presale_id.as_bytes(), purchaser.key().as_ref()], 
+        bump
+    )]
     pub purchase_record: Account<'info, PurchaseRecord>,
     #[account(mut)]
     pub purchaser: Signer<'info>,
@@ -167,35 +163,28 @@ pub struct Purchase<'info> {
 }
 
 #[derive(Accounts)]
-#[instruction(presale_id: String)]
 pub struct WithdrawSol<'info> {
-    #[account(mut, has_one = authority, has_one = treasury, seeds = [b"sale", presale_id.as_bytes()], bump)]
+    #[account(mut, has_one = authority, has_one = treasury)]
     pub sale: Account<'info, Sale>,
-    #[account(mut, seeds = [b"vault", presale_id.as_bytes()], bump)]
+    #[account(mut, seeds = [b"vault", sale.presale_id.as_bytes()], bump)]
     pub vault: SystemAccount<'info>,
     #[account(mut)]
     pub authority: Signer<'info>,
     #[account(mut)]
-    pub treasury: AccountInfo<'info>,
+    pub treasury: SystemAccount<'info>,
 }
 
 #[derive(Accounts)]
-#[instruction(presale_id: String)]
 pub struct ClaimTokens<'info> {
-    #[account(seeds = [b"sale", presale_id.as_bytes()], bump, has_one = token_mint, has_one = sale_token_account)]
+    #[account(mut, has_one = token_mint, has_one = sale_token_account, seeds = [b"sale", sale.presale_id.as_bytes()], bump)]
     pub sale: Account<'info, Sale>,
-    #[account(mut, seeds = [b"purchase", presale_id.as_bytes(), purchaser.key().as_ref()], bump, has_one = purchaser)]
+    #[account(mut, seeds = [b"purchase", sale.presale_id.as_bytes(), purchaser.key().as_ref()], bump, has_one = purchaser)]
     pub purchase_record: Account<'info, PurchaseRecord>,
     #[account(mut)]
     pub purchaser: Signer<'info>,
     #[account(mut)]
     pub token_mint: Account<'info, Mint>,
-    #[account(
-        init_if_needed,
-        payer = purchaser,
-        associated_token::mint = token_mint,
-        associated_token::authority = purchaser
-    )]
+    #[account(init_if_needed, payer = purchaser, associated_token::mint = token_mint, associated_token::authority = purchaser)]
     pub purchaser_token_account: Account<'info, TokenAccount>,
     #[account(mut)]
     pub sale_token_account: Account<'info, TokenAccount>,
@@ -205,14 +194,12 @@ pub struct ClaimTokens<'info> {
 }
 
 #[account]
-#[derive(InitSpace)] 
 pub struct Sale {
     pub authority: Pubkey,
     pub treasury: Pubkey,
     pub vault: Pubkey,
     pub token_mint: Pubkey,
     pub sale_token_account: Pubkey,
-    #[max_len(50)]
     pub presale_id: String,
     pub price_lamports: u64,
     pub start_time: i64,
@@ -223,12 +210,20 @@ pub struct Sale {
     pub is_active: bool,
 }
 
+impl Sale {
+    pub const MAX_SIZE: usize = 32 * 5 + 8 * 4 + 1 + (4 + 50);
+}
+
 #[account]
-#[derive(InitSpace, Default)]
+#[derive(Default)]
 pub struct PurchaseRecord {
     pub purchaser: Pubkey,
     pub amount_spent: u64,
     pub claimed: bool,
+}
+
+impl PurchaseRecord {
+    pub const MAX_SIZE: usize = 32 + 8 + 1;
 }
 
 #[error_code]
@@ -251,7 +246,4 @@ pub enum PresaleError {
     NoTokensToClaim,
     #[msg("Tokens have already been claimed.")]
     AlreadyClaimed,
-    // --- Błąd, który może być potrzebny w przyszłości, ale zgodnie z decyzją jest teraz nieużywany ---
-    #[msg("Soft cap not reached, withdrawal not allowed.")]
-    SoftCapNotReached,
 }

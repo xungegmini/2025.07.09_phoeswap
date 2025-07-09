@@ -1,17 +1,8 @@
 {
-	"name": "Phoenix Swap (Final Root Build)",
+	"name": "Final Solana Env",
 	"build": {
-		"dockerfile": "Dockerfile",
-		"context": ".."
+		"dockerfile": "Dockerfile"
 	},
-
-	// === KLUCZOWA ZMIANA: Łączymy się jako root ===
-	// To eliminuje wszystkie problemy z uprawnieniami wewnątrz kontenera.
-	"remoteUser": "root",
-
-	// Ta komenda zostanie uruchomiona po zbudowaniu kontenera jako root
-	"postCreateCommand": "npm install",
-	
 	"customizations": {
 		"vscode": {
 			"extensions": [

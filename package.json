@@ -12,17 +12,17 @@
     "build:anchor": "cd presale && anchor build && anchor idl fetch -o ../src/idl/phoenix_presale.json $(solana address -k presale/target/deploy/presale-keypair.json)"
   },
   "dependencies": {
-    "@coral-xyz/anchor": "^0.30.1",
+    "@coral-xyz/anchor": "0.30.1",
     "@heroicons/react": "^2.2.0",
     "@jup-ag/react-hook": "^6.2.0",
-    "@jup-ag/terminal": "^4.3.0",
+    "@jup-ag/terminal": "^4.4.2",
     "@metaplex-foundation/mpl-token-metadata": "^2.13.0",
     "@noble/ed25519": "^2.1.0",
-    "@solana/spl-token": "^0.3.11",
-    "@solana/wallet-adapter-base": "^0.9.23",
-    "@solana/wallet-adapter-phantom": "^0.9.24",
-    "@solana/wallet-adapter-react": "^0.15.35",
-    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/spl-token": "^0.4.0",
+    "@solana/wallet-adapter-base": "^0.9.27",
+    "@solana/wallet-adapter-react": "^0.15.39",
+    "@solana/wallet-adapter-react-ui": "^0.9.39",
+    "@solana/wallet-adapter-wallets": "^0.19.33",
     "@solana/web3.js": "^1.98.2",
     "@tanstack/react-query": "^5.51.1",
     "@tailwindcss/forms": "^0.5.3",
@@ -58,8 +58,7 @@
     "typescript": "^5.3.3"
   },
   "overrides": {
-    "@solana/spl-token": "^0.3.11",
-    "react": "$react",
-    "react-dom": "$react-dom"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   }
 }
